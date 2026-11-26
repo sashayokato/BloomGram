@@ -64,4 +64,10 @@ npx tsx scripts/deploy.ts
 ```
 
 Если слова не из TON-списка (например, BIP39 от Ethereum), скрипт выдаст понятную ошибку.
+
+Проверить/создать фразу локально, **не показывая её в чате**:
+```bash
+npx tsx scripts/check_mnemonic.ts          # выведет только words: N / valid: true|false
+npx tsx scripts/new_mnemonic.ts 12         # создаст новую фразу в твоём терминале
+```
 Скрипт выведет адрес контракта — проверь его в tonscan testnet.
