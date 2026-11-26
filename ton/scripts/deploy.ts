@@ -20,6 +20,8 @@ async function withRetry<T>(fn: () => Promise<T>, tries = 6): Promise<T> {
         try {
             return await fn();
         } catch (e: any) {
+            const detail = e?.response?.body ?? e?.response?.data ?? e?.body;
+            if (detail) console.warn('RPC body:', JSON.stringify(detail).slice(0, 500));
             if (i === tries - 1) throw e;
             const wait = 3000 * (i + 1);
             console.warn(`RPC error (${e?.message ?? e}), retry ${i + 1}/${tries} in ${wait / 1000}s...`);
@@ -83,7 +85,6 @@ async function main() {
         throw new Error('Fund this wallet with testnet TON first, then rerun.');
     }
 
-    const seqno = await withRetry(() => openedWallet.getSeqno());
     const transfer = internal({
         to: contractAddr,
         value: toNano('0.15'),
@@ -91,20 +92,31 @@ async function main() {
         body: beginCell().endCell(),
     });
 
-    if (WALLET === 'w5') {
-        await withRetry(() => openedWallet.sendTransfer({
-            secretKey,
-            seqno,
-            messages: [transfer],
-            sendMode: SendMode.PAY_GAS_SEPARATELY,
-            authType: 'external',
-        }));
+    const provider = client.provider(wallet.address);
+    const walletState = await withRetry(() => provider.getState());
+
+    if (walletState.state.type !== 'active') {
+        // Wallet has balance but no code yet: deploy it and send the first message in one external.
+        console.log('wallet is uninitialized -> deploying wallet + contract together');
+        await withRetry(async () => {
+            const body: any = WALLET === 'w5'
+                ? await wallet.createTransfer({
+                    secretKey, seqno: 0, messages: [transfer], timeout: Math.floor(Date.now() / 1000) + 604800,
+                    sendMode: SendMode.PAY_GAS_SEPARATELY, authType: 'external',
+                })
+                : await wallet.createTransfer({ secretKey, seqno: 0, messages: [transfer], timeout: Math.floor(Date.now() / 1000) + 604800 });
+            await client.sendExternalMessage(wallet, body);
+        });
     } else {
-        await withRetry(() => openedWallet.sendTransfer({
-            secretKey,
-            seqno,
-            messages: [transfer],
-        }));
+        const seqno = await withRetry(() => openedWallet.getSeqno());
+        if (WALLET === 'w5') {
+            await withRetry(() => openedWallet.sendTransfer({
+                secretKey, seqno, messages: [transfer], timeout: Math.floor(Date.now() / 1000) + 604800,
+                sendMode: SendMode.PAY_GAS_SEPARATELY, authType: 'external',
+            }));
+        } else {
+            await withRetry(() => openedWallet.sendTransfer({ secretKey, seqno, messages: [transfer], timeout: Math.floor(Date.now() / 1000) + 604800 }));
+        }
     }
     console.log('deploy transaction sent. Check contract address in tonscan testnet.');
 }

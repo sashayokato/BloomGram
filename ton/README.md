@@ -68,6 +68,11 @@ npx tsx scripts/deploy.ts
 
 Адрес контракта computes из адреса кошелька: `npx tsx scripts/address_only.ts`.
 
+**DEPLOYED (TON testnet):** `EQCvPN-5JhjxQuOWGDf79dZf4KMmtoIPbNBF7NWZDuPT2DqT`
+(владелец `EQBLrmtj2C4bJR1v9Wg_CW8GO5Y0NDX9grw9JzbxbQm3XGjp`). Контракт active.
+Внимание: `timeout` в `@ton/ton` — абсолютный Unix-_timestamp, а не длительность;
+скрипт ставит `now + 7 дней`, потому что локальные часы могут отставать от сети.
+
 Если фраза прошла по словам, но не по контрольной сумме TON (например, BIP39 от Ethereum),
 для **тестнета** можно разрешить деплой:
 ```powershell
