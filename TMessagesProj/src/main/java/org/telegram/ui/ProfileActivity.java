@@ -2870,7 +2870,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                     }
                 } else if (id == shard_wallet) {
                     android.content.Intent intent = new android.content.Intent(getParentActivity(), org.telegram.ui.ShardWalletActivity.class);
-                    startActivity(intent);
+                    getParentActivity().startActivity(intent);
                 } else if (id == add_contact) {
                     TLRPC.User user = getMessagesController().getUser(userId);
                     Bundle args = new Bundle();
