@@ -17,13 +17,21 @@ async function main() {
     if (words.length !== 12 && words.length !== 24) {
         throw new Error('DEPLOYER_MNEMONIC must contain 12 or 24 words, got ' + words.length);
     }
-    if (!(await mnemonicValidate(words))) {
-        throw new Error('Mnemonic is not a valid TON mnemonic. Words must come from a TON wallet (TonKeeper etc.), not a BIP39/Ethereum phrase.');
+    const valid = await mnemonicValidate(words);
+    if (!valid && process.env.ALLOW_UNVALIDATED_MNEMONIC !== '1') {
+        throw new Error('Mnemonic is not a valid TON mnemonic (checksum failed). Use a TonKeeper phrase, or set ALLOW_UNVALIDATED_MNEMONIC=1 for TESTNET ONLY.');
+    }
+    if (!valid) {
+        console.warn('WARNING: mnemonic is not a standard TON phrase. Derived wallet will be used as owner. TESTNET ONLY.');
     }
 
-    const owner = Address.parse(OWNER);
     const keyPair = await mnemonicToPrivateKey(words);
     const wallet = WalletContractV4.create({ workchain: 0, publicKey: keyPair.publicKey });
+    const owner = wallet.address; // contract owner must be the wallet that actually signs
+    const requested = Address.parse(OWNER);
+    if (!owner.equals(requested)) {
+        console.warn('WARNING: DEPLOYER_ADDRESS differs from derived wallet. Using derived wallet:', owner.toString());
+    }
     const state = await ShardWorld.init(owner);
     const contractAddr = contractAddress(0, state);
 
