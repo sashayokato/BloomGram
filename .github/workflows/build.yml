@@ -140,6 +140,9 @@ jobs:
 
       - name: Build APK
         shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           VARIANT="${{ inputs.variant }}"
           TASK="assemble$(python3 -c "import sys; v=sys.argv[1]; print(v[0].upper()+v[1:])" "$VARIANT")"
