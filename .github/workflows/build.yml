@@ -59,11 +59,12 @@ jobs:
                   print('already present:', path)
                   continue
               print('cloning', path, 'from', url, flush=True)
-              subprocess.run(['git', 'clone', '--depth', '1', url, path], check=True)
+              subprocess.run(['git', 'clone', '--depth', '1', '--recurse-submodules', url, path], check=True)
               sha = pins.get(path)
               if sha:
                   subprocess.run(['git', '-C', path, 'fetch', '--depth', '1', 'origin', sha], check=True)
                   subprocess.run(['git', '-C', path, 'checkout', sha], check=True)
+                  subprocess.run(['git', '-C', path, 'submodule', 'update', '--init', '--recursive', '--depth', '1'], check=True)
           PY
 
       - name: Set up JDK 17
