@@ -1,0 +1,31 @@
+name: Compile Shard TON contract
+
+on:
+  push:
+    paths:
+      - 'ton/**'
+      - '.github/workflows/ton-compile.yml'
+  workflow_dispatch:
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: ton/package-lock.json
+      - name: Install Tact compiler
+        working-directory: ton
+        run: npm ci
+      - name: Compile contract
+        working-directory: ton
+        run: npx tact --config tact.config.json
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-contract-build
+          path: ton/build/*
+          if-no-files-found: error

@@ -1,0 +1,16 @@
+{
+  "name": "ton",
+  "version": "1.0.0",
+  "description": "Здесь будут лежать контракты. Пока зафиксирован интерфейс — код пишется после решения по эмиссии и ценам (см. `BLOOMGRAM-NFT-АРХИТЕКТУРА.md`, раздел 4).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@tact-lang/compiler": "^1.6.13"
+  }
+}
