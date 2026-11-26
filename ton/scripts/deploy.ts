@@ -8,6 +8,21 @@ import { ShardWorld } from '../build/shard_world_ShardWorld';
 const OWNER = process.env.DEPLOYER_ADDRESS ?? '0QB17-KDx0flM7ZPflsOW-U4Kj4HPtVjbCNPcDeOCJytPh8q';
 const ENDPOINT = process.env.TON_ENDPOINT ?? 'https://testnet.toncenter.com/api/v2/jsonRPC';
 
+async function withRetry<T>(fn: () => Promise<T>, tries = 6): Promise<T> {
+    for (let i = 0; i < tries; i++) {
+        try {
+            return await fn();
+        } catch (e: any) {
+            if (i === tries - 1) throw e;
+            const wait = 3000 * (i + 1);
+            console.warn(`RPC error (${e?.message ?? e}), retry ${i + 1}/${tries} in ${wait / 1000}s...`);
+            await new Promise((r) => setTimeout(r, wait));
+        }
+    }
+    throw new Error('unreachable');
+}
+
+
 async function main() {
     const raw = process.env.DEPLOYER_MNEMONIC;
     if (!raw) {
@@ -41,19 +56,24 @@ async function main() {
 
     const client = new TonClient({ endpoint: ENDPOINT });
     const openedWallet = client.open(wallet);
-    const seqno = await openedWallet.getSeqno();
+    const balanceNano = await withRetry(() => client.getBalance(wallet.address));
+    console.log('wallet balance:', Number(balanceNano) / 1e9, 'TON');
+    if (balanceNano < toNano('0.2')) {
+        throw new Error('Fund the derived wallet with testnet TON first (faucet), then rerun.');
+    }
 
+    const seqno = await withRetry(() => openedWallet.getSeqno());
     const transfer = internal({
         to: contractAddr,
         value: toNano('0.15'),
         init: state,
         body: beginCell().endCell(),
     });
-    await openedWallet.sendTransfer({
+    await withRetry(() => openedWallet.sendTransfer({
         secretKey: keyPair.secretKey,
         seqno,
         messages: [transfer],
-    });
+    }));
     console.log('deploy transaction sent. Wait ~10s, then check the contract address in tonscan testnet.');
 }
 
