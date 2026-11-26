@@ -715,7 +715,7 @@
     <string name="BoostyPeopleCount_few">%1$d 人</string>
     <string name="BoostyPeopleCount_many">%1$d 人</string>
     <string name="BoostyPeopleCount_other">%1$d 人</string>
-    <string name="BoostyInfo">积极支持 **Boosty** 上的 **ExteraGram** 。</string>
+    <string name="BoostyInfo">积极支持 **Boosty** 上的 **BloomGram** 。</string>
     <string name="BoostyInfo2">感谢您的支持！</string>
     <!-- Plugins -->
     <string name="PluginsNotSupported">插件安装功能仅在 **BloomGram** **完整**版中可用。</string>
