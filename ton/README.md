@@ -57,11 +57,16 @@ npm test                             # 12 sandbox-тестов
 и не пишет её в файлы. Поддерживаются TON-фразы из **12 или 24 слов**.
 
 ```powershell
-$env:DEPLOYER_MNEMONIC="12 или 24 слова TON-кошелька"   # в твоей консоли
-$env:DEPLOYER_ADDRESS="0QB17-KDx0flM7ZPflsOW-U4Kj4HPtVjbCNPcDeOCJytPh8q"
+$env:DEPLOYER_MNEMONIC="..."   # только в твоей консоли
 cd ton
 npx tsx scripts/deploy.ts
 ```
+
+По умолчанию используется **BIP39 + SLIP-0010 `m/44'/607'/0'` + W5 (V5R1)** —
+именно эта комбинация управляет адресом `UQBL…`. Переопределить можно через
+`MNEMONIC_FORMAT=ton`, `DERIVATION_PATH=...`, `WALLET_TYPE=v4`.
+
+Адрес контракта computes из адреса кошелька: `npx tsx scripts/address_only.ts`.
 
 Если фраза прошла по словам, но не по контрольной сумме TON (например, BIP39 от Ethereum),
 для **тестнета** можно разрешить деплой:
