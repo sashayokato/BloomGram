@@ -337,7 +337,7 @@
     <string name="PreferOriginalQuality">Bevorzugen Sie Originalqualität</string>
     <string name="PauseOnMinimizeVoice">Stimme</string>
     <string name="PauseOnMinimizeRound">Runde</string>
-    <string name="PauseOnMinimizeInfo">Pausiert die Medienwiedergabe, wenn das Gerät gesperrt oder das Exteragram minimiert ist.</string>
+    <string name="PauseOnMinimizeInfo">Pausiert die Medienwiedergabe, wenn das Gerät gesperrt oder das BloomGram minimiert ist.</string>
     <string name="SwipeToPip">Zum PiP (Bild-in-Bild) wischen</string>
     <string name="UnmuteWithVolumeButtons">Videos mit Lautstärketasten stummschalten</string>
     <string name="UnmuteWithVolumeButtonsInfo">Durch Drücken einer Lautstärketaste wird die Stummschaltung des Videos aufgehoben, anstatt die Systemlautstärke zu ändern.</string>
@@ -366,7 +366,7 @@
     <string name="DeleteAccount">Benutzerkonto löschen</string>
     <string name="ResetSettings">Einstellungen zurücksetzen</string>
     <string name="ResetPreferences">** BloomGram ** Einstellungen wurden zurückgesetzt.</string>
-    <string name="ResetPreferencesInfo">Sind Sie sicher, dass Sie ** alle ** Exteragramm-Einstellungen auf ihre Standardeinstellungen zurücksetzen möchten?</string>
+    <string name="ResetPreferencesInfo">Sind Sie sicher, dass Sie ** alle ** BloomGram-Einstellungen auf ihre Standardeinstellungen zurücksetzen möchten?</string>
     <!-- Donates -->
     <string name="SupportDevelopment">Entwicklung unterstützen</string>
     <string name="SupportDevelopmentInfo">Indem Sie das Projekt unterstützen, tragen Sie nicht nur zu seiner Entwicklung bei, sondern erhalten auch ein einzigartiges Abzeichen.</string>
