@@ -21,6 +21,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Fetch git submodules
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import configparser, os, subprocess
+          cp = configparser.ConfigParser()
+          cp.read('.gitmodules')
+          for section in cp.sections():
+              path = cp[section]['path']
+              url = cp[section]['url']
+              os.makedirs(path, exist_ok=True)
+              if os.listdir(path):
+                  print('already present:', path)
+                  continue
+              print('cloning', path, 'from', url, flush=True)
+              subprocess.run(['git', 'clone', '--depth', '1', url, path], check=True)
+          PY
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
