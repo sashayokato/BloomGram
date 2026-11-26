@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1045883379211",
+    "project_id": "bloomgram-ba973",
+    "storage_bucket": "bloomgram-ba973.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045883379211:android:4e479977c3c47d1ea2f10e",
+        "android_client_info": {
+          "package_name": "com.bloomgram.messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsOnVLsukM2BozHEqRJJ3n85yPvYGN0k8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

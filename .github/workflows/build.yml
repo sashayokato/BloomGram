@@ -1,0 +1,108 @@
+name: Build BloomGram
+
+on:
+  workflow_dispatch:
+    inputs:
+      variant:
+        description: 'Variant to assemble'
+        required: true
+        default: 'fullAfatRelease'
+        type: choice
+        options:
+          - fullAfatRelease
+          - liteAfatRelease
+          - fullAfatDebug
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Python 3.11 (ChaquoPy)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Android SDK components
+        shell: bash
+        run: |
+          SDKMANAGER="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          if [ ! -x "$SDKMANAGER" ]; then
+            SDKMANAGER="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
+          fi
+          yes | "$SDKMANAGER" --licenses > /dev/null || true
+          "$SDKMANAGER" --install \
+            "platforms;android-37.2" \
+            "build-tools;36.0.0" \
+            "ndk;29.0.14206865" \
+            "cmake;4.0.3"
+
+      - name: Alias Android 37.2 platform as 37
+        shell: bash
+        run: |
+          if [ -d "$ANDROID_HOME/platforms/android-37.2" ] && [ ! -d "$ANDROID_HOME/platforms/android-37" ]; then
+            ln -s "$ANDROID_HOME/platforms/android-37.2" "$ANDROID_HOME/platforms/android-37"
+          fi
+
+      - name: Configure local.properties
+        shell: bash
+        run: echo "sdk.dir=$ANDROID_HOME" > local.properties
+
+      - name: Restore signing key
+        shell: bash
+        run: |
+          mkdir -p TMessagesProj/config
+          printf '%s' "${{ secrets.KEYSTORE_BASE64 }}" | base64 -d > TMessagesProj/config/exteraGram.jks
+          test -s TMessagesProj/config/exteraGram.jks
+
+      - name: Restore Firebase config
+        shell: bash
+        run: |
+          printf '%s' "${{ secrets.GOOGLE_SERVICES_JSON }}" | base64 -d > TMessagesProj/google-services.json
+          python3 -c "import json; json.load(open('TMessagesProj/google-services.json'))"
+
+      - name: Write API_KEYS
+        shell: bash
+        run: |
+          cat > API_KEYS <<EOF
+          APP_ID=${{ secrets.TELEGRAM_APP_ID }}
+          APP_HASH="${{ secrets.TELEGRAM_APP_HASH }}"
+          MAPS_V2_API="${{ secrets.MAPS_V2_API }}"
+          SIGNING_KEY_STORE_PASSWORD=${{ secrets.KEYSTORE_PASSWORD }}
+          SIGNING_KEY_ALIAS=${{ secrets.KEY_ALIAS }}
+          SIGNING_KEY_PASSWORD=${{ secrets.KEY_PASSWORD }}
+          EOF
+
+      - name: Prepare Gradle
+        shell: bash
+        run: chmod +x gradlew
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: wrapper
+
+      - name: Build APK
+        shell: bash
+        run: |
+          VARIANT="${{ inputs.variant }}"
+          TASK="assemble$(python3 -c "import sys; v=sys.argv[1]; print(v[0].upper()+v[1:])" "$VARIANT")"
+          echo "Running ./gradlew $TASK"
+          ./gradlew "$TASK" --no-daemon --stacktrace
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: bloomgram-${{ inputs.variant }}
+          path: TMessagesProj/build/outputs/apk/**/*.apk
+          if-no-files-found: error
+          retention-days: 30
