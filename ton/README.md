@@ -40,11 +40,28 @@
 4. Подарок — обычный transfer NFT item; реестр уникальности не меняется.
 5. Owner коллекции может выпускать подарки, но не может подделать владение.
 
-## Компиляция
+## Компиляция и тесты
 
-Tact ставится через npm. В CI добавим workflow `ton-compile.yml`:
 ```bash
-npm install @tact-lang/compiler
-npx tact --config ton/tact.config.json
+cd ton
+npm ci
+npx tact --config tact.config.json   # compile
+npm test                             # 12 sandbox-тестов
 ```
-Локально Node сейчас не установлен — компиляцию и тесты делаем в GitHub Actions.
+
+Все тесты проходят локально и в CI (`ton-compile.yml`).
+
+## Деплой в TON testnet
+
+`scripts/deploy.ts` читает сид-фразу **только из env** `DEPLOYER_MNEMONIC`
+и не пишет её в файлы. Поддерживаются TON-фразы из **12 или 24 слов**.
+
+```powershell
+$env:DEPLOYER_MNEMONIC="12 или 24 слова TON-кошелька"   # в твоей консоли
+$env:DEPLOYER_ADDRESS="0QB17-KDx0flM7ZPflsOW-U4Kj4HPtVjbCNPcDeOCJytPh8q"
+cd ton
+npx tsx scripts/deploy.ts
+```
+
+Если слова не из TON-списка (например, BIP39 от Ethereum), скрипт выдаст понятную ошибку.
+Скрипт выведет адрес контракта — проверь его в tonscan testnet.
