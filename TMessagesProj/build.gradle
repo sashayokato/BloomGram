@@ -297,7 +297,7 @@ androidComponents {
         def baseVersionCode = android.defaultConfig.versionCode
 
         variant.outputs.each { output ->
-            output.outputFileName.set("exteraGram-${appTypeFlavorName}-${buildTypePrefix}${abi}-${formattedDate}.apk")
+            output.outputFileName.set("BloomGram-${appTypeFlavorName}-${buildTypePrefix}${abi}-${formattedDate}.apk")
             output.versionCode.set(baseVersionCode * (isPmBuild == "true" ? 100 : 10) + abiVersionCode)
         }
     }
