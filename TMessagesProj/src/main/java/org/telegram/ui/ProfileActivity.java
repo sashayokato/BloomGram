@@ -655,6 +655,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
     private final static int bloom_revoke_admin = 9006;
     private final static int bloom_grant_media = 9007;
     private final static int bloom_revoke_media = 9008;
+    private final static int shard_wallet = 9009;
     private final static int edit_contact = 4;
     private final static int delete_contact = 5;
     private final static int leave_group = 7;
@@ -2867,6 +2868,9 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                         BulletinFactory.of(ProfileActivity.this).createSimpleBulletin(R.raw.contact_check, LocaleController.getString(message)).show();
                         getNotificationCenter().postNotificationName(NotificationCenter.updateInterfaces, MessagesController.UPDATE_MASK_EMOJI_STATUS);
                     }
+                } else if (id == shard_wallet) {
+                    android.content.Intent intent = new android.content.Intent(getParentActivity(), org.telegram.ui.ShardWalletActivity.class);
+                    startActivity(intent);
                 } else if (id == add_contact) {
                     TLRPC.User user = getMessagesController().getUser(userId);
                     Bundle args = new Bundle();
@@ -13115,6 +13119,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                                         granted ? R.drawable.msg_delete : R.drawable.msg_contacts,
                                         LocaleController.getString(granted ? bloomRevokeStrings[i] : bloomGrantStrings[i]));
                             }
+                            otherItem.addSubItem(shard_wallet, R.drawable.msg_home, LocaleController.getString(R.string.ShardWalletMenu));
                         }
                         if (isBot) {
                             if (getDialogId() != 0 && FiltersListBottomSheet.hasCustomDialogFilters(this) && !FiltersListBottomSheet.getCanAddDialogFilters(this, getDialogId()).isEmpty()) {
