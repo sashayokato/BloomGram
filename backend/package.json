@@ -1,0 +1,17 @@
+{
+  "name": "bloomgram-shard-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit --target es2022 --module commonjs --esModuleInterop --skipLibCheck src/index.ts"
+  },
+  "dependencies": {
+    "@ton/core": "^0.63.0",
+    "@ton/ton": "^15.3.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  }
+}
