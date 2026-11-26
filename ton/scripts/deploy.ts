@@ -78,6 +78,11 @@ async function main() {
     console.log('network:', ENDPOINT);
 
     const client = new TonClient({ endpoint: ENDPOINT });
+    const deployed = await withRetry(() => client.provider(contractAddr).getState());
+    if (deployed.state.type === 'active') {
+        console.log('contract already deployed:', contractAddr.toString());
+        return;
+    }
     const openedWallet = client.open(wallet);
     const balanceNano = await withRetry(() => client.getBalance(owner));
     console.log('wallet balance:', Number(balanceNano) / 1e9, 'TON');
