@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="TMessagesProj/src/main/res-appicons/mipmap-xxxhdpi/ic_launcher.webp" width="96" alt="exteraGram">
+  <img src="TMessagesProj/src/main/res-appicons/mipmap-xxxhdpi/ic_launcher.webp" width="96" alt="BloomGram">
 </p>
 
-<h1 align="center">exteraGram</h1>
+<h1 align="center">BloomGram</h1>
 
 <p align="center">
   A third-party Telegram client for Android, built on the
