@@ -90,6 +90,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: wrapper
+          validate-wrappers: false
 
       - name: Build APK
         shell: bash
