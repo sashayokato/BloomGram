@@ -11,10 +11,14 @@ Developer: @vlodt - channel: @bloomgrams
    Do NOT run `generateAppIcons`: it regenerates res-appicons and overwrites the BloomGram icon.
 
 ## Badges
-- Creator badge: `BloomBadges.CREATOR_BADGE` (set `CREATOR_EMOJI_ID` to your own custom emoji).
-- Developer badge: on the creator account, open a user's profile -> menu -> "Grant developer badge".
-- To make grants visible to all BloomGram users set `GRANTS_URL` to a raw JSON file `{"developers":[id,...]}`;
-  `BloomBadges.exportGrantsJson()` produces it from the local grants.
+- Creator badge: bound to `CREATOR_ID` (currently 5853805443, @vlodt).
+- Four grantable badges: **Developer**, **VIP**, **Admin**, **Media partner**.
+  On the creator account open any user's profile -> menu -> "Grant/revoke ... badge".
+- To make grants visible to all BloomGram users, set `GRANTS_URL` to a raw JSON file:
+  ```json
+  {"developers":[123],"admins":[456],"vip":[789],"media":[101]}
+  ```
+  `BloomBadges.exportGrantsJson()` produces this file from local grants.
 - Badges are client-side only: other Telegram clients do not see them.
 
 ## Not implemented (needs your own server)

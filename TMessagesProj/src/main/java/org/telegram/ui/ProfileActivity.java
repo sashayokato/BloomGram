@@ -649,6 +649,12 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
     private final static int share_contact = 3;
     private final static int bloom_grant_dev = 9001;
     private final static int bloom_revoke_dev = 9002;
+    private final static int bloom_grant_vip = 9003;
+    private final static int bloom_revoke_vip = 9004;
+    private final static int bloom_grant_admin = 9005;
+    private final static int bloom_revoke_admin = 9006;
+    private final static int bloom_grant_media = 9007;
+    private final static int bloom_revoke_media = 9008;
     private final static int edit_contact = 4;
     private final static int delete_contact = 5;
     private final static int leave_group = 7;
@@ -2837,12 +2843,28 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                     finishFragment();
                 } else if (id == block_contact) {
                     onBlockContactClicked(false);
-                } else if (id == bloom_grant_dev || id == bloom_revoke_dev) {
-                    boolean ok = id == bloom_grant_dev
-                            ? com.exteragram.messenger.badges.BloomBadges.INSTANCE.grant(userId)
-                            : com.exteragram.messenger.badges.BloomBadges.INSTANCE.revoke(userId);
+                } else if (id >= bloom_grant_dev && id <= bloom_revoke_media) {
+                    com.exteragram.messenger.badges.BloomBadges.BadgeType type;
+                    boolean grant;
+                    if (id == bloom_grant_dev || id == bloom_revoke_dev) {
+                        type = com.exteragram.messenger.badges.BloomBadges.BadgeType.DEV;
+                        grant = id == bloom_grant_dev;
+                    } else if (id == bloom_grant_vip || id == bloom_revoke_vip) {
+                        type = com.exteragram.messenger.badges.BloomBadges.BadgeType.VIP;
+                        grant = id == bloom_grant_vip;
+                    } else if (id == bloom_grant_admin || id == bloom_revoke_admin) {
+                        type = com.exteragram.messenger.badges.BloomBadges.BadgeType.ADMIN;
+                        grant = id == bloom_grant_admin;
+                    } else {
+                        type = com.exteragram.messenger.badges.BloomBadges.BadgeType.MEDIA;
+                        grant = id == bloom_grant_media;
+                    }
+                    boolean ok = grant
+                            ? com.exteragram.messenger.badges.BloomBadges.INSTANCE.grant(type, userId)
+                            : com.exteragram.messenger.badges.BloomBadges.INSTANCE.revoke(type, userId);
                     if (ok) {
-                        BulletinFactory.of(ProfileActivity.this).createSimpleBulletin(R.raw.contact_check, LocaleController.getString(id == bloom_grant_dev ? R.string.BloomBadgeGranted : R.string.BloomBadgeRevoked)).show();
+                        int message = grant ? R.string.BloomBadgeGrantedGeneric : R.string.BloomBadgeRevokedGeneric;
+                        BulletinFactory.of(ProfileActivity.this).createSimpleBulletin(R.raw.contact_check, LocaleController.getString(message)).show();
                         getNotificationCenter().postNotificationName(NotificationCenter.updateInterfaces, MessagesController.UPDATE_MASK_EMOJI_STATUS);
                     }
                 } else if (id == add_contact) {
@@ -13081,10 +13103,17 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                         }
                         otherItem.addSubItem(add_shortcut, R.drawable.msg_home, LocaleController.getString(R.string.AddShortcut));
                         if (com.exteragram.messenger.badges.BloomBadges.INSTANCE.isCurrentUserCreator() && !com.exteragram.messenger.badges.BloomBadges.INSTANCE.isCreator(user.id)) {
-                            if (com.exteragram.messenger.badges.BloomBadges.INSTANCE.isGrantedDeveloper(user.id)) {
-                                otherItem.addSubItem(bloom_revoke_dev, R.drawable.msg_delete, LocaleController.getString(R.string.BloomRevokeDevBadge));
-                            } else {
-                                otherItem.addSubItem(bloom_grant_dev, R.drawable.msg_contacts, LocaleController.getString(R.string.BloomGrantDevBadge));
+                            com.exteragram.messenger.badges.BloomBadges.BadgeType[] bloomTypes = com.exteragram.messenger.badges.BloomBadges.BadgeType.values();
+                            int[] bloomGrantIds = {bloom_grant_dev, bloom_grant_vip, bloom_grant_admin, bloom_grant_media};
+                            int[] bloomRevokeIds = {bloom_revoke_dev, bloom_revoke_vip, bloom_revoke_admin, bloom_revoke_media};
+                            int[] bloomGrantStrings = {R.string.BloomGrantDevBadge, R.string.BloomGrantVipBadge, R.string.BloomGrantAdminBadge, R.string.BloomGrantMediaBadge};
+                            int[] bloomRevokeStrings = {R.string.BloomRevokeDevBadge, R.string.BloomRevokeVipBadge, R.string.BloomRevokeAdminBadge, R.string.BloomRevokeMediaBadge};
+                            for (int i = 0; i < bloomTypes.length; i++) {
+                                boolean granted = com.exteragram.messenger.badges.BloomBadges.INSTANCE.isGranted(bloomTypes[i], user.id);
+                                otherItem.addSubItem(
+                                        granted ? bloomRevokeIds[i] : bloomGrantIds[i],
+                                        granted ? R.drawable.msg_delete : R.drawable.msg_contacts,
+                                        LocaleController.getString(granted ? bloomRevokeStrings[i] : bloomGrantStrings[i]));
                             }
                         }
                         if (isBot) {
