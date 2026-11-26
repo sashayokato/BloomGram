@@ -4,13 +4,19 @@
   "description": "Здесь будут лежать контракты. Пока зафиксирован интерфейс — код пишется после решения по эмиссии и ценам (см. `BLOOMGRAM-NFT-АРХИТЕКТУРА.md`, раздел 4).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tsx tests/sandbox.test.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@tact-lang/compiler": "^1.6.13"
+    "@tact-lang/compiler": "^1.6.13",
+    "@ton/core": "^0.63.1",
+    "@ton/crypto": "^3.3.0",
+    "@ton/sandbox": "^0.45.0",
+    "@ton/ton": "^16.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
   }
 }
