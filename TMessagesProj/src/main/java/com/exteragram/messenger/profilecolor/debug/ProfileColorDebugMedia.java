@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.profilecolor.debug;
+package com.exteragram.messenger.profilecolor.debug;
 
 import org.telegram.messenger.MediaDataController;
 import org.telegram.messenger.MessageObject;

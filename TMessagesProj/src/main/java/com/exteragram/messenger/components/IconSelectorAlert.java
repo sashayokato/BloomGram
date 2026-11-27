@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components;
+package com.exteragram.messenger.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -24,7 +24,7 @@ import android.view.View;
 import android.widget.GridLayout;
 import android.widget.ImageView;
 
-import com.BloomGram.messenger.utils.folders.FolderUiHelper;
+import com.exteragram.messenger.utils.folders.FolderUiHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.BaseFragment;

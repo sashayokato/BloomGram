@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.api.dto
+package com.exteragram.messenger.api.dto
 
-import com.BloomGram.messenger.api.model.NowPlayingServiceType
+import com.exteragram.messenger.api.model.NowPlayingServiceType
 
 data class NowPlayingInfoDTO(
     val serviceType: NowPlayingServiceType,

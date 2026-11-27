@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.nowplaying.ui
+package com.exteragram.messenger.nowplaying.ui
 
 import android.content.Context
 import android.graphics.PorterDuff
@@ -20,9 +20,9 @@ import android.graphics.PorterDuffColorFilter
 import android.view.View
 import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
-import com.BloomGram.messenger.api.dto.NowPlayingInfoDTO
-import com.BloomGram.messenger.api.model.NowPlayingServiceType
-import com.BloomGram.messenger.nowplaying.NowPlayingController
+import com.exteragram.messenger.api.dto.NowPlayingInfoDTO
+import com.exteragram.messenger.api.model.NowPlayingServiceType
+import com.exteragram.messenger.nowplaying.NowPlayingController
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.BotWebViewVibrationEffect
 import org.telegram.messenger.LocaleController.getString

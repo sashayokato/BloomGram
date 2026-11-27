@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui;
+package com.exteragram.messenger.utils.ui;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 public final class FabUiHelper {
 

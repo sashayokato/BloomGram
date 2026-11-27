@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.preferences.appearance.components;
+package com.exteragram.messenger.preferences.appearance.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -29,10 +29,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.preferences.components.CustomPreferenceCell;
-import com.BloomGram.messenger.preferences.components.PreviewBackgroundDrawable;
-import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.preferences.components.CustomPreferenceCell;
+import com.exteragram.messenger.preferences.components.PreviewBackgroundDrawable;
+import com.exteragram.messenger.utils.text.LocaleUtils;
 
 import org.telegram.messenger.R;
 import org.telegram.messenger.UserConfig;

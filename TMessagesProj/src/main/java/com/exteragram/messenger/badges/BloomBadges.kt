@@ -1,8 +1,8 @@
-package com.BloomGram.messenger.badges
+package com.exteragram.messenger.badges
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.BloomGram.messenger.api.dto.BadgeDTO
+import com.exteragram.messenger.api.dto.BadgeDTO
 import org.telegram.messenger.ApplicationLoader
 import org.telegram.messenger.FileLog
 import org.telegram.messenger.UserConfig

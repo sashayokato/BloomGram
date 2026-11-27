@@ -30,7 +30,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.exteragram.messenger.utils.text.LocaleUtils;
 
 import androidx.annotation.NonNull;
 

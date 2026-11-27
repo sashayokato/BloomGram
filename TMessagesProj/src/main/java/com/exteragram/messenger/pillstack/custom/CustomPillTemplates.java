@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom;
+package com.exteragram.messenger.pillstack.custom;
 
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.R;

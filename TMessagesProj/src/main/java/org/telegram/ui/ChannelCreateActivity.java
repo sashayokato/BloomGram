@@ -47,7 +47,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ChatObject;

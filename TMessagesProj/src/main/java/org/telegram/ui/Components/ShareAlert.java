@@ -140,11 +140,11 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicReference;
 
-import com.BloomGram.messenger.backup.PreferencesUtils;
-import com.BloomGram.messenger.components.TranslateBeforeSendWrapper;
-import com.BloomGram.messenger.utils.chats.ForwardContext;
-import com.BloomGram.messenger.utils.text.LocaleUtils;
-import com.BloomGram.messenger.translator.TranslatorUtils;
+import com.exteragram.messenger.backup.PreferencesUtils;
+import com.exteragram.messenger.components.TranslateBeforeSendWrapper;
+import com.exteragram.messenger.utils.chats.ForwardContext;
+import com.exteragram.messenger.utils.text.LocaleUtils;
+import com.exteragram.messenger.translator.TranslatorUtils;
 
 import me.vkryl.core.BitwiseUtils;
 

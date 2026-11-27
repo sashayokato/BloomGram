@@ -12,15 +12,15 @@
 
 */
 
-package com.BloomGram.messenger.ai;
+package com.exteragram.messenger.ai;
 
 import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ai.data.Role;
-import com.BloomGram.messenger.ai.network.Client;
-import com.BloomGram.messenger.ai.network.GenerationCallback;
+import com.exteragram.messenger.ai.data.Role;
+import com.exteragram.messenger.ai.network.Client;
+import com.exteragram.messenger.ai.network.GenerationCallback;
 
 import org.telegram.messenger.Utilities;
 import org.telegram.tgnet.TLRPC;

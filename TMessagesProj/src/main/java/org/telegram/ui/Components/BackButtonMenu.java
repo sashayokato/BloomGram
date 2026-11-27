@@ -16,7 +16,7 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ChatObject;

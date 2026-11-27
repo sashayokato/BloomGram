@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components;
+package com.exteragram.messenger.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -45,7 +45,7 @@ import androidx.recyclerview.widget.LinearSmoothScroller;
 import androidx.recyclerview.widget.LinearSnapHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.api.dto.BoostySubscriberDTO;
+import com.exteragram.messenger.api.dto.BoostySubscriberDTO;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

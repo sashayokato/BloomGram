@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.debug
+package com.exteragram.messenger.debug
 
 import android.text.InputType
 import android.text.TextUtils
@@ -22,14 +22,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.core.util.size
-import com.BloomGram.messenger.api.ApiController
-import com.BloomGram.messenger.api.db.ExteraDatabase
-import com.BloomGram.messenger.plugins.PythonSdkUpdateDebug
-import com.BloomGram.messenger.plugins.analyzer.AnalyzerUpdateDebug
-import com.BloomGram.messenger.components.SupporterBottomSheet
-import com.BloomGram.messenger.components.SupporterWelcomeSheet
-import com.BloomGram.messenger.preferences.BasePreferencesActivity
-import com.BloomGram.messenger.utils.network.RemoteUtils
+import com.exteragram.messenger.api.ApiController
+import com.exteragram.messenger.api.db.ExteraDatabase
+import com.exteragram.messenger.plugins.PythonSdkUpdateDebug
+import com.exteragram.messenger.plugins.analyzer.AnalyzerUpdateDebug
+import com.exteragram.messenger.components.SupporterBottomSheet
+import com.exteragram.messenger.components.SupporterWelcomeSheet
+import com.exteragram.messenger.preferences.BasePreferencesActivity
+import com.exteragram.messenger.utils.network.RemoteUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.R
 import org.telegram.messenger.Utilities

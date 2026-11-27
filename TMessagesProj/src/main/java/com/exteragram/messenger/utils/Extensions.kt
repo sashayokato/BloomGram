@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils
+package com.exteragram.messenger.utils
 
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope

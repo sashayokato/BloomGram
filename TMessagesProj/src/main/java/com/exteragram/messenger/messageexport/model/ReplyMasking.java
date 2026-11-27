@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.model;
+package com.exteragram.messenger.messageexport.model;
 
 import android.text.TextUtils;
 import android.util.SparseArray;
 
-import com.BloomGram.messenger.feed.FeedMessageUtils;
+import com.exteragram.messenger.feed.FeedMessageUtils;
 
 import org.telegram.messenger.MessageObject;
 import org.telegram.tgnet.TLObject;

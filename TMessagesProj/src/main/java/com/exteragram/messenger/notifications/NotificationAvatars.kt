@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.notifications
+package com.exteragram.messenger.notifications
 
 import android.graphics.Bitmap
 import android.graphics.Canvas

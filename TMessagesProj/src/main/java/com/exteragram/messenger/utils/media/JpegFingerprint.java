@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.media;
+package com.exteragram.messenger.utils.media;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;

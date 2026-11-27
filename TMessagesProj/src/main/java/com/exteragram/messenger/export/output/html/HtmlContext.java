@@ -12,15 +12,15 @@
 
 */
 
-package com.BloomGram.messenger.export.output.html;
+package com.exteragram.messenger.export.output.html;
 
 import android.net.Uri;
 
-import com.BloomGram.messenger.export.ExportFormat;
-import com.BloomGram.messenger.export.api.ExportData;
-import com.BloomGram.messenger.export.api.ExportParser;
-import com.BloomGram.messenger.export.output.OutputFile;
-import com.BloomGram.messenger.export.output.Result;
+import com.exteragram.messenger.export.ExportFormat;
+import com.exteragram.messenger.export.api.ExportData;
+import com.exteragram.messenger.export.api.ExportParser;
+import com.exteragram.messenger.export.output.OutputFile;
+import com.exteragram.messenger.export.output.Result;
 
 import org.telegram.messenger.LocaleController;
 import org.telegram.tgnet.TLRPC;

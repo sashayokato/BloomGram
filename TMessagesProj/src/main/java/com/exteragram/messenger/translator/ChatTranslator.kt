@@ -12,15 +12,15 @@
 
 */
 
-package com.BloomGram.messenger.translator
+package com.exteragram.messenger.translator
 
 import org.telegram.messenger.AndroidUtilities
 
-import com.BloomGram.messenger.translator.core.BaseTranslator
-import com.BloomGram.messenger.translator.core.HttpTranslator
-import com.BloomGram.messenger.translator.core.ProviderLimits
-import com.BloomGram.messenger.translator.core.TranslationDispatcher
-import com.BloomGram.messenger.translator.core.TranslationError
+import com.exteragram.messenger.translator.core.BaseTranslator
+import com.exteragram.messenger.translator.core.HttpTranslator
+import com.exteragram.messenger.translator.core.ProviderLimits
+import com.exteragram.messenger.translator.core.TranslationDispatcher
+import com.exteragram.messenger.translator.core.TranslationError
 
 object ChatTranslator {
 

@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.api.db
+package com.exteragram.messenger.api.db
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
 import androidx.room.Transaction
-import com.BloomGram.messenger.api.dto.BoostySubscriberDTO
+import com.exteragram.messenger.api.dto.BoostySubscriberDTO
 
 @Dao
 interface BoostySubscriberDao {

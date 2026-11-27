@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom;
+package com.exteragram.messenger.pillstack.custom;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

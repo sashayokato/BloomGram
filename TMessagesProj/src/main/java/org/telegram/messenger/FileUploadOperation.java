@@ -14,7 +14,7 @@ import android.content.SharedPreferences;
 import android.util.SparseArray;
 import android.util.SparseIntArray;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.tgnet.ConnectionsManager;
 import org.telegram.tgnet.NativeByteBuffer;

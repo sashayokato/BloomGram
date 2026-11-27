@@ -12,10 +12,10 @@
 
 */
 
-package com.BloomGram.messenger.translator.providers
+package com.exteragram.messenger.translator.providers
 
-import com.BloomGram.messenger.translator.TranslatorUtils
-import com.BloomGram.messenger.translator.core.BaseTranslator
+import com.exteragram.messenger.translator.TranslatorUtils
+import com.exteragram.messenger.translator.core.BaseTranslator
 
 class TelegramTranslator private constructor() : BaseTranslator() {
 

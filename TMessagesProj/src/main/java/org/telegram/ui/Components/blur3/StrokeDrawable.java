@@ -13,8 +13,8 @@ import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.GlassOutlineStyle;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.GlassOutlineStyle;
 
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.blur3.drawable.GlassRim;

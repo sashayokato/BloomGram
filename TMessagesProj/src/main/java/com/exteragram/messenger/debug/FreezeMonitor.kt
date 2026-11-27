@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.debug
+package com.exteragram.messenger.debug
 
 import android.app.Activity
 import android.os.Build
@@ -23,7 +23,7 @@ import android.os.Process
 import android.os.SystemClock
 import android.util.SparseArray
 import androidx.core.util.size
-import com.BloomGram.messenger.plugins.PluginsController
+import com.exteragram.messenger.plugins.PluginsController
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.BuildVars
 import org.telegram.messenger.DispatchQueue
@@ -70,7 +70,7 @@ object FreezeMonitor {
     private const val REPORT_TRIM_BYTES = 1_000_000
     private const val REPORT_NAME = "freeze_report.txt"
 
-    private val APP_FRAME_PREFIXES = arrayOf("org.telegram.", "com.BloomGram.", "com.chaquo.")
+    private val APP_FRAME_PREFIXES = arrayOf("org.telegram.", "com.exteragram.", "com.chaquo.")
     private val IDLE_TOP_FRAMES = arrayOf(
         "android.os.MessageQueue.nativePollOnce", "java.lang.Object.wait", "java.lang.Thread.sleep",
         "sun.misc.Unsafe.park", "jdk.internal.misc.Unsafe.park", "java.net.", "libcore.io.Linux.",

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.camera;
+package com.exteragram.messenger.camera;
 
 import android.content.Context;
 import android.graphics.Rect;

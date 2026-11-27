@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.utils.folders
+package com.exteragram.messenger.utils.folders
 
 import androidx.collection.LongSparseArray
-import com.BloomGram.messenger.TabCounterMode
-import com.BloomGram.messenger.tabCounterMode
+import com.exteragram.messenger.TabCounterMode
+import com.exteragram.messenger.tabCounterMode
 import org.telegram.SQLite.SQLiteCursor
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.ChatObject

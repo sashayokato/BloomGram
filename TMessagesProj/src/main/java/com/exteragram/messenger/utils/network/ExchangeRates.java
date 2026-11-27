@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.utils.network;
+package com.exteragram.messenger.utils.network;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.pillstack.core.PillStackConfig;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.pillstack.core.PillStackConfig;
 import com.google.gson.annotations.SerializedName;
 
 import org.telegram.messenger.BillingController;

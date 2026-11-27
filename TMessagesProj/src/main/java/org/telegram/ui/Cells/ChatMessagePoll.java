@@ -48,8 +48,8 @@ import android.widget.Toast;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import com.BloomGram.messenger.DividerStyle;
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.DividerStyle;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.DialogObject;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.ui;
+package com.exteragram.messenger.messageexport.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -30,7 +30,7 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.messageexport.render.MessageExportListView;
+import com.exteragram.messenger.messageexport.render.MessageExportListView;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.MessageObject;

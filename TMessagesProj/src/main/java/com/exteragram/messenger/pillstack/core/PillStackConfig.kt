@@ -13,12 +13,12 @@
 */
 
 @file:JvmName("PillStackConfig")
-package com.BloomGram.messenger.pillstack.core
+package com.exteragram.messenger.pillstack.core
 
 import android.content.SharedPreferences
-import com.BloomGram.messenger.backup.PreferencesUtils
-import com.BloomGram.messenger.config.*
-import com.BloomGram.messenger.pillstack.ui.pills.crypto.utils.PillStackCurrencies
+import com.exteragram.messenger.backup.PreferencesUtils
+import com.exteragram.messenger.config.*
+import com.exteragram.messenger.pillstack.ui.pills.crypto.utils.PillStackCurrencies
 import org.telegram.messenger.NotificationCenter
 import java.util.HashSet
 

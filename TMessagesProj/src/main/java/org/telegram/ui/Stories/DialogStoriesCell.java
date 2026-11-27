@@ -50,9 +50,9 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.TabIconsMode;
-import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.TabIconsMode;
+import com.exteragram.messenger.utils.text.LocaleUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BotWebViewVibrationEffect;

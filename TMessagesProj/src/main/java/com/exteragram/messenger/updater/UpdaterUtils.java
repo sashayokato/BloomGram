@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.updater;
+package com.exteragram.messenger.updater;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -37,10 +37,10 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.IntentCompat;
 
-import com.BloomGram.messenger.badges.BadgesController;
-import com.BloomGram.messenger.icons.IconManager;
-import com.BloomGram.messenger.utils.AppUtils;
-import com.BloomGram.messenger.utils.network.RemoteUtils;
+import com.exteragram.messenger.badges.BadgesController;
+import com.exteragram.messenger.icons.IconManager;
+import com.exteragram.messenger.utils.AppUtils;
+import com.exteragram.messenger.utils.network.RemoteUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

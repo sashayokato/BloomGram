@@ -12,10 +12,10 @@
 
 */
 
-package com.BloomGram.messenger.notifications
+package com.exteragram.messenger.notifications
 
 import android.view.View
-import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.exteragram.messenger.preferences.BasePreferencesActivity
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.BotWebViewVibrationEffect
 import org.telegram.messenger.LocaleController.getString

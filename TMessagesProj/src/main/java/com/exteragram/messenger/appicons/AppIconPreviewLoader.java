@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.appicons;
+package com.exteragram.messenger.appicons;
 
 import android.content.Context;
 import android.content.res.Resources;

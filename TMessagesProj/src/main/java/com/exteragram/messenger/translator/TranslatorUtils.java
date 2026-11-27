@@ -12,20 +12,20 @@
 
 */
 
-package com.BloomGram.messenger.translator;
+package com.exteragram.messenger.translator;
 
 import android.text.TextUtils;
 import android.text.style.URLSpan;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.translator.core.BaseTranslator;
-import com.BloomGram.messenger.translator.core.TranslationError;
-import com.BloomGram.messenger.translator.core.HttpTranslator;
-import com.BloomGram.messenger.translator.providers.GoogleTranslator;
-import com.BloomGram.messenger.translator.providers.TelegramTranslator;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.translator.core.BaseTranslator;
+import com.exteragram.messenger.translator.core.TranslationError;
+import com.exteragram.messenger.translator.core.HttpTranslator;
+import com.exteragram.messenger.translator.providers.GoogleTranslator;
+import com.exteragram.messenger.translator.providers.TelegramTranslator;
+import com.exteragram.messenger.utils.chats.ChatUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LanguageDetector;

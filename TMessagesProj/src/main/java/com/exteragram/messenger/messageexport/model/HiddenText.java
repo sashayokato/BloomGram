@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.model;
+package com.exteragram.messenger.messageexport.model;
 
 import android.text.Layout;
 import android.text.Spannable;

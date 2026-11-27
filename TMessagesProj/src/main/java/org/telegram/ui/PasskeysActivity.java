@@ -21,7 +21,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 
-import com.BloomGram.messenger.utils.PasskeysUtil;
+import com.exteragram.messenger.utils.PasskeysUtil;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.ai;
+package com.exteragram.messenger.ai;
 
 import static org.telegram.messenger.LocaleController.getString;
 
@@ -26,12 +26,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ai.data.Role;
-import com.BloomGram.messenger.ai.data.Service;
-import com.BloomGram.messenger.ai.data.Suggestions;
-import com.BloomGram.messenger.ai.network.backend.OnDeviceAvailability;
-import com.BloomGram.messenger.ai.network.backend.OnDeviceBackend;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.ai.data.Role;
+import com.exteragram.messenger.ai.data.Service;
+import com.exteragram.messenger.ai.data.Suggestions;
+import com.exteragram.messenger.ai.network.backend.OnDeviceAvailability;
+import com.exteragram.messenger.ai.network.backend.OnDeviceBackend;
+import com.exteragram.messenger.utils.chats.ChatUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.MessageObject;

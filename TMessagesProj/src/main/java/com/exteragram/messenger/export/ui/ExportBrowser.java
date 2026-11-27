@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.export.ui;
+package com.exteragram.messenger.export.ui;
 
 import android.content.Context;
 import android.net.Uri;
@@ -20,7 +20,7 @@ import android.text.TextUtils;
 import android.webkit.MimeTypeMap;
 import android.webkit.WebResourceResponse;
 
-import com.BloomGram.messenger.export.ExportController;
+import com.exteragram.messenger.export.ExportController;
 
 import org.telegram.messenger.FileLog;
 import org.telegram.messenger.UserConfig;

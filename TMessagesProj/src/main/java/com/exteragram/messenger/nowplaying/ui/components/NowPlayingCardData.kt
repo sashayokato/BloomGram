@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.nowplaying.ui.components
+package com.exteragram.messenger.nowplaying.ui.components
 
 import android.graphics.Bitmap
 import android.graphics.Color
 import androidx.core.graphics.ColorUtils
 import androidx.palette.graphics.Palette
-import com.BloomGram.messenger.api.dto.NowPlayingDTO
-import com.BloomGram.messenger.utils.ui.UIUtil
+import com.exteragram.messenger.api.dto.NowPlayingDTO
+import com.exteragram.messenger.utils.ui.UIUtil
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.FileLoader
 import org.telegram.messenger.ImageLocation

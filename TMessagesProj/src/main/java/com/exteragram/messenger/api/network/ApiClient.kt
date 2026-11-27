@@ -12,10 +12,10 @@
 
 */
 
-package com.BloomGram.messenger.api.network
+package com.exteragram.messenger.api.network
 
-import com.BloomGram.messenger.debug.disableApiRequests
-import com.BloomGram.messenger.utils.network.ExteraHttpClient
+import com.exteragram.messenger.debug.disableApiRequests
+import com.exteragram.messenger.utils.network.ExteraHttpClient
 import com.google.gson.GsonBuilder
 import okhttp3.Protocol
 import okhttp3.Response

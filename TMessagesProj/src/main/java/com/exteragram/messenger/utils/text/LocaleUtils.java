@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.text;
+package com.exteragram.messenger.utils.text;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -35,9 +35,9 @@ import android.view.View;
 import androidx.annotation.DrawableRes;
 import androidx.core.content.ContextCompat;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.network.RemoteUtils;
-import com.BloomGram.messenger.utils.ui.ColorRectSpan;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.network.RemoteUtils;
+import com.exteragram.messenger.utils.ui.ColorRectSpan;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

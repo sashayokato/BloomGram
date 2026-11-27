@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.icons.ui.picker;
+package com.exteragram.messenger.icons.ui.picker;
 
 import android.annotation.SuppressLint;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.ui.LaunchActivity;
 

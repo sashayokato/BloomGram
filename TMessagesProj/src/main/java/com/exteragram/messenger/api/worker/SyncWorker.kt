@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.api.worker
+package com.exteragram.messenger.api.worker
 
 import android.content.Context
 import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
-import com.BloomGram.messenger.api.ApiController
+import com.exteragram.messenger.api.ApiController
 
 class SyncWorker(
     appContext: Context,

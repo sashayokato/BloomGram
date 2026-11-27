@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.inline.rates
+package com.exteragram.messenger.inline.rates
 
-import com.BloomGram.messenger.inline.math.MathUnit
+import com.exteragram.messenger.inline.math.MathUnit
 
 import java.util.Currency
 import java.util.Locale

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.inline.time
+package com.exteragram.messenger.inline.time
 
 import java.time.DateTimeException
 import java.time.LocalTime

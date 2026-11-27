@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.preferences
+package com.exteragram.messenger.preferences
 
 import android.content.ActivityNotFoundException
 import android.content.ComponentName
@@ -25,20 +25,20 @@ import android.view.HapticFeedbackConstants
 import android.view.View
 import android.widget.TextView
 import androidx.core.net.toUri
-import com.BloomGram.messenger.*
-import com.BloomGram.messenger.api.db.DatabaseHelper
-import com.BloomGram.messenger.api.dto.BoostySubscriberDTO
-import com.BloomGram.messenger.backup.PreferencesUtils
-import com.BloomGram.messenger.api.ApiController
-import com.BloomGram.messenger.badges.BadgesController
-import com.BloomGram.messenger.badges.DonationLauncher
-import com.BloomGram.messenger.components.BoostyBottomSheet
-import com.BloomGram.messenger.components.SupporterBottomSheet
-import com.BloomGram.messenger.components.supporter.SupportBannerCell
-import com.BloomGram.messenger.export.ui.ExportActivity
-import com.BloomGram.messenger.utils.network.RemoteUtils
-import com.BloomGram.messenger.utils.system.VibratorUtils
-import com.BloomGram.messenger.utils.addIf
+import com.exteragram.messenger.*
+import com.exteragram.messenger.api.db.DatabaseHelper
+import com.exteragram.messenger.api.dto.BoostySubscriberDTO
+import com.exteragram.messenger.backup.PreferencesUtils
+import com.exteragram.messenger.api.ApiController
+import com.exteragram.messenger.badges.BadgesController
+import com.exteragram.messenger.badges.DonationLauncher
+import com.exteragram.messenger.components.BoostyBottomSheet
+import com.exteragram.messenger.components.SupporterBottomSheet
+import com.exteragram.messenger.components.supporter.SupportBannerCell
+import com.exteragram.messenger.export.ui.ExportActivity
+import com.exteragram.messenger.utils.network.RemoteUtils
+import com.exteragram.messenger.utils.system.VibratorUtils
+import com.exteragram.messenger.utils.addIf
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.ApplicationLoader
 import org.telegram.messenger.FileLog

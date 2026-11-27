@@ -32,8 +32,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.BloomGram.messenger.camera.CameraActiveLens;
-import com.BloomGram.messenger.camera.RoundVideoCamera2Helper;
+import com.exteragram.messenger.camera.CameraActiveLens;
+import com.exteragram.messenger.camera.RoundVideoCamera2Helper;
 
 import java.io.IOException;
 import java.util.ArrayList;

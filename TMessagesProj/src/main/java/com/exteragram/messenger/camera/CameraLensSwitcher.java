@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.camera;
+package com.exteragram.messenger.camera;
 
 import android.os.Build;
 import android.os.SystemClock;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom;
+package com.exteragram.messenger.pillstack.custom;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -21,8 +21,8 @@ import android.util.SparseArray;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.backup.PreferencesUtils;
-import com.BloomGram.messenger.pillstack.core.PillRegistry;
+import com.exteragram.messenger.backup.PreferencesUtils;
+import com.exteragram.messenger.pillstack.core.PillRegistry;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

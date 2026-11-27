@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.notifications
+package com.exteragram.messenger.notifications
 
 import androidx.core.content.edit
 import org.telegram.messenger.MessagesController

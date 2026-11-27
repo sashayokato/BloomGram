@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.translator.core
+package com.exteragram.messenger.translator.core
 
 sealed class TranslationError {
 

@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.feed;
+package com.exteragram.messenger.feed;
 
-import com.BloomGram.messenger.utils.chats.DoubleTapUtils;
+import com.exteragram.messenger.utils.chats.DoubleTapUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ChatObject;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.ui;
+package com.exteragram.messenger.messageexport.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.formatString;
@@ -41,14 +41,14 @@ import androidx.annotation.NonNull;
 import androidx.collection.LongSparseArray;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.messageexport.appearance.MessageExportAppearance;
-import com.BloomGram.messenger.messageexport.model.MessageExportChatContext;
-import com.BloomGram.messenger.messageexport.model.MessageExportDocument;
-import com.BloomGram.messenger.messageexport.model.MessageExportSession;
-import com.BloomGram.messenger.messageexport.render.MessageExportListView;
-import com.BloomGram.messenger.messageexport.render.MessageExportWatermark;
-import com.BloomGram.messenger.messageexport.render.MessageExporter;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.messageexport.appearance.MessageExportAppearance;
+import com.exteragram.messenger.messageexport.model.MessageExportChatContext;
+import com.exteragram.messenger.messageexport.model.MessageExportDocument;
+import com.exteragram.messenger.messageexport.model.MessageExportSession;
+import com.exteragram.messenger.messageexport.render.MessageExportListView;
+import com.exteragram.messenger.messageexport.render.MessageExportWatermark;
+import com.exteragram.messenger.messageexport.render.MessageExporter;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

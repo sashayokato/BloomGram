@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.api.db
+package com.exteragram.messenger.api.db
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.BloomGram.messenger.api.dto.AddedRegDateDTO
+import com.exteragram.messenger.api.dto.AddedRegDateDTO
 
 @Dao
 interface AddedRegDateDao {

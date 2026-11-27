@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom.ui;
+package com.exteragram.messenger.pillstack.custom.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -44,17 +44,17 @@ import androidx.core.graphics.ColorUtils;
 import androidx.core.graphics.Insets;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.BloomGram.messenger.pillstack.custom.CustomPill;
-import com.BloomGram.messenger.pillstack.custom.CustomPillFetcher;
-import com.BloomGram.messenger.pillstack.custom.CustomPillResult;
-import com.BloomGram.messenger.pillstack.custom.CustomPillSpec;
-import com.BloomGram.messenger.pillstack.custom.CustomPillStore;
-import com.BloomGram.messenger.pillstack.custom.JsonPath;
-import com.BloomGram.messenger.pillstack.custom.PillColors;
-import com.BloomGram.messenger.pillstack.custom.PillIconBadgeView;
-import com.BloomGram.messenger.pillstack.custom.PillTemplate;
-import com.BloomGram.messenger.preferences.BasePreferencesActivity;
-import com.BloomGram.messenger.utils.ui.AddButtonDrawable;
+import com.exteragram.messenger.pillstack.custom.CustomPill;
+import com.exteragram.messenger.pillstack.custom.CustomPillFetcher;
+import com.exteragram.messenger.pillstack.custom.CustomPillResult;
+import com.exteragram.messenger.pillstack.custom.CustomPillSpec;
+import com.exteragram.messenger.pillstack.custom.CustomPillStore;
+import com.exteragram.messenger.pillstack.custom.JsonPath;
+import com.exteragram.messenger.pillstack.custom.PillColors;
+import com.exteragram.messenger.pillstack.custom.PillIconBadgeView;
+import com.exteragram.messenger.pillstack.custom.PillTemplate;
+import com.exteragram.messenger.preferences.BasePreferencesActivity;
+import com.exteragram.messenger.utils.ui.AddButtonDrawable;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

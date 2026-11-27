@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.appicons.ui.components;
+package com.exteragram.messenger.appicons.ui.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,7 +22,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.appicons.AppIcon;
+import com.exteragram.messenger.appicons.AppIcon;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

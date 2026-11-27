@@ -14,14 +14,14 @@
 
 @file:JvmName("ExteraServices")
 
-package com.BloomGram.messenger
+package com.exteragram.messenger
 
-import com.BloomGram.messenger.adblock.backend.AdBlockManager
-import com.BloomGram.messenger.api.ApiController
-import com.BloomGram.messenger.icons.IconManager
-import com.BloomGram.messenger.plugins.PluginsConstants
-import com.BloomGram.messenger.plugins.PluginsController
-import com.BloomGram.messenger.utils.network.RemoteUtils
+import com.exteragram.messenger.adblock.backend.AdBlockManager
+import com.exteragram.messenger.api.ApiController
+import com.exteragram.messenger.icons.IconManager
+import com.exteragram.messenger.plugins.PluginsConstants
+import com.exteragram.messenger.plugins.PluginsController
+import com.exteragram.messenger.utils.network.RemoteUtils
 import org.telegram.messenger.ApplicationLoader
 import java.util.concurrent.atomic.AtomicBoolean
 

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player.lyrics;
+package com.exteragram.messenger.player.lyrics;
 
 import android.text.TextUtils;
 

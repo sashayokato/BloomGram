@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.export.output;
+package com.exteragram.messenger.export.output;
 
 public final class ExportEnvironment {
 

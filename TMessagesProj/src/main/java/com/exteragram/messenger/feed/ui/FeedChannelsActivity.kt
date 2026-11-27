@@ -12,19 +12,19 @@
 
 */
 
-package com.BloomGram.messenger.feed.ui
+package com.exteragram.messenger.feed.ui
 
 import android.content.Context
 import android.text.TextUtils
 import android.view.View
 import android.widget.EditText
-import com.BloomGram.messenger.feed.FeedChannelActions
-import com.BloomGram.messenger.feed.FeedConfig
-import com.BloomGram.messenger.feed.FeedController
-import com.BloomGram.messenger.preferences.BasePreferencesActivity
-import com.BloomGram.messenger.showFeedTab
-import com.BloomGram.messenger.showFeedUnreadCounter
-import com.BloomGram.messenger.widePostsInFeed
+import com.exteragram.messenger.feed.FeedChannelActions
+import com.exteragram.messenger.feed.FeedConfig
+import com.exteragram.messenger.feed.FeedController
+import com.exteragram.messenger.preferences.BasePreferencesActivity
+import com.exteragram.messenger.showFeedTab
+import com.exteragram.messenger.showFeedUnreadCounter
+import com.exteragram.messenger.widePostsInFeed
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController.getString
 import org.telegram.messenger.NotificationCenter

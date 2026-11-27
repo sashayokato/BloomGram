@@ -52,11 +52,11 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import org.telegram.ui.recyclerview.LinearSmoothScrollerCustom;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.config.BottomNavigationBar;
-import com.BloomGram.messenger.utils.ui.FabUiHelper;
-import com.BloomGram.messenger.utils.ui.tabs.HideOnScrollTracker;
-import com.BloomGram.messenger.utils.ui.tabs.MainTabsUiHelper;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.config.BottomNavigationBar;
+import com.exteragram.messenger.utils.ui.FabUiHelper;
+import com.exteragram.messenger.utils.ui.tabs.HideOnScrollTracker;
+import com.exteragram.messenger.utils.ui.tabs.MainTabsUiHelper;
 
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;

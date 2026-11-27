@@ -14,13 +14,13 @@
 
 @file:JvmName("IconPacksLayout")
 
-package com.BloomGram.messenger.icons
+package com.exteragram.messenger.icons
 
-import com.BloomGram.messenger.GSON
-import com.BloomGram.messenger.IconPackType
-import com.BloomGram.messenger.editor
-import com.BloomGram.messenger.iconPack
-import com.BloomGram.messenger.preferences
+import com.exteragram.messenger.GSON
+import com.exteragram.messenger.IconPackType
+import com.exteragram.messenger.editor
+import com.exteragram.messenger.iconPack
+import com.exteragram.messenger.preferences
 import com.google.gson.reflect.TypeToken
 
 private val BASE_PACK_IDS = arrayOf(IconPack.ID_DEFAULT, IconPack.ID_SOLAR, IconPack.ID_REMIX)

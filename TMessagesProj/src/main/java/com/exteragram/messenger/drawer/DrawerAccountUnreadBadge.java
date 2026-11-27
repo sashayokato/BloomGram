@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.drawer;
+package com.exteragram.messenger.drawer;
 
 import android.graphics.Canvas;
 import android.graphics.RectF;

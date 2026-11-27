@@ -12,22 +12,22 @@
 
 */
 
-package com.BloomGram.messenger.ai.network;
+package com.exteragram.messenger.ai.network;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.text.TextUtils;
 
-import com.BloomGram.messenger.ai.AiConfig;
-import com.BloomGram.messenger.ai.AiController;
-import com.BloomGram.messenger.ai.data.Message;
-import com.BloomGram.messenger.ai.data.Role;
-import com.BloomGram.messenger.ai.data.Service;
-import com.BloomGram.messenger.ai.network.backend.Backend;
-import com.BloomGram.messenger.ai.network.backend.BackendRequest;
-import com.BloomGram.messenger.ai.network.backend.BackendSink;
-import com.BloomGram.messenger.ai.network.backend.OnDeviceBackend;
-import com.BloomGram.messenger.ai.network.backend.RestBackend;
+import com.exteragram.messenger.ai.AiConfig;
+import com.exteragram.messenger.ai.AiController;
+import com.exteragram.messenger.ai.data.Message;
+import com.exteragram.messenger.ai.data.Role;
+import com.exteragram.messenger.ai.data.Service;
+import com.exteragram.messenger.ai.network.backend.Backend;
+import com.exteragram.messenger.ai.network.backend.BackendRequest;
+import com.exteragram.messenger.ai.network.backend.BackendSink;
+import com.exteragram.messenger.ai.network.backend.OnDeviceBackend;
+import com.exteragram.messenger.ai.network.backend.RestBackend;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

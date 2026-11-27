@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.ui.pills.system;
+package com.exteragram.messenger.pillstack.ui.pills.system;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -33,10 +33,10 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.pillstack.core.PillStackConfig;
-import com.BloomGram.messenger.pillstack.core.PillType;
-import com.BloomGram.messenger.pillstack.ui.PillStackPreferencesActivity;
-import com.BloomGram.messenger.pillstack.ui.pills.BasePill;
+import com.exteragram.messenger.pillstack.core.PillStackConfig;
+import com.exteragram.messenger.pillstack.core.PillType;
+import com.exteragram.messenger.pillstack.ui.PillStackPreferencesActivity;
+import com.exteragram.messenger.pillstack.ui.pills.BasePill;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ImageLoader;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom;
+package com.exteragram.messenger.pillstack.custom;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -22,8 +22,8 @@ import android.text.TextUtils;
 import androidx.annotation.Nullable;
 import androidx.collection.LongSparseArray;
 
-import com.BloomGram.messenger.pillstack.custom.ui.PillImportSheet;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.pillstack.custom.ui.PillImportSheet;
+import com.exteragram.messenger.utils.chats.ChatUtils;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonParser;
 

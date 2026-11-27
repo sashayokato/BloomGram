@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.adblock.data;
+package com.exteragram.messenger.adblock.data;
 
 public class BlockResult {
     private final boolean matched;

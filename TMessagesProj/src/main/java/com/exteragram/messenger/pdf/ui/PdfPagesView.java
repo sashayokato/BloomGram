@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pdf.ui;
+package com.exteragram.messenger.pdf.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -47,7 +47,7 @@ import android.widget.OverScroller;
 import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.pdf.PdfDocumentRenderer;
+import com.exteragram.messenger.pdf.PdfDocumentRenderer;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

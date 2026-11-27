@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.nowplaying
+package com.exteragram.messenger.nowplaying
 
 enum class ServiceEmoji(val documentId: Long) {
     MUSIC(5271627010681108586L),

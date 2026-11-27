@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.ui.pills.crypto.utils;
+package com.exteragram.messenger.pillstack.ui.pills.crypto.utils;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 

@@ -14,13 +14,13 @@ import android.view.inputmethod.InputMethodSubtype;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.ai.AiController;
-import com.BloomGram.messenger.ai.TelegramAiReplacement;
-import com.BloomGram.messenger.translator.ChatTranslationBridge;
-import com.BloomGram.messenger.translator.ChatTranslator;
-import com.BloomGram.messenger.translator.providers.TelegramTranslator;
-import com.BloomGram.messenger.translator.TranslationProviders;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.ai.AiController;
+import com.exteragram.messenger.ai.TelegramAiReplacement;
+import com.exteragram.messenger.translator.ChatTranslationBridge;
+import com.exteragram.messenger.translator.ChatTranslator;
+import com.exteragram.messenger.translator.providers.TelegramTranslator;
+import com.exteragram.messenger.translator.TranslationProviders;
 
 //import com.google.mlkit.common.model.RemoteModelManager;
 //import com.google.mlkit.common.sdkinternal.MlKitContext;
@@ -47,7 +47,7 @@ import org.telegram.ui.LaunchActivity;
 import org.telegram.ui.PremiumPreviewFragment;
 import org.telegram.ui.RestrictedLanguagesSelectActivity;
 
-import com.BloomGram.messenger.translator.TranslatorUtils;
+import com.exteragram.messenger.translator.TranslatorUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

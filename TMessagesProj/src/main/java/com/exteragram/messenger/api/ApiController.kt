@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.api
+package com.exteragram.messenger.api
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
@@ -22,16 +22,16 @@ import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
-import com.BloomGram.messenger.preferences
-import com.BloomGram.messenger.api.db.DatabaseHelper
-import com.BloomGram.messenger.api.db.ExteraDatabase
-import com.BloomGram.messenger.api.dto.ProfileDTO
-import com.BloomGram.messenger.api.model.ProfileStatus
-import com.BloomGram.messenger.api.model.ProfileType
-import com.BloomGram.messenger.api.network.ApiClient
-import com.BloomGram.messenger.api.worker.SyncWorker
-import com.BloomGram.messenger.badges.BadgesController
-import com.BloomGram.messenger.utils.backgroundScope
+import com.exteragram.messenger.preferences
+import com.exteragram.messenger.api.db.DatabaseHelper
+import com.exteragram.messenger.api.db.ExteraDatabase
+import com.exteragram.messenger.api.dto.ProfileDTO
+import com.exteragram.messenger.api.model.ProfileStatus
+import com.exteragram.messenger.api.model.ProfileType
+import com.exteragram.messenger.api.network.ApiClient
+import com.exteragram.messenger.api.worker.SyncWorker
+import com.exteragram.messenger.badges.BadgesController
+import com.exteragram.messenger.utils.backgroundScope
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

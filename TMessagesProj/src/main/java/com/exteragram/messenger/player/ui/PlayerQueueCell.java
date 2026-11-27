@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player.ui;
+package com.exteragram.messenger.player.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.dpf2;
@@ -46,10 +46,10 @@ import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 import androidx.dynamicanimation.animation.SpringAnimation;
 
-import com.BloomGram.messenger.player.PlayerActions;
-import com.BloomGram.messenger.player.PlayerColors;
-import com.BloomGram.messenger.player.PlayerCovers;
-import com.BloomGram.messenger.utils.ui.material.Material3Tokens;
+import com.exteragram.messenger.player.PlayerActions;
+import com.exteragram.messenger.player.PlayerColors;
+import com.exteragram.messenger.player.PlayerCovers;
+import com.exteragram.messenger.utils.ui.material.Material3Tokens;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.DialogObject;

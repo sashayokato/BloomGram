@@ -12,24 +12,24 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.core;
+package com.exteragram.messenger.pillstack.core;
 
-import static com.BloomGram.messenger.pillstack.core.PillStackConfig.getActivePills;
-import static com.BloomGram.messenger.pillstack.core.PillStackConfig.getConfigLoaded;
-import static com.BloomGram.messenger.pillstack.core.PillStackConfig.getHiddenPills;
+import static com.exteragram.messenger.pillstack.core.PillStackConfig.getActivePills;
+import static com.exteragram.messenger.pillstack.core.PillStackConfig.getConfigLoaded;
+import static com.exteragram.messenger.pillstack.core.PillStackConfig.getHiddenPills;
 
 import android.content.Context;
 
 import androidx.annotation.Keep;
 
-import com.BloomGram.messenger.pillstack.custom.CustomPillStore;
-import com.BloomGram.messenger.pillstack.ui.pills.BasePill;
-import com.BloomGram.messenger.pillstack.ui.pills.crypto.BtcPill;
-import com.BloomGram.messenger.pillstack.ui.pills.crypto.GramPill;
-import com.BloomGram.messenger.pillstack.ui.pills.crypto.UsdPill;
-import com.BloomGram.messenger.pillstack.ui.pills.system.CachePill;
-import com.BloomGram.messenger.pillstack.ui.pills.system.ProxyPill;
-import com.BloomGram.messenger.pillstack.ui.pills.weather.WeatherPill;
+import com.exteragram.messenger.pillstack.custom.CustomPillStore;
+import com.exteragram.messenger.pillstack.ui.pills.BasePill;
+import com.exteragram.messenger.pillstack.ui.pills.crypto.BtcPill;
+import com.exteragram.messenger.pillstack.ui.pills.crypto.GramPill;
+import com.exteragram.messenger.pillstack.ui.pills.crypto.UsdPill;
+import com.exteragram.messenger.pillstack.ui.pills.system.CachePill;
+import com.exteragram.messenger.pillstack.ui.pills.system.ProxyPill;
+import com.exteragram.messenger.pillstack.ui.pills.weather.WeatherPill;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.NotificationCenter;

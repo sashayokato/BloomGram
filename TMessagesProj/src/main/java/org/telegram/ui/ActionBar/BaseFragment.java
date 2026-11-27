@@ -77,10 +77,10 @@ import org.telegram.ui.bots.BotWebViewAttachedSheet;
 import org.telegram.utils.glass.BaseFragmentSimpleGlass;
 import org.telegram.utils.glass.GlassEngine;
 
-import com.BloomGram.messenger.icons.IconManager;
-import com.BloomGram.messenger.icons.ui.picker.IconObserver;
-import com.BloomGram.messenger.player.MusicPlayerSheet;
-import com.BloomGram.messenger.utils.ui.predictiveback.PredictiveBackHandler;
+import com.exteragram.messenger.icons.IconManager;
+import com.exteragram.messenger.icons.ui.picker.IconObserver;
+import com.exteragram.messenger.player.MusicPlayerSheet;
+import com.exteragram.messenger.utils.ui.predictiveback.PredictiveBackHandler;
 
 import java.util.ArrayList;
 import java.util.HashSet;

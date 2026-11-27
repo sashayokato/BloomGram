@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.badges;
+package com.exteragram.messenger.badges;
 
 import android.content.SharedPreferences;
 
-import com.BloomGram.messenger.utils.network.RemoteUtils;
+import com.exteragram.messenger.utils.network.RemoteUtils;
 
 import org.telegram.messenger.FileLog;
 

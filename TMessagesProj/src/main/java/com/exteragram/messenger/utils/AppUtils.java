@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils;
+package com.exteragram.messenger.utils;
 
 import android.annotation.SuppressLint;
 import android.content.pm.PackageInfo;
@@ -25,7 +25,7 @@ import androidx.annotation.Keep;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.pm.PackageInfoCompat;
 
-import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.exteragram.messenger.utils.text.LocaleUtils;
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
 import com.google.gson.Gson;
@@ -48,7 +48,7 @@ public class AppUtils {
 
     // do not change or remove this part of the code if you're making public fork
     private static final String EXPECTED_SIGNATURE = "VdBS+IkXbbu+mQuHS4vyXw==";
-    private static final String EXPECTED_PACKAGE_NAME = "com.BloomGram.messenger";
+    private static final String EXPECTED_PACKAGE_NAME = "com.exteragram.messenger";
 
     private static Gson gson;
 

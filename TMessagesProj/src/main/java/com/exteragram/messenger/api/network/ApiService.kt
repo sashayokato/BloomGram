@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.api.network
+package com.exteragram.messenger.api.network
 
-import com.BloomGram.messenger.api.dto.BoostySubscriberDTO
-import com.BloomGram.messenger.api.dto.NowPlayingDTO
-import com.BloomGram.messenger.api.dto.ProfileDTO
+import com.exteragram.messenger.api.dto.BoostySubscriberDTO
+import com.exteragram.messenger.api.dto.NowPlayingDTO
+import com.exteragram.messenger.api.dto.ProfileDTO
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Header

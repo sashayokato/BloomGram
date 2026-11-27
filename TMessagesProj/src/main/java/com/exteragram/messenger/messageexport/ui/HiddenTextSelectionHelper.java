@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.ui;
+package com.exteragram.messenger.messageexport.ui;
 
 import static org.telegram.messenger.LocaleController.getString;
 
@@ -20,7 +20,7 @@ import android.text.Layout;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
 
-import com.BloomGram.messenger.messageexport.model.MessageExportSession;
+import com.exteragram.messenger.messageexport.model.MessageExportSession;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.MessageObject;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.camera;
+package com.exteragram.messenger.camera;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.ui.ActionBar.Theme.multAlpha;

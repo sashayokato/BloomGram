@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components.supporter;
+package com.exteragram.messenger.components.supporter;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.getString;
@@ -32,8 +32,8 @@ import android.widget.TextView;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.badges.BadgesController;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.badges.BadgesController;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

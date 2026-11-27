@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.utils.chats;
+package com.exteragram.messenger.utils.chats;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.feed.FeedMessageUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.feed.FeedMessageUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ChatObject;

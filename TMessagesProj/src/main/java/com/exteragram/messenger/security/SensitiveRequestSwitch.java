@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.security;
+package com.exteragram.messenger.security;
 
 import static org.telegram.messenger.LocaleController.getString;
 
@@ -30,8 +30,8 @@ import androidx.core.app.NotificationChannelCompat;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.BloomGram.messenger.icons.IconManager;
-import com.BloomGram.messenger.utils.AppUtils;
+import com.exteragram.messenger.icons.IconManager;
+import com.exteragram.messenger.utils.AppUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

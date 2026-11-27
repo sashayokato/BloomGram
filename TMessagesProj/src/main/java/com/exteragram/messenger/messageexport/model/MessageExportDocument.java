@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.model;
+package com.exteragram.messenger.messageexport.model;
 
 import android.util.SparseArray;
 
 import androidx.collection.LongSparseArray;
 
-import com.BloomGram.messenger.feed.FeedMessageUtils;
-import com.BloomGram.messenger.utils.chats.WidePosts;
+import com.exteragram.messenger.feed.FeedMessageUtils;
+import com.exteragram.messenger.utils.chats.WidePosts;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.DialogObject;

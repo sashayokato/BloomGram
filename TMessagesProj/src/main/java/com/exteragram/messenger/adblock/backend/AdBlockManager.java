@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.adblock.backend;
+package com.exteragram.messenger.adblock.backend;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.adblock.interop.AdBlock;
-import com.BloomGram.messenger.adblock.interop.NativeAdBlock;
-import com.BloomGram.messenger.utils.network.RemoteUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.adblock.interop.AdBlock;
+import com.exteragram.messenger.adblock.interop.NativeAdBlock;
+import com.exteragram.messenger.utils.network.RemoteUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.DispatchQueue;

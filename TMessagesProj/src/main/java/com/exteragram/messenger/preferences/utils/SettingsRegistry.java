@@ -12,26 +12,26 @@
 
 */
 
-package com.BloomGram.messenger.preferences.utils;
+package com.exteragram.messenger.preferences.utils;
 
 import android.text.TextUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.ai.ui.activities.AiPreferencesActivity;
-import com.BloomGram.messenger.feed.ui.FeedChannelsActivity;
-import com.BloomGram.messenger.plugins.PluginsController;
-import com.BloomGram.messenger.plugins.ui.PluginsInfoActivity;
-import com.BloomGram.messenger.pillstack.ui.PillStackPreferencesActivity;
-import com.BloomGram.messenger.preferences.BasePreferencesActivity;
-import com.BloomGram.messenger.preferences.GeneralPreferencesActivity;
-import com.BloomGram.messenger.preferences.MainPreferencesActivity;
-import com.BloomGram.messenger.preferences.OtherPreferencesActivity;
-import com.BloomGram.messenger.preferences.appearance.AppearancePreferencesActivity;
-import com.BloomGram.messenger.preferences.appearance.AppNavigationPreferencesActivity;
-import com.BloomGram.messenger.preferences.chats.ChatsPreferencesActivity;
-import com.BloomGram.messenger.preferences.chats.InlineResultsPreferencesActivity;
-import com.BloomGram.messenger.preferences.chats.SwipeActionsPreferencesActivity;
-import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.ai.ui.activities.AiPreferencesActivity;
+import com.exteragram.messenger.feed.ui.FeedChannelsActivity;
+import com.exteragram.messenger.plugins.PluginsController;
+import com.exteragram.messenger.plugins.ui.PluginsInfoActivity;
+import com.exteragram.messenger.pillstack.ui.PillStackPreferencesActivity;
+import com.exteragram.messenger.preferences.BasePreferencesActivity;
+import com.exteragram.messenger.preferences.GeneralPreferencesActivity;
+import com.exteragram.messenger.preferences.MainPreferencesActivity;
+import com.exteragram.messenger.preferences.OtherPreferencesActivity;
+import com.exteragram.messenger.preferences.appearance.AppearancePreferencesActivity;
+import com.exteragram.messenger.preferences.appearance.AppNavigationPreferencesActivity;
+import com.exteragram.messenger.preferences.chats.ChatsPreferencesActivity;
+import com.exteragram.messenger.preferences.chats.InlineResultsPreferencesActivity;
+import com.exteragram.messenger.preferences.chats.SwipeActionsPreferencesActivity;
+import com.exteragram.messenger.utils.text.LocaleUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player;
+package com.exteragram.messenger.player;
 
 import static org.telegram.messenger.LocaleController.formatString;
 import static org.telegram.messenger.LocaleController.getString;
@@ -28,7 +28,7 @@ import android.widget.FrameLayout;
 
 import androidx.core.content.FileProvider;
 
-import com.BloomGram.messenger.utils.chats.ForwardContext;
+import com.exteragram.messenger.utils.chats.ForwardContext;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

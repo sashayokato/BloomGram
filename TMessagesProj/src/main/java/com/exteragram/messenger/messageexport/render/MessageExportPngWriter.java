@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.render;
+package com.exteragram.messenger.messageexport.render;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

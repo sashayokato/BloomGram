@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.export.ui;
+package com.exteragram.messenger.export.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.dpf2;
@@ -37,10 +37,10 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.export.ExportController;
-import com.BloomGram.messenger.export.ExportState;
-import com.BloomGram.messenger.player.ui.ExpressiveStateDrawable;
-import com.BloomGram.messenger.utils.ui.material.ColorTones;
+import com.exteragram.messenger.export.ExportController;
+import com.exteragram.messenger.export.ExportState;
+import com.exteragram.messenger.player.ui.ExpressiveStateDrawable;
+import com.exteragram.messenger.utils.ui.material.ColorTones;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.Emoji;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui.material;
+package com.exteragram.messenger.utils.ui.material;
 
 import androidx.dynamicanimation.animation.FloatValueHolder;
 import androidx.dynamicanimation.animation.SpringAnimation;

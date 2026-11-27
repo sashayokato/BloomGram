@@ -38,8 +38,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.ui.material.MaterialSliderUiHelper;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.ui.material.MaterialSliderUiHelper;
 import com.google.android.material.slider.Slider;
 
 import org.telegram.messenger.AndroidUtilities;

@@ -12,18 +12,18 @@
 
 */
 
-package com.BloomGram.messenger.ai.network.backend;
+package com.exteragram.messenger.ai.network.backend;
 
-import static com.BloomGram.messenger.translator.TranslatorUtils.formatUserAgent;
+import static com.exteragram.messenger.translator.TranslatorUtils.formatUserAgent;
 
 import android.text.TextUtils;
 import android.util.Base64;
 
-import com.BloomGram.messenger.ai.data.Message;
-import com.BloomGram.messenger.ai.data.Role;
-import com.BloomGram.messenger.ai.data.Service;
-import com.BloomGram.messenger.ai.network.ProxyDns;
-import com.BloomGram.messenger.utils.network.ExteraHttpClient;
+import com.exteragram.messenger.ai.data.Message;
+import com.exteragram.messenger.ai.data.Role;
+import com.exteragram.messenger.ai.data.Service;
+import com.exteragram.messenger.ai.network.ProxyDns;
+import com.exteragram.messenger.utils.network.ExteraHttpClient;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

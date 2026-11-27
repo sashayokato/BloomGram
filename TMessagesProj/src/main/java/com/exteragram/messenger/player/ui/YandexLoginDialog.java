@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player.ui;
+package com.exteragram.messenger.player.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.getString;
@@ -27,7 +27,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.BloomGram.messenger.player.motion.YandexCanvasRepository;
+import com.exteragram.messenger.player.motion.YandexCanvasRepository;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

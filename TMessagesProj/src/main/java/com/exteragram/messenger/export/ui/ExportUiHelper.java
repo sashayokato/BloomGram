@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.export.ui;
+package com.exteragram.messenger.export.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -23,8 +23,8 @@ import android.provider.DocumentsContract;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.BloomGram.messenger.export.ExportController;
-import com.BloomGram.messenger.export.ExportState;
+import com.exteragram.messenger.export.ExportController;
+import com.exteragram.messenger.export.ExportState;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ChatObject;
@@ -47,7 +47,7 @@ public final class ExportUiHelper {
     private static final String EXTERNAL_STORAGE_AUTHORITY = "com.android.externalstorage.documents";
     private static final String DOWNLOADS_AUTHORITY = "com.android.providers.downloads.documents";
 
-    public static final String ACTION_SHOW = "com.BloomGram.messenger.export.SHOW";
+    public static final String ACTION_SHOW = "com.exteragram.messenger.export.SHOW";
 
     private ExportUiHelper() {
     }

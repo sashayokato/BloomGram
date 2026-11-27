@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components.supporter;
+package com.exteragram.messenger.components.supporter;
 
 import android.graphics.drawable.Drawable;
 import android.view.View;

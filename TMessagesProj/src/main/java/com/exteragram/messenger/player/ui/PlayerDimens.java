@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player.ui;
+package com.exteragram.messenger.player.ui;
 
 public final class PlayerDimens {
 

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.nowplaying.ui.components
+package com.exteragram.messenger.nowplaying.ui.components
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -31,11 +31,11 @@ import android.widget.LinearLayout
 import androidx.core.graphics.drawable.toDrawable
 import androidx.core.net.toUri
 import androidx.core.view.isVisible
-import com.BloomGram.messenger.badges.BadgesController
-import com.BloomGram.messenger.components.SupporterBottomSheet
-import com.BloomGram.messenger.getSectionRadiusDp
-import com.BloomGram.messenger.nowplaying.ServiceEmoji
-import com.BloomGram.messenger.utils.ui.UIUtil
+import com.exteragram.messenger.badges.BadgesController
+import com.exteragram.messenger.components.SupporterBottomSheet
+import com.exteragram.messenger.getSectionRadiusDp
+import com.exteragram.messenger.nowplaying.ServiceEmoji
+import com.exteragram.messenger.utils.ui.UIUtil
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.common.MediaItem

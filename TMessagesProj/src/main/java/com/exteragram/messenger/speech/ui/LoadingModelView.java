@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.speech.ui;
+package com.exteragram.messenger.speech.ui;
 
 import android.content.Context;
 import android.graphics.Canvas;

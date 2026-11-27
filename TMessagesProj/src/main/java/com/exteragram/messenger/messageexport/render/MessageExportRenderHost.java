@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.render;
+package com.exteragram.messenger.messageexport.render;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -24,8 +24,8 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.messageexport.model.MessageExportDocument;
-import com.BloomGram.messenger.messageexport.model.MessageExportSession;
+import com.exteragram.messenger.messageexport.model.MessageExportDocument;
+import com.exteragram.messenger.messageexport.model.MessageExportSession;
 
 import java.util.ArrayList;
 import java.util.Collections;

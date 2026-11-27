@@ -12,15 +12,15 @@
 
 */
 
-package com.BloomGram.messenger.utils.folders
+package com.exteragram.messenger.utils.folders
 
 import android.graphics.PorterDuff
 import android.graphics.PorterDuffColorFilter
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
 import androidx.core.util.Pair
-import com.BloomGram.messenger.TabIconsMode
-import com.BloomGram.messenger.icons.IconManager
+import com.exteragram.messenger.TabIconsMode
+import com.exteragram.messenger.icons.IconManager
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.ApplicationLoader
 import org.telegram.messenger.LocaleController.getString

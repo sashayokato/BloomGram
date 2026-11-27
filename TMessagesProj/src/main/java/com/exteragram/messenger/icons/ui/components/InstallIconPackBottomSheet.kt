@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.icons.ui.components
+package com.exteragram.messenger.icons.ui.components
 
 import android.content.Context
 import android.text.Spannable
@@ -24,11 +24,11 @@ import android.view.Gravity
 import android.view.View
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.BloomGram.messenger.components.CheckBoxRow
-import com.BloomGram.messenger.icons.iconPacksLayout
-import com.BloomGram.messenger.icons.IconManager
-import com.BloomGram.messenger.icons.IconPack
-import com.BloomGram.messenger.utils.text.LocaleUtils
+import com.exteragram.messenger.components.CheckBoxRow
+import com.exteragram.messenger.icons.iconPacksLayout
+import com.exteragram.messenger.icons.IconManager
+import com.exteragram.messenger.icons.IconPack
+import com.exteragram.messenger.utils.text.LocaleUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.R

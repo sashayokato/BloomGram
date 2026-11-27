@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.badges.source
+package com.exteragram.messenger.badges.source
 
-import com.BloomGram.messenger.api.dto.BadgeDTO
+import com.exteragram.messenger.api.dto.BadgeDTO
 
 interface BadgeSource {
     fun getBadge(id: Long, isUser: Boolean): BadgeDTO?

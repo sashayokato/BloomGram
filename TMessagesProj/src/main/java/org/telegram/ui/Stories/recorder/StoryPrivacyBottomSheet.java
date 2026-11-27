@@ -55,8 +55,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import org.telegram.ui.recyclerview.LinearSmoothScrollerCustom;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.system.VibratorUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.system.VibratorUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ChatObject;

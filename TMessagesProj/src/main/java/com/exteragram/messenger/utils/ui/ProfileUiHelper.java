@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui;
+package com.exteragram.messenger.utils.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.dpf2;
@@ -29,8 +29,8 @@ import androidx.dynamicanimation.animation.SpringForce;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.ui.material.Material3Tokens;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.ui.material.Material3Tokens;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.Utilities;

@@ -30,8 +30,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.BloomGram.messenger.utils.text.ZalgoFilter;
-import com.BloomGram.messenger.utils.ui.FontUtils;
+import com.exteragram.messenger.utils.text.ZalgoFilter;
+import com.exteragram.messenger.utils.ui.FontUtils;
 
 import org.telegram.tgnet.TLRPC;
 import org.telegram.ui.Components.AnimatedEmojiDrawable;

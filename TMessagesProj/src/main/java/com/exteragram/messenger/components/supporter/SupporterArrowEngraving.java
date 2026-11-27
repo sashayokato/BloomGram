@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components.supporter;
+package com.exteragram.messenger.components.supporter;
 
 import android.graphics.Bitmap;
 import android.graphics.BlurMaskFilter;

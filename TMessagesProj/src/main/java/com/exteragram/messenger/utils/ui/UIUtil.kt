@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui
+package com.exteragram.messenger.utils.ui
 
 import android.graphics.Bitmap
 import android.graphics.Canvas
@@ -23,7 +23,7 @@ import android.view.View
 import androidx.annotation.ColorInt
 import androidx.core.graphics.ColorUtils
 import androidx.core.graphics.createBitmap
-import com.BloomGram.messenger.squareFab
+import com.exteragram.messenger.squareFab
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.ui.ActionBar.Theme
 import org.telegram.ui.Cells.BaseCell

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.render;
+package com.exteragram.messenger.messageexport.render;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -25,7 +25,7 @@ import android.graphics.drawable.Drawable;
 
 import androidx.core.content.ContextCompat;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.security;
+package com.exteragram.messenger.security;
 
 import static org.telegram.messenger.LocaleController.getString;
 

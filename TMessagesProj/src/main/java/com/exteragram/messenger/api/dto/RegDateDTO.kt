@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.api.dto
+package com.exteragram.messenger.api.dto
 
-import com.BloomGram.messenger.api.model.RegDateFlag
+import com.exteragram.messenger.api.model.RegDateFlag
 
 data class RegDateDTO(
     val timestamp: Long,

@@ -21,8 +21,8 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.badges.BadgesController;
-import com.BloomGram.messenger.regdate.RegDateController;
+import com.exteragram.messenger.badges.BadgesController;
+import com.exteragram.messenger.regdate.RegDateController;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ContactsController;

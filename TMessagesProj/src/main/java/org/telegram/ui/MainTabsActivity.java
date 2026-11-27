@@ -32,17 +32,17 @@ import androidx.core.graphics.Insets;
 import androidx.core.math.MathUtils;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.config.BottomNavigationBar;
-import com.BloomGram.messenger.feed.FeedController;
-import com.BloomGram.messenger.feed.ui.FeedActivity;
-import com.BloomGram.messenger.feed.ui.FeedChannelsActivity;
-import com.BloomGram.messenger.drawer.MainMenuItem;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
-import com.BloomGram.messenger.drawer.MainMenuHelper;
-import com.BloomGram.messenger.utils.ui.AccountsUiHelper;
-import com.BloomGram.messenger.utils.ui.tabs.MainTabsUiHelper;
-import com.BloomGram.messenger.utils.ui.tabs.TabsVisibilityAnimator;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.config.BottomNavigationBar;
+import com.exteragram.messenger.feed.FeedController;
+import com.exteragram.messenger.feed.ui.FeedActivity;
+import com.exteragram.messenger.feed.ui.FeedChannelsActivity;
+import com.exteragram.messenger.drawer.MainMenuItem;
+import com.exteragram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.drawer.MainMenuHelper;
+import com.exteragram.messenger.utils.ui.AccountsUiHelper;
+import com.exteragram.messenger.utils.ui.tabs.MainTabsUiHelper;
+import com.exteragram.messenger.utils.ui.tabs.TabsVisibilityAnimator;
 
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;

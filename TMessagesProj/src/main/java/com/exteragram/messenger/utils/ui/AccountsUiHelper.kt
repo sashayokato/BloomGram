@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui
+package com.exteragram.messenger.utils.ui
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -26,8 +26,8 @@ import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.BloomGram.messenger.getAvatarCorners
-import com.BloomGram.messenger.utils.ui.tabs.MainTabsUiHelper
+import com.exteragram.messenger.getAvatarCorners
+import com.exteragram.messenger.utils.ui.tabs.MainTabsUiHelper
 import org.telegram.messenger.AndroidUtilities.dp
 import org.telegram.messenger.Emoji
 import org.telegram.messenger.LocaleController.getString

@@ -12,17 +12,17 @@
 
 */
 
-package com.BloomGram.messenger.export.output.json;
+package com.exteragram.messenger.export.output.json;
 
-import com.BloomGram.messenger.export.ExportFormat;
-import com.BloomGram.messenger.export.ExportSettings;
-import com.BloomGram.messenger.export.api.ExportData;
-import com.BloomGram.messenger.export.api.ExportParser;
-import com.BloomGram.messenger.export.output.AbstractWriter;
-import com.BloomGram.messenger.export.output.ExportEnvironment;
-import com.BloomGram.messenger.export.output.ExportFiles;
-import com.BloomGram.messenger.export.output.OutputFile;
-import com.BloomGram.messenger.export.output.Result;
+import com.exteragram.messenger.export.ExportFormat;
+import com.exteragram.messenger.export.ExportSettings;
+import com.exteragram.messenger.export.api.ExportData;
+import com.exteragram.messenger.export.api.ExportParser;
+import com.exteragram.messenger.export.output.AbstractWriter;
+import com.exteragram.messenger.export.output.ExportEnvironment;
+import com.exteragram.messenger.export.output.ExportFiles;
+import com.exteragram.messenger.export.output.OutputFile;
+import com.exteragram.messenger.export.output.Result;
 
 import org.json.JSONArray;
 import org.json.JSONException;

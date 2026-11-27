@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.ai.network.backend;
+package com.exteragram.messenger.ai.network.backend;
 
 import android.os.Build;
 import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ai.AiConfig;
+import com.exteragram.messenger.ai.AiConfig;
 import com.google.mlkit.genai.common.DownloadCallback;
 import com.google.mlkit.genai.common.FeatureStatus;
 import com.google.mlkit.genai.common.GenAiException;

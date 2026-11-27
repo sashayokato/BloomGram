@@ -44,9 +44,9 @@ import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Cells.GroupCreateUserCell;
 
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.folders.FolderRoles;
-import com.BloomGram.messenger.utils.folders.FolderUiHelper;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.folders.FolderRoles;
+import com.exteragram.messenger.utils.folders.FolderUiHelper;
 
 public class GroupCreateSpan extends View implements Theme.Colorable {
 

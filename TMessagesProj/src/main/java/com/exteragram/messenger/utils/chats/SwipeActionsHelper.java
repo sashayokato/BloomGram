@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.chats;
+package com.exteragram.messenger.utils.chats;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.dpf2;
@@ -41,8 +41,8 @@ import androidx.dynamicanimation.animation.FloatValueHolder;
 import androidx.dynamicanimation.animation.SpringAnimation;
 import androidx.dynamicanimation.animation.SpringForce;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.ui.GlyphBounds;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.ui.GlyphBounds;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.DocumentObject;

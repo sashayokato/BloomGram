@@ -76,8 +76,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import org.telegram.ui.recyclerview.LinearSmoothScrollerCustom;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.utils.ui.ChatHeaderUiHelper;
-import com.BloomGram.messenger.utils.chats.WidePosts;
+import com.exteragram.messenger.utils.ui.ChatHeaderUiHelper;
+import com.exteragram.messenger.utils.chats.WidePosts;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.AnimationNotificationsLocker;
 import org.telegram.messenger.ApplicationLoader;

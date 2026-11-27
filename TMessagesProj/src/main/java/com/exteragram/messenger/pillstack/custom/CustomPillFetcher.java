@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom;
+package com.exteragram.messenger.pillstack.custom;
 
 import android.location.Location;
 import android.net.Uri;
@@ -23,8 +23,8 @@ import android.util.SparseArray;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.pillstack.ui.pills.crypto.utils.PillStackCurrencies;
-import com.BloomGram.messenger.utils.network.ExteraHttpClient;
+import com.exteragram.messenger.pillstack.ui.pills.crypto.utils.PillStackCurrencies;
+import com.exteragram.messenger.utils.network.ExteraHttpClient;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 

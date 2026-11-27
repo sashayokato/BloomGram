@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.inline.math
+package com.exteragram.messenger.inline.math
 
 import kotlin.math.abs
 import kotlin.math.acos

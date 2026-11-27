@@ -32,7 +32,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.media3.exoplayer.ExoPlayer;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.json.JSONObject;
 import org.telegram.messenger.AndroidUtilities;

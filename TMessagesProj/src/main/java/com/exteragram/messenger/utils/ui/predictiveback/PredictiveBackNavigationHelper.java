@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui.predictiveback;
+package com.exteragram.messenger.utils.ui.predictiveback;
 
 import android.view.View;
 import android.view.ViewTreeObserver;
@@ -21,7 +21,7 @@ import android.window.OnBackInvokedDispatcher;
 
 import androidx.annotation.RequiresApi;
 
-import com.BloomGram.messenger.plugins.PluginsController;
+import com.exteragram.messenger.plugins.PluginsController;
 
 import org.telegram.ui.ActionBar.ActionBarLayout;
 import org.telegram.ui.ActionBar.BaseFragment;

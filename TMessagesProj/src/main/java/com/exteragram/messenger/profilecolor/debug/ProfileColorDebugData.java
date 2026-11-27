@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.profilecolor.debug;
+package com.exteragram.messenger.profilecolor.debug;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

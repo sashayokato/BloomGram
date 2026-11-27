@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.system;
+package com.exteragram.messenger.utils.system;
 
 import android.os.Build;
 import android.os.VibrationEffect;
@@ -20,7 +20,7 @@ import android.os.Vibrator;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.FileLog;

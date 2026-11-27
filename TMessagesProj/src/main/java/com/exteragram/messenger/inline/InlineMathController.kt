@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.inline
+package com.exteragram.messenger.inline
 
 import android.graphics.Canvas
 import android.graphics.Region
@@ -29,12 +29,12 @@ import android.view.inputmethod.InputConnectionWrapper
 import android.widget.TextView
 import androidx.core.graphics.withClip
 
-import com.BloomGram.messenger.inline.math.MathExpression
-import com.BloomGram.messenger.inline.math.MathOptions
-import com.BloomGram.messenger.inline.math.MathSuggestion
-import com.BloomGram.messenger.inline.ui.GhostTextLayout
-import com.BloomGram.messenger.inline.ui.MathRevealAnimation
-import com.BloomGram.messenger.inlineTimeZones
+import com.exteragram.messenger.inline.math.MathExpression
+import com.exteragram.messenger.inline.math.MathOptions
+import com.exteragram.messenger.inline.math.MathSuggestion
+import com.exteragram.messenger.inline.ui.GhostTextLayout
+import com.exteragram.messenger.inline.ui.MathRevealAnimation
+import com.exteragram.messenger.inlineTimeZones
 
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.FileLog

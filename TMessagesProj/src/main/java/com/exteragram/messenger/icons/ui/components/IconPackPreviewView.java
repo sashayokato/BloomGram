@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.icons.ui.components;
+package com.exteragram.messenger.icons.ui.components;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -28,9 +28,9 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.core.content.res.ResourcesCompat;
 
-import com.BloomGram.messenger.icons.ExteraResources;
-import com.BloomGram.messenger.icons.IconManager;
-import com.BloomGram.messenger.icons.IconPack;
+import com.exteragram.messenger.icons.ExteraResources;
+import com.exteragram.messenger.icons.IconManager;
+import com.exteragram.messenger.icons.IconPack;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.R;

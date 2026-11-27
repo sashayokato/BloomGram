@@ -12,17 +12,17 @@
 
 */
 
-package com.BloomGram.messenger.preferences.chats
+package com.exteragram.messenger.preferences.chats
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.view.View
 import androidx.core.content.ContextCompat
-import com.BloomGram.messenger.preferences.BasePreferencesActivity
-import com.BloomGram.messenger.swipeActionsLoop
-import com.BloomGram.messenger.swipeActionsReversed
-import com.BloomGram.messenger.preferences.chats.components.SwipeActionsCell
-import com.BloomGram.messenger.utils.chats.SwipeAction
+import com.exteragram.messenger.preferences.BasePreferencesActivity
+import com.exteragram.messenger.swipeActionsLoop
+import com.exteragram.messenger.swipeActionsReversed
+import com.exteragram.messenger.preferences.chats.components.SwipeActionsCell
+import com.exteragram.messenger.utils.chats.SwipeAction
 import org.telegram.messenger.LocaleController.getString
 import org.telegram.messenger.R
 import org.telegram.ui.Components.UItem

@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.player.lyrics;
+package com.exteragram.messenger.player.lyrics;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import java.util.ArrayList;
 import java.util.Set;

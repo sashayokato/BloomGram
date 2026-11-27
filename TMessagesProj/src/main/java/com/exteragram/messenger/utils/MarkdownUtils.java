@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.utils;
+package com.exteragram.messenger.utils;
 
 import android.text.SpannableString;
 import android.text.TextUtils;
 
-import com.BloomGram.messenger.components.PreformattedScrollView;
+import com.exteragram.messenger.components.PreformattedScrollView;
 
 import org.telegram.utils.code.highlight.CodeHighlighting;
 import org.telegram.messenger.FileLoader;

@@ -12,21 +12,21 @@
 
 */
 
-package com.BloomGram.messenger.badges
+package com.exteragram.messenger.badges
 
 import android.widget.FrameLayout
-import com.BloomGram.messenger.api.ApiController
-import com.BloomGram.messenger.api.db.ExteraDatabase
-import com.BloomGram.messenger.api.dto.BadgeDTO
-import com.BloomGram.messenger.api.dto.ProfileDTO
-import com.BloomGram.messenger.api.model.ProfileStatus
-import com.BloomGram.messenger.badges.source.ApiBadgeSource
-import com.BloomGram.messenger.components.SupporterBottomSheet
-import com.BloomGram.messenger.components.supporter.SupporterEnterFrom
-import com.BloomGram.messenger.utils.backgroundScope
-import com.BloomGram.messenger.utils.chats.ChatUtils
-import com.BloomGram.messenger.utils.network.RemoteUtils
-import com.BloomGram.messenger.utils.text.LocaleUtils
+import com.exteragram.messenger.api.ApiController
+import com.exteragram.messenger.api.db.ExteraDatabase
+import com.exteragram.messenger.api.dto.BadgeDTO
+import com.exteragram.messenger.api.dto.ProfileDTO
+import com.exteragram.messenger.api.model.ProfileStatus
+import com.exteragram.messenger.badges.source.ApiBadgeSource
+import com.exteragram.messenger.components.SupporterBottomSheet
+import com.exteragram.messenger.components.supporter.SupporterEnterFrom
+import com.exteragram.messenger.utils.backgroundScope
+import com.exteragram.messenger.utils.chats.ChatUtils
+import com.exteragram.messenger.utils.network.RemoteUtils
+import com.exteragram.messenger.utils.text.LocaleUtils
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
 import org.telegram.messenger.AndroidUtilities

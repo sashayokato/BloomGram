@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.inline.units
+package com.exteragram.messenger.inline.units
 
-import com.BloomGram.messenger.inline.math.MathFormat
-import com.BloomGram.messenger.inline.math.MathUnit
-import com.BloomGram.messenger.inline.math.UnitKind
+import com.exteragram.messenger.inline.math.MathFormat
+import com.exteragram.messenger.inline.math.MathUnit
+import com.exteragram.messenger.inline.math.UnitKind
 
 import java.util.Locale
 import kotlin.math.abs

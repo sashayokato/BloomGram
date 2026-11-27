@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player.motion;
+package com.exteragram.messenger.player.motion;
 
 import static org.telegram.messenger.LocaleController.getString;
 

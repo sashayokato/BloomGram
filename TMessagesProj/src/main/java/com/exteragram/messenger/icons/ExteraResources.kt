@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.icons
+package com.exteragram.messenger.icons
 
 import android.content.res.AssetManager
 import android.content.res.Resources
 import android.graphics.drawable.Drawable
 import androidx.annotation.DrawableRes
-import com.BloomGram.messenger.icons.ui.picker.IconObserver
+import com.exteragram.messenger.icons.ui.picker.IconObserver
 import org.telegram.messenger.FileLog
 
 @Suppress("DEPRECATION")

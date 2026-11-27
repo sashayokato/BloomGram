@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.inline.math
+package com.exteragram.messenger.inline.math
 
 enum class UnitKind { CURRENCY, LENGTH, MASS, VOLUME, AREA, TEMPERATURE, SPEED, DURATION }
 

@@ -10,7 +10,7 @@
  in ADDITIONAL_TERMS.md at the root of the repository.
 */
 
-package com.BloomGram.messenger.components
+package com.exteragram.messenger.components
 
 import android.content.Context
 import android.graphics.Canvas
@@ -25,11 +25,11 @@ import androidx.annotation.OptIn
 import androidx.core.content.ContextCompat
 import androidx.media3.common.MimeTypes
 import androidx.media3.common.util.UnstableApi
-import com.BloomGram.messenger.backup.PreferencesUtils
-import com.BloomGram.messenger.icons.IconManager
-import com.BloomGram.messenger.plugins.PluginsController
-import com.BloomGram.messenger.utils.chats.ChatUtils
-import com.BloomGram.messenger.utils.text.LocaleUtils
+import com.exteragram.messenger.backup.PreferencesUtils
+import com.exteragram.messenger.icons.IconManager
+import com.exteragram.messenger.plugins.PluginsController
+import com.exteragram.messenger.utils.chats.ChatUtils
+import com.exteragram.messenger.utils.text.LocaleUtils
 import org.telegram.messenger.Emoji
 import org.telegram.messenger.LocaleController.getString
 import org.telegram.messenger.MediaDataController

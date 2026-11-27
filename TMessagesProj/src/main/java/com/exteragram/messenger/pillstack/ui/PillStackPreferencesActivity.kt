@@ -10,30 +10,30 @@
  in ADDITIONAL_TERMS.md at the root of the repository.
 */
 
-package com.BloomGram.messenger.pillstack.ui
+package com.exteragram.messenger.pillstack.ui
 
 import android.content.Context
 import android.content.DialogInterface
 import android.view.Gravity
 import android.view.View
 import android.widget.TextView
-import com.BloomGram.messenger.pillstack.core.PillRegistry
-import com.BloomGram.messenger.pillstack.core.PillType
-import com.BloomGram.messenger.pillstack.core.activePills
-import com.BloomGram.messenger.pillstack.core.getDefaultActivePills
-import com.BloomGram.messenger.pillstack.core.hiddenPills
-import com.BloomGram.messenger.pillstack.core.infiniteScrolling
-import com.BloomGram.messenger.pillstack.core.savePillsLayout
-import com.BloomGram.messenger.pillstack.custom.CustomPillIO
-import com.BloomGram.messenger.pillstack.custom.CustomPillSpec
-import com.BloomGram.messenger.pillstack.custom.CustomPillStore
-import com.BloomGram.messenger.pillstack.custom.CustomPillTemplates
-import com.BloomGram.messenger.pillstack.custom.ui.CustomPillEditorActivity
-import com.BloomGram.messenger.pillstack.custom.ui.PillImportSheet
-import com.BloomGram.messenger.pillstack.custom.ui.PillTemplatesSheet
-import com.BloomGram.messenger.pillstack.ui.pills.weather.WeatherSettingsActivity
-import com.BloomGram.messenger.preferences.BasePreferencesActivity
-import com.BloomGram.messenger.utils.ui.AddButtonDrawable
+import com.exteragram.messenger.pillstack.core.PillRegistry
+import com.exteragram.messenger.pillstack.core.PillType
+import com.exteragram.messenger.pillstack.core.activePills
+import com.exteragram.messenger.pillstack.core.getDefaultActivePills
+import com.exteragram.messenger.pillstack.core.hiddenPills
+import com.exteragram.messenger.pillstack.core.infiniteScrolling
+import com.exteragram.messenger.pillstack.core.savePillsLayout
+import com.exteragram.messenger.pillstack.custom.CustomPillIO
+import com.exteragram.messenger.pillstack.custom.CustomPillSpec
+import com.exteragram.messenger.pillstack.custom.CustomPillStore
+import com.exteragram.messenger.pillstack.custom.CustomPillTemplates
+import com.exteragram.messenger.pillstack.custom.ui.CustomPillEditorActivity
+import com.exteragram.messenger.pillstack.custom.ui.PillImportSheet
+import com.exteragram.messenger.pillstack.custom.ui.PillTemplatesSheet
+import com.exteragram.messenger.pillstack.ui.pills.weather.WeatherSettingsActivity
+import com.exteragram.messenger.preferences.BasePreferencesActivity
+import com.exteragram.messenger.utils.ui.AddButtonDrawable
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.LocaleController.getString

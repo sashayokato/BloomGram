@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.export;
+package com.exteragram.messenger.export;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -26,7 +26,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.app.ServiceCompat;
 
-import com.BloomGram.messenger.export.ui.ExportUiHelper;
+import com.exteragram.messenger.export.ui.ExportUiHelper;
 
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.FileLog;
@@ -42,7 +42,7 @@ public class ExportService extends Service implements NotificationCenter.Notific
     private static final int RESULT_NOTIFICATION_ID = 42;
     private static final long NOTIFY_INTERVAL = 500;
     private static final long WAKE_LOCK_TIMEOUT = 10 * 60 * 1000L;
-    private static final String ACTION_STOP = "com.BloomGram.messenger.export.STOP";
+    private static final String ACTION_STOP = "com.exteragram.messenger.export.STOP";
 
     private final NotificationCenter.ObserversGroup[] observers = new NotificationCenter.ObserversGroup[UserConfig.MAX_ACCOUNT_COUNT];
     private NotificationCompat.Builder builder;

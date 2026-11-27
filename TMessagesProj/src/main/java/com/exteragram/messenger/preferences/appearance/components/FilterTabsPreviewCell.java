@@ -10,7 +10,7 @@
  * in ADDITIONAL_TERMS.md at the root of the repository.
  */
 
-package com.BloomGram.messenger.preferences.appearance.components;
+package com.exteragram.messenger.preferences.appearance.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -24,9 +24,9 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.TabCounterMode;
-import com.BloomGram.messenger.preferences.components.CustomPreferenceCell;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.TabCounterMode;
+import com.exteragram.messenger.preferences.components.CustomPreferenceCell;
 
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.MessagesController;

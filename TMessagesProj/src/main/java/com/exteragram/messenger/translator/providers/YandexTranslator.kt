@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.translator.providers
+package com.exteragram.messenger.translator.providers
 
-import com.BloomGram.messenger.translator.core.HttpTranslator
-import com.BloomGram.messenger.translator.core.ProviderLimits
-import com.BloomGram.messenger.translator.core.ProviderResponse
-import com.BloomGram.messenger.translator.core.TranslationError
+import com.exteragram.messenger.translator.core.HttpTranslator
+import com.exteragram.messenger.translator.core.ProviderLimits
+import com.exteragram.messenger.translator.core.ProviderResponse
+import com.exteragram.messenger.translator.core.TranslationError
 
 import okhttp3.FormBody
 import okhttp3.Request

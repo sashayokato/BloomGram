@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.preferences.chats.components
+package com.exteragram.messenger.preferences.chats.components
 
 import android.animation.ValueAnimator
 import android.annotation.SuppressLint

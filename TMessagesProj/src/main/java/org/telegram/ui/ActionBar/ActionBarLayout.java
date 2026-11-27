@@ -64,11 +64,11 @@ import androidx.dynamicanimation.animation.FloatValueHolder;
 import androidx.dynamicanimation.animation.SpringAnimation;
 import androidx.dynamicanimation.animation.SpringForce;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.AppUtils;
-import com.BloomGram.messenger.utils.system.VibratorUtils;
-import com.BloomGram.messenger.utils.ui.predictiveback.PredictiveBackAnimationHelper;
-import com.BloomGram.messenger.utils.ui.WindowTransitionAnimationHelper;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.AppUtils;
+import com.exteragram.messenger.utils.system.VibratorUtils;
+import com.exteragram.messenger.utils.ui.predictiveback.PredictiveBackAnimationHelper;
+import com.exteragram.messenger.utils.ui.WindowTransitionAnimationHelper;
 import com.google.android.material.slider.Slider;
 
 import org.telegram.messenger.AndroidUtilities;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui.predictiveback;
+package com.exteragram.messenger.utils.ui.predictiveback;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.lerp;
@@ -34,7 +34,7 @@ import android.view.animation.PathInterpolator;
 import androidx.annotation.ChecksSdkIntAtLeast;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.Utilities;
 import org.telegram.ui.ActionBar.BaseFragment;

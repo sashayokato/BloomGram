@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui.tabs;
+package com.exteragram.messenger.utils.ui.tabs;
 
 import androidx.annotation.Nullable;
 import androidx.dynamicanimation.animation.FloatValueHolder;
@@ -20,7 +20,7 @@ import androidx.dynamicanimation.animation.SpringAnimation;
 import androidx.dynamicanimation.animation.SpringForce;
 
 import me.vkryl.android.animator.FactorAnimator;
-import com.BloomGram.messenger.utils.ui.material.Material3Tokens;
+import com.exteragram.messenger.utils.ui.material.Material3Tokens;
 
 public final class TabsVisibilityAnimator {
 

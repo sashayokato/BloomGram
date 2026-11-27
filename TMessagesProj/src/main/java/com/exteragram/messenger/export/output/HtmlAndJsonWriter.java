@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.export.output;
+package com.exteragram.messenger.export.output;
 
-import com.BloomGram.messenger.export.ExportSettings;
-import com.BloomGram.messenger.export.api.ExportData;
-import com.BloomGram.messenger.export.output.html.HtmlWriter;
-import com.BloomGram.messenger.export.output.json.JsonWriter;
+import com.exteragram.messenger.export.ExportSettings;
+import com.exteragram.messenger.export.api.ExportData;
+import com.exteragram.messenger.export.output.html.HtmlWriter;
+import com.exteragram.messenger.export.output.json.JsonWriter;
 
 import java.util.ArrayList;
 import java.util.function.Function;

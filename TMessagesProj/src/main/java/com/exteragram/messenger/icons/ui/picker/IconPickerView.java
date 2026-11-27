@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.icons.ui.picker;
+package com.exteragram.messenger.icons.ui.picker;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -52,10 +52,10 @@ import androidx.dynamicanimation.animation.SpringAnimation;
 import androidx.dynamicanimation.animation.SpringForce;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.icons.IconManager;
-import com.BloomGram.messenger.icons.IconPack;
-import com.BloomGram.messenger.icons.ui.IconPacksEditorActivity;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.icons.IconManager;
+import com.exteragram.messenger.icons.IconPack;
+import com.exteragram.messenger.icons.ui.IconPacksEditorActivity;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

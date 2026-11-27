@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.utils.chats;
+package com.exteragram.messenger.utils.chats;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.StickerTimeMode;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.StickerTimeMode;
 
 import org.telegram.messenger.MessageObject;
 import org.telegram.ui.ActionBar.Theme;

@@ -12,15 +12,15 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui;
+package com.exteragram.messenger.utils.ui;
 
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.RectF;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.GlassOutlineStyle;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.GlassOutlineStyle;
 
 import org.telegram.ui.ActionBar.Theme;
 

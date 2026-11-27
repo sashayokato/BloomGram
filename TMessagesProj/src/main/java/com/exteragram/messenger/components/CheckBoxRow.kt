@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components
+package com.exteragram.messenger.components
 
 import android.annotation.SuppressLint
 import android.content.Context

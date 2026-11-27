@@ -69,8 +69,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 
-import com.BloomGram.messenger.utils.ui.FontUtils;
-import com.BloomGram.messenger.ExteraFileHandler;
+import com.exteragram.messenger.utils.ui.FontUtils;
+import com.exteragram.messenger.ExteraFileHandler;
 
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.utils.DrawableUtils;

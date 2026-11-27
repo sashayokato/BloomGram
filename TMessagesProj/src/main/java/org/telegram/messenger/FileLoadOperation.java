@@ -8,7 +8,7 @@
 
 package org.telegram.messenger;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 import android.os.SystemClock;
 
 import org.telegram.messenger.utils.ImmutableByteArrayOutputStream;

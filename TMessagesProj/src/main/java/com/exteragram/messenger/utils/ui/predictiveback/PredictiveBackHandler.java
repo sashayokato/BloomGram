@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui.predictiveback;
+package com.exteragram.messenger.utils.ui.predictiveback;
 
 public interface PredictiveBackHandler {
     void onBackProgress(float progress);

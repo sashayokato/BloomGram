@@ -45,8 +45,8 @@ import androidx.annotation.NonNull;
 import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.BloomGram.messenger.utils.system.VibratorUtils;
-import com.BloomGram.messenger.translator.TranslatorUtils;
+import com.exteragram.messenger.utils.system.VibratorUtils;
+import com.exteragram.messenger.translator.TranslatorUtils;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.Emoji;

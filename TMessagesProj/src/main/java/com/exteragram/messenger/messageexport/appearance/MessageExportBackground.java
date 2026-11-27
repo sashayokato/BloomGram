@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.appearance;
+package com.exteragram.messenger.messageexport.appearance;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

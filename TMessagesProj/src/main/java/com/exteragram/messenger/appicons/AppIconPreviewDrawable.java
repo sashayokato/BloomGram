@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.appicons;
+package com.exteragram.messenger.appicons;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapShader;
@@ -28,7 +28,7 @@ import android.graphics.drawable.Drawable;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.preferences.utils.IconShapeHelper;
+import com.exteragram.messenger.preferences.utils.IconShapeHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 

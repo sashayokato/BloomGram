@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.adblock;
+package com.exteragram.messenger.adblock;
 
 import android.text.TextUtils;
 import android.util.Base64;
@@ -20,8 +20,8 @@ import android.webkit.MimeTypeMap;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 
-import com.BloomGram.messenger.adblock.data.BlockResult;
-import com.BloomGram.messenger.adblock.interop.AdBlock;
+import com.exteragram.messenger.adblock.data.BlockResult;
+import com.exteragram.messenger.adblock.interop.AdBlock;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

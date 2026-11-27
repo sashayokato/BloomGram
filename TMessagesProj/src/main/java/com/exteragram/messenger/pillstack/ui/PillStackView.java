@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.ui;
+package com.exteragram.messenger.pillstack.ui;
 
 import static org.telegram.messenger.AndroidUtilities.lerp;
 
@@ -26,8 +26,8 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.widget.FrameLayout;
 
-import com.BloomGram.messenger.pillstack.core.PillStackConfig;
-import com.BloomGram.messenger.pillstack.ui.pills.BasePill;
+import com.exteragram.messenger.pillstack.core.PillStackConfig;
+import com.exteragram.messenger.pillstack.ui.pills.BasePill;
 
 import org.telegram.ui.Components.CubicBezierInterpolator;
 

@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.export.output.html;
+package com.exteragram.messenger.export.output.html;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import com.BloomGram.messenger.export.output.OutputFile;
+import com.exteragram.messenger.export.output.OutputFile;
 
 import org.telegram.messenger.FileLog;
 

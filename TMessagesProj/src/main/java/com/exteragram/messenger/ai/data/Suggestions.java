@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.ai.data;
+package com.exteragram.messenger.ai.data;
 
 public enum Suggestions {
     ASSISTANT(

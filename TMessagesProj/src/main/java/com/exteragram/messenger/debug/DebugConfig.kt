@@ -13,10 +13,10 @@
 */
 
 @file:JvmName("DebugConfig")
-package com.BloomGram.messenger.debug
+package com.exteragram.messenger.debug
 
-import com.BloomGram.messenger.config.BooleanPref
-import com.BloomGram.messenger.config.IntegerPref
+import com.exteragram.messenger.config.BooleanPref
+import com.exteragram.messenger.config.IntegerPref
 
 var debugCameraMetrics by BooleanPref(false)
 var forceCompactSavedMusic by BooleanPref(false)

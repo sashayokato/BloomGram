@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player.ui;
+package com.exteragram.messenger.player.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.dpf2;
@@ -37,7 +37,7 @@ import android.widget.SeekBar;
 import androidx.annotation.NonNull;
 import androidx.dynamicanimation.animation.SpringAnimation;
 
-import com.BloomGram.messenger.utils.ui.material.Material3Tokens;
+import com.exteragram.messenger.utils.ui.material.Material3Tokens;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.Utilities;

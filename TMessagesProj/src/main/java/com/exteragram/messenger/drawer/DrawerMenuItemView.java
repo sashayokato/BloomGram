@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.drawer;
+package com.exteragram.messenger.drawer;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -30,8 +30,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.feed.FeedController;
-import com.BloomGram.messenger.utils.ui.UIUtil;
+import com.exteragram.messenger.feed.FeedController;
+import com.exteragram.messenger.utils.ui.UIUtil;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.MessagesStorage;

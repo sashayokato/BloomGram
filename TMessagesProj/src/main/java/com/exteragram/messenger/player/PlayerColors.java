@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.player;
+package com.exteragram.messenger.player;
 
-import static com.BloomGram.messenger.utils.ui.material.ColorTones.withTone;
+import static com.exteragram.messenger.utils.ui.material.ColorTones.withTone;
 
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -23,9 +23,9 @@ import android.util.SparseIntArray;
 
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.ui.material.ColorTones;
-import com.BloomGram.messenger.utils.ui.MonetUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.ui.material.ColorTones;
+import com.exteragram.messenger.utils.ui.MonetUtils;
 import com.google.android.material.color.ColorRoles;
 import com.google.android.material.color.MaterialColors;
 

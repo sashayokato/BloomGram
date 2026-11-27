@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.inline.math
+package com.exteragram.messenger.inline.math
 
 import java.math.BigDecimal
 import java.math.MathContext

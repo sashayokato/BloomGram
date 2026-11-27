@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.appicons;
+package com.exteragram.messenger.appicons;
 
 import android.content.ComponentName;
 import android.content.Context;
 import android.os.Build;
 
-import com.BloomGram.messenger.utils.AppUtils;
+import com.exteragram.messenger.utils.AppUtils;
 
 import org.telegram.messenger.BuildVars;
 import org.telegram.messenger.LocaleController;

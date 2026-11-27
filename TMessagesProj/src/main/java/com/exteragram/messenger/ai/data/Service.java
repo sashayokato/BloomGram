@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.ai.data;
+package com.exteragram.messenger.ai.data;
 
 import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ai.AiConfig;
+import com.exteragram.messenger.ai.AiConfig;
 
 import java.util.Objects;
 import java.util.UUID;

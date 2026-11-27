@@ -10,7 +10,7 @@ package org.telegram.messenger;
 
 import android.os.Build;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 public class BuildVars {
 

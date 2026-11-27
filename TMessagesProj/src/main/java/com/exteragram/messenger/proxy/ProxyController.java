@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.proxy;
+package com.exteragram.messenger.proxy;
 
 import android.app.Activity;
 import android.content.SharedPreferences;

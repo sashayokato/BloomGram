@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.icons
+package com.exteragram.messenger.icons
 
 import android.content.ContentProvider
 import android.content.ContentValues

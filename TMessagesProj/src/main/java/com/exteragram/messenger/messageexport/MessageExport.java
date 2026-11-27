@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport;
+package com.exteragram.messenger.messageexport;
 
 import static org.telegram.messenger.LocaleController.formatString;
 import static org.telegram.messenger.LocaleController.getString;
@@ -21,11 +21,11 @@ import android.app.Activity;
 import android.graphics.drawable.Drawable;
 import android.util.SparseArray;
 
-import com.BloomGram.messenger.messageexport.appearance.MessageExportAppearance;
-import com.BloomGram.messenger.messageexport.model.MessageExportChatContext;
-import com.BloomGram.messenger.messageexport.model.MessageExportDocument;
-import com.BloomGram.messenger.messageexport.model.MessageExportSession;
-import com.BloomGram.messenger.messageexport.ui.MessageExportSheet;
+import com.exteragram.messenger.messageexport.appearance.MessageExportAppearance;
+import com.exteragram.messenger.messageexport.model.MessageExportChatContext;
+import com.exteragram.messenger.messageexport.model.MessageExportDocument;
+import com.exteragram.messenger.messageexport.model.MessageExportSession;
+import com.exteragram.messenger.messageexport.ui.MessageExportSheet;
 
 import org.telegram.messenger.DialogObject;
 import org.telegram.messenger.MessageObject;

@@ -14,14 +14,14 @@
 
 @file:JvmName("MainMenuLayout")
 
-package com.BloomGram.messenger.drawer
+package com.exteragram.messenger.drawer
 
-import com.BloomGram.messenger.GSON
-import com.BloomGram.messenger.config.hidden
-import com.BloomGram.messenger.editor
-import com.BloomGram.messenger.plugins.PluginsController
-import com.BloomGram.messenger.preferences
-import com.BloomGram.messenger.utils.addIf
+import com.exteragram.messenger.GSON
+import com.exteragram.messenger.config.hidden
+import com.exteragram.messenger.editor
+import com.exteragram.messenger.plugins.PluginsController
+import com.exteragram.messenger.preferences
+import com.exteragram.messenger.utils.addIf
 import com.google.gson.reflect.TypeToken
 
 enum class MainMenuItem(val id: Int) {

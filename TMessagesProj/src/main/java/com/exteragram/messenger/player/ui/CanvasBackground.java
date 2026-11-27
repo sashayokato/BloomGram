@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player.ui;
+package com.exteragram.messenger.player.ui;
 
 import android.graphics.Canvas;
 import android.graphics.LinearGradient;
@@ -25,7 +25,7 @@ import android.view.View;
 
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.player.motion.CanvasRepository;
+import com.exteragram.messenger.player.motion.CanvasRepository;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ImageLocation;

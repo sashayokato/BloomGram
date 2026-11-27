@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.api.db
+package com.exteragram.messenger.api.db
 
 import androidx.room.TypeConverter
-import com.BloomGram.messenger.api.dto.BadgeDTO
-import com.BloomGram.messenger.api.dto.NowPlayingInfoDTO
+import com.exteragram.messenger.api.dto.BadgeDTO
+import com.exteragram.messenger.api.dto.NowPlayingInfoDTO
 import com.google.gson.Gson
 import java.math.BigDecimal
 

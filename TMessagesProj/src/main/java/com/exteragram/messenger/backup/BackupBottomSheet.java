@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.backup;
+package com.exteragram.messenger.backup;
 
 import android.app.Activity;
 import android.util.TypedValue;
@@ -22,8 +22,8 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.chats.ChatUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

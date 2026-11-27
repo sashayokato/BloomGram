@@ -35,7 +35,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.util.ArrayList;
 
-import com.BloomGram.messenger.utils.system.SystemUtils;
+import com.exteragram.messenger.utils.system.SystemUtils;
 
 public class WallpaperUpdater {
 

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.feed
+package com.exteragram.messenger.feed
 
 import android.app.Activity
 import android.content.SharedPreferences

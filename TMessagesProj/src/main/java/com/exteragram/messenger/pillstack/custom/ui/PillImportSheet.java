@@ -12,15 +12,15 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom.ui;
+package com.exteragram.messenger.pillstack.custom.ui;
 
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.BloomGram.messenger.pillstack.custom.CustomPillFetcher;
-import com.BloomGram.messenger.pillstack.custom.CustomPillResult;
-import com.BloomGram.messenger.pillstack.custom.CustomPillSpec;
-import com.BloomGram.messenger.pillstack.custom.CustomPillStore;
+import com.exteragram.messenger.pillstack.custom.CustomPillFetcher;
+import com.exteragram.messenger.pillstack.custom.CustomPillResult;
+import com.exteragram.messenger.pillstack.custom.CustomPillSpec;
+import com.exteragram.messenger.pillstack.custom.CustomPillStore;
 
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.R;

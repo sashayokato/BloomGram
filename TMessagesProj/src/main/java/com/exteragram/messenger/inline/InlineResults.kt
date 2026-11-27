@@ -12,20 +12,20 @@
 
 */
 
-package com.BloomGram.messenger.inline
+package com.exteragram.messenger.inline
 
-import com.BloomGram.messenger.AngleUnit
-import com.BloomGram.messenger.MeasureSystem
-import com.BloomGram.messenger.inline.math.MathOptions
-import com.BloomGram.messenger.inline.time.TimeZoneOptions
-import com.BloomGram.messenger.inlineAngleUnit
-import com.BloomGram.messenger.inlineCurrencyRates
-import com.BloomGram.messenger.inlineDigitGrouping
-import com.BloomGram.messenger.inlineMathResult
-import com.BloomGram.messenger.inlineMeasureSystem
-import com.BloomGram.messenger.inlineResults
-import com.BloomGram.messenger.inlineTimeZones
-import com.BloomGram.messenger.inlineUnitConversion
+import com.exteragram.messenger.AngleUnit
+import com.exteragram.messenger.MeasureSystem
+import com.exteragram.messenger.inline.math.MathOptions
+import com.exteragram.messenger.inline.time.TimeZoneOptions
+import com.exteragram.messenger.inlineAngleUnit
+import com.exteragram.messenger.inlineCurrencyRates
+import com.exteragram.messenger.inlineDigitGrouping
+import com.exteragram.messenger.inlineMathResult
+import com.exteragram.messenger.inlineMeasureSystem
+import com.exteragram.messenger.inlineResults
+import com.exteragram.messenger.inlineTimeZones
+import com.exteragram.messenger.inlineUnitConversion
 
 import org.telegram.messenger.LocaleController
 

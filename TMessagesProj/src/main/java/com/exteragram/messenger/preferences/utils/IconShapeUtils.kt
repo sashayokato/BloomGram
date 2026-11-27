@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.preferences.utils
+package com.exteragram.messenger.preferences.utils
 
 import android.content.res.Resources
 import android.graphics.Matrix
@@ -26,7 +26,7 @@ import android.text.TextUtils
 import androidx.annotation.RequiresApi
 import androidx.core.graphics.drawable.toDrawable
 import androidx.core.graphics.PathParser
-import com.BloomGram.messenger.useSystemIconShape
+import com.exteragram.messenger.useSystemIconShape
 import org.telegram.messenger.AndroidUtilities.dpf2
 import org.telegram.messenger.FileLog
 import kotlin.math.max

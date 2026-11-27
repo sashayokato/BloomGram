@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player.rhythm;
+package com.exteragram.messenger.player.rhythm;
 
 import org.telegram.messenger.FourierTransform;
 

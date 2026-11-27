@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components;
+package com.exteragram.messenger.components;
 
 import static androidx.core.view.ContentInfoCompat.FLAG_CONVERT_TO_PLAIN_TEXT;
 import static androidx.core.view.ContentInfoCompat.SOURCE_CLIPBOARD;
@@ -46,7 +46,7 @@ import androidx.core.view.inputmethod.EditorInfoCompat;
 import androidx.core.view.inputmethod.InputConnectionCompat;
 import androidx.core.widget.TextViewOnReceiveContentListener;
 
-import com.BloomGram.messenger.inline.InlineMathController;
+import com.exteragram.messenger.inline.InlineMathController;
 
 @SuppressLint({"RestrictedApi", "AppCompatCustomView"})
 public class ReceiveContentEditText extends EditText implements OnReceiveContentViewBehavior {

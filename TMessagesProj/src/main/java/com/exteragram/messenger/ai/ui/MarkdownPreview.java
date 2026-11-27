@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.ai.ui;
+package com.exteragram.messenger.ai.ui;
 
 import android.text.Spannable;
 import android.text.Spanned;

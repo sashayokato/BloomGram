@@ -12,7 +12,7 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.BloomGram.messenger.profilecolor.ProfileColorTheme;
+import com.exteragram.messenger.profilecolor.ProfileColorTheme;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

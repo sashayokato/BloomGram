@@ -41,10 +41,10 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.ProxyDisableCondition;
-import com.BloomGram.messenger.proxy.ProxyController;
-import com.BloomGram.messenger.utils.ui.PopupUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.ProxyDisableCondition;
+import com.exteragram.messenger.proxy.ProxyController;
+import com.exteragram.messenger.utils.ui.PopupUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

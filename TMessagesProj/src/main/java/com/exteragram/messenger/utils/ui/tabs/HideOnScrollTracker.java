@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui.tabs;
+package com.exteragram.messenger.utils.ui.tabs;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 

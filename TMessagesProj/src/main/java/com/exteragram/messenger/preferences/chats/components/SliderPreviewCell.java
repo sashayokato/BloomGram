@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.preferences.chats.components;
+package com.exteragram.messenger.preferences.chats.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.widget.FrameLayout;
 import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.preferences.components.AltSeekbar;
-import com.BloomGram.messenger.preferences.components.CustomPreferenceCell;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.preferences.components.AltSeekbar;
+import com.exteragram.messenger.preferences.components.CustomPreferenceCell;
 
 import org.telegram.ui.ActionBar.INavigationLayout;
 import org.telegram.ui.ActionBar.Theme;

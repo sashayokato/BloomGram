@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.ai.ui.components;
+package com.exteragram.messenger.ai.ui.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -29,7 +29,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.ai.data.Role;
+import com.exteragram.messenger.ai.data.Role;
 
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.AnimatedEmojiDrawable;

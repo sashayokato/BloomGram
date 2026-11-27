@@ -12,19 +12,19 @@
 
 */
 
-package com.BloomGram.messenger.nowplaying
+package com.exteragram.messenger.nowplaying
 
 import androidx.collection.LruCache
-import com.BloomGram.messenger.api.db.DatabaseHelper
-import com.BloomGram.messenger.api.dto.NowPlayingDTO
-import com.BloomGram.messenger.api.dto.NowPlayingInfoDTO
-import com.BloomGram.messenger.api.model.NowPlayingServiceType
-import com.BloomGram.messenger.api.network.ApiClient
-import com.BloomGram.messenger.debug.forceCompactSavedMusic
-import com.BloomGram.messenger.nowplaying.ui.components.NowPlayingCardData
-import com.BloomGram.messenger.utils.chats.ChatUtils
-import com.BloomGram.messenger.utils.network.ExteraHttpClient
-import com.BloomGram.messenger.utils.network.RemoteUtils
+import com.exteragram.messenger.api.db.DatabaseHelper
+import com.exteragram.messenger.api.dto.NowPlayingDTO
+import com.exteragram.messenger.api.dto.NowPlayingInfoDTO
+import com.exteragram.messenger.api.model.NowPlayingServiceType
+import com.exteragram.messenger.api.network.ApiClient
+import com.exteragram.messenger.debug.forceCompactSavedMusic
+import com.exteragram.messenger.nowplaying.ui.components.NowPlayingCardData
+import com.exteragram.messenger.utils.chats.ChatUtils
+import com.exteragram.messenger.utils.network.ExteraHttpClient
+import com.exteragram.messenger.utils.network.RemoteUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

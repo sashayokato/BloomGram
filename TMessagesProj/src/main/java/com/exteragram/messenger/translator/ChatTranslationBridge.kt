@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.translator
+package com.exteragram.messenger.translator
 
 import android.os.SystemClock
 
@@ -24,8 +24,8 @@ import org.telegram.tgnet.TLRPC
 import org.telegram.ui.Components.Bulletin
 import org.telegram.ui.Components.TranslateAlert2
 
-import com.BloomGram.messenger.translator.core.HttpTranslator
-import com.BloomGram.messenger.translator.core.TranslationError
+import com.exteragram.messenger.translator.core.HttpTranslator
+import com.exteragram.messenger.translator.core.TranslationError
 
 object ChatTranslationBridge {
 

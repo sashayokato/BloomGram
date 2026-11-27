@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.text;
+package com.exteragram.messenger.utils.text;
 
 import android.util.Base64;
 

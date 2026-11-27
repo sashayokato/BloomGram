@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.api.dto
+package com.exteragram.messenger.api.dto
 
 
 import com.google.gson.annotations.SerializedName

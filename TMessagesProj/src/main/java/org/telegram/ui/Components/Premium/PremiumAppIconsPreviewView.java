@@ -11,8 +11,8 @@ import android.widget.FrameLayout;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;
 import org.telegram.messenger.Utilities;
-import com.BloomGram.messenger.appicons.AppIcon;
-import com.BloomGram.messenger.appicons.AppIconController;
+import com.exteragram.messenger.appicons.AppIcon;
+import com.exteragram.messenger.appicons.AppIconController;
 
 import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.CubicBezierInterpolator;

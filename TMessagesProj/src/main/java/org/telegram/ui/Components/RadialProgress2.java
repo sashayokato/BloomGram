@@ -28,7 +28,7 @@ import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 import androidx.vectordrawable.graphics.drawable.Animatable2Compat;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 import com.google.android.material.progressindicator.BaseProgressIndicator;
 import com.google.android.material.progressindicator.CircularProgressIndicatorSpec;
 import com.google.android.material.progressindicator.DeterminateDrawable;

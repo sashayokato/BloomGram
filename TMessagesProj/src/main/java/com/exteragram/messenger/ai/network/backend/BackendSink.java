@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.ai.network.backend;
+package com.exteragram.messenger.ai.network.backend;
 
 public interface BackendSink {
     boolean isActive();

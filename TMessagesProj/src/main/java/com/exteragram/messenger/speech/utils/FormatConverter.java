@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.speech.utils;
+package com.exteragram.messenger.speech.utils;
 
 import android.media.MediaCodec;
 import android.media.MediaExtractor;

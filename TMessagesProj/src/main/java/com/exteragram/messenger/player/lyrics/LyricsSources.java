@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.player.lyrics;
+package com.exteragram.messenger.player.lyrics;
 
 import android.os.SystemClock;
 import android.text.TextUtils;
 
-import com.BloomGram.messenger.player.TrackQuery;
+import com.exteragram.messenger.player.TrackQuery;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

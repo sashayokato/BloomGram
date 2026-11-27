@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components;
+package com.exteragram.messenger.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -21,7 +21,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.HorizontalScrollView;
 
-import com.BloomGram.messenger.utils.MarkdownUtils;
+import com.exteragram.messenger.utils.MarkdownUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.tgnet.tl.TL_iv;

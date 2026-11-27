@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.adblock;
+package com.exteragram.messenger.adblock;
 
 import android.text.TextUtils;
 import android.webkit.JavascriptInterface;
@@ -22,8 +22,8 @@ import android.webkit.WebView;
 
 import androidx.annotation.Keep;
 
-import com.BloomGram.messenger.adblock.backend.AdBlockManager;
-import com.BloomGram.messenger.adblock.interop.AdBlock;
+import com.exteragram.messenger.adblock.backend.AdBlockManager;
+import com.exteragram.messenger.adblock.interop.AdBlock;
 
 import org.json.JSONObject;
 import org.telegram.messenger.Utilities;

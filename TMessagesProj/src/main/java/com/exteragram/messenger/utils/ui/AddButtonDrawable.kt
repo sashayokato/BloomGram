@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui
+package com.exteragram.messenger.utils.ui
 
 import android.content.Context
 import android.graphics.ColorFilter

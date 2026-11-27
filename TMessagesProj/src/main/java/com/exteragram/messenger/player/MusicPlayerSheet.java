@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player;
+package com.exteragram.messenger.player;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.lerp;
@@ -55,27 +55,27 @@ import androidx.core.view.WindowInsetsCompat;
 import androidx.dynamicanimation.animation.SpringAnimation;
 import androidx.media3.common.C;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.player.lyrics.Lyrics;
-import com.BloomGram.messenger.player.lyrics.LyricsRepository;
-import com.BloomGram.messenger.player.motion.ArtworkRepository;
-import com.BloomGram.messenger.player.motion.MotionCoverRepository;
-import com.BloomGram.messenger.player.motion.CanvasRepository;
-import com.BloomGram.messenger.player.rhythm.RhythmTap;
-import com.BloomGram.messenger.player.ui.ExpressiveStateDrawable;
-import com.BloomGram.messenger.player.ui.LyricsView;
-import com.BloomGram.messenger.player.ui.PlayerControlsView;
-import com.BloomGram.messenger.player.ui.PlayerCoverView;
-import com.BloomGram.messenger.player.ui.PlayerDimens;
-import com.BloomGram.messenger.player.ui.PlayerQueueCell;
-import com.BloomGram.messenger.player.ui.PlayerQueueView;
-import com.BloomGram.messenger.player.ui.PlayerSettingsSheet;
-import com.BloomGram.messenger.player.ui.RhythmBackground;
-import com.BloomGram.messenger.player.ui.CanvasBackground;
-import com.BloomGram.messenger.player.ui.SpeedTextDrawable;
-import com.BloomGram.messenger.player.ui.WavySeekBar;
-import com.BloomGram.messenger.utils.ui.material.ColorTones;
-import com.BloomGram.messenger.utils.ui.material.Material3Tokens;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.player.lyrics.Lyrics;
+import com.exteragram.messenger.player.lyrics.LyricsRepository;
+import com.exteragram.messenger.player.motion.ArtworkRepository;
+import com.exteragram.messenger.player.motion.MotionCoverRepository;
+import com.exteragram.messenger.player.motion.CanvasRepository;
+import com.exteragram.messenger.player.rhythm.RhythmTap;
+import com.exteragram.messenger.player.ui.ExpressiveStateDrawable;
+import com.exteragram.messenger.player.ui.LyricsView;
+import com.exteragram.messenger.player.ui.PlayerControlsView;
+import com.exteragram.messenger.player.ui.PlayerCoverView;
+import com.exteragram.messenger.player.ui.PlayerDimens;
+import com.exteragram.messenger.player.ui.PlayerQueueCell;
+import com.exteragram.messenger.player.ui.PlayerQueueView;
+import com.exteragram.messenger.player.ui.PlayerSettingsSheet;
+import com.exteragram.messenger.player.ui.RhythmBackground;
+import com.exteragram.messenger.player.ui.CanvasBackground;
+import com.exteragram.messenger.player.ui.SpeedTextDrawable;
+import com.exteragram.messenger.player.ui.WavySeekBar;
+import com.exteragram.messenger.utils.ui.material.ColorTones;
+import com.exteragram.messenger.utils.ui.material.Material3Tokens;
 import com.google.android.gms.cast.framework.CastContext;
 
 import org.telegram.messenger.AndroidUtilities;

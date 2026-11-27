@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.inline
+package com.exteragram.messenger.inline
 
 import android.os.SystemClock
 
-import com.BloomGram.messenger.inline.rates.Currencies
-import com.BloomGram.messenger.inline.rates.CurrencyRates
-import com.BloomGram.messenger.inlineTargetCurrency
-import com.BloomGram.messenger.utils.network.ExchangeRates
+import com.exteragram.messenger.inline.rates.Currencies
+import com.exteragram.messenger.inline.rates.CurrencyRates
+import com.exteragram.messenger.inlineTargetCurrency
+import com.exteragram.messenger.utils.network.ExchangeRates
 
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.MessagesController

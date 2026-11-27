@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.icons.ui.components;
+package com.exteragram.messenger.icons.ui.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -25,12 +25,12 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.icons.IconManager;
-import com.BloomGram.messenger.icons.IconPack;
-import com.BloomGram.messenger.icons.ui.IconPacksEditorActivity;
-import com.BloomGram.messenger.icons.ui.picker.IconPickerController;
-import com.BloomGram.messenger.utils.system.VibratorUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.icons.IconManager;
+import com.exteragram.messenger.icons.IconPack;
+import com.exteragram.messenger.icons.ui.IconPacksEditorActivity;
+import com.exteragram.messenger.icons.ui.picker.IconPickerController;
+import com.exteragram.messenger.utils.system.VibratorUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

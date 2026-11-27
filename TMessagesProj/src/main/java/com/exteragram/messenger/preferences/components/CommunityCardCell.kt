@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.preferences.components
+package com.exteragram.messenger.preferences.components
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -25,8 +25,8 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.BloomGram.messenger.AvatarCornerType
-import com.BloomGram.messenger.getAvatarCorners
+import com.exteragram.messenger.AvatarCornerType
+import com.exteragram.messenger.getAvatarCorners
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.AndroidUtilities.dp
 import org.telegram.messenger.LocaleController

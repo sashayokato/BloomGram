@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.preferences.chats.components;
+package com.exteragram.messenger.preferences.chats.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -33,10 +33,10 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.preferences.components.CustomPreferenceCell;
-import com.BloomGram.messenger.utils.chats.SwipeAction;
-import com.BloomGram.messenger.utils.chats.SwipeActionsHelper;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.preferences.components.CustomPreferenceCell;
+import com.exteragram.messenger.utils.chats.SwipeAction;
+import com.exteragram.messenger.utils.chats.SwipeActionsHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

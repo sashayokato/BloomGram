@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.camera;
+package com.exteragram.messenger.camera;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -27,7 +27,7 @@ import android.util.Size;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.FileLog;
 

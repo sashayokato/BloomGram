@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.api.dto
+package com.exteragram.messenger.api.dto
 
 data class NowPlayingDTO(
     val trackName: String,

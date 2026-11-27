@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom;
+package com.exteragram.messenger.pillstack.custom;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -26,11 +26,11 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.pillstack.core.PillStackConfig;
-import com.BloomGram.messenger.pillstack.custom.ui.CustomPillEditorActivity;
-import com.BloomGram.messenger.pillstack.ui.PillStackPreferencesActivity;
-import com.BloomGram.messenger.pillstack.ui.pills.BasePill;
-import com.BloomGram.messenger.pillstack.ui.pills.crypto.utils.ColoredBackground;
+import com.exteragram.messenger.pillstack.core.PillStackConfig;
+import com.exteragram.messenger.pillstack.custom.ui.CustomPillEditorActivity;
+import com.exteragram.messenger.pillstack.ui.PillStackPreferencesActivity;
+import com.exteragram.messenger.pillstack.ui.pills.BasePill;
+import com.exteragram.messenger.pillstack.ui.pills.crypto.utils.ColoredBackground;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.Emoji;

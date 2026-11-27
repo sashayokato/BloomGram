@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.badges
+package com.exteragram.messenger.badges
 
-import com.BloomGram.messenger.api.ApiController
-import com.BloomGram.messenger.getApiBotInfo
-import com.BloomGram.messenger.utils.network.RemoteUtils
+import com.exteragram.messenger.api.ApiController
+import com.exteragram.messenger.getApiBotInfo
+import com.exteragram.messenger.utils.network.RemoteUtils
 import org.telegram.messenger.UserConfig
 import org.telegram.messenger.browser.Browser
 import org.telegram.ui.ActionBar.BaseFragment

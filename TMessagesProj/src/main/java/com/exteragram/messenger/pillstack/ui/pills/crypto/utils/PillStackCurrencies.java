@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.ui.pills.crypto.utils;
+package com.exteragram.messenger.pillstack.ui.pills.crypto.utils;
 
-import com.BloomGram.messenger.utils.network.ExchangeRates;
+import com.exteragram.messenger.utils.network.ExchangeRates;
 
 import org.telegram.messenger.BillingController;
 import org.telegram.messenger.FileLog;

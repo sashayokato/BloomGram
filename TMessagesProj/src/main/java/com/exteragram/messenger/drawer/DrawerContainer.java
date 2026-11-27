@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.drawer;
+package com.exteragram.messenger.drawer;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -43,11 +43,11 @@ import androidx.dynamicanimation.animation.FloatPropertyCompat;
 import androidx.dynamicanimation.animation.SpringAnimation;
 import androidx.dynamicanimation.animation.SpringForce;
 
-import com.BloomGram.messenger.utils.ui.AccountsUiHelper;
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.badges.BadgesController;
-import com.BloomGram.messenger.components.supporter.SupporterBadgeEditSheet;
-import com.BloomGram.messenger.utils.AppUtils;
+import com.exteragram.messenger.utils.ui.AccountsUiHelper;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.badges.BadgesController;
+import com.exteragram.messenger.components.supporter.SupporterBadgeEditSheet;
+import com.exteragram.messenger.utils.AppUtils;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.DialogObject;

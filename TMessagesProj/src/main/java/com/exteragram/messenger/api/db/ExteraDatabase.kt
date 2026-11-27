@@ -12,17 +12,17 @@
 
 */
 
-package com.BloomGram.messenger.api.db
+package com.exteragram.messenger.api.db
 
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
 import androidx.sqlite.db.SupportSQLiteDatabase
-import com.BloomGram.messenger.api.ApiController
-import com.BloomGram.messenger.api.dto.AddedRegDateDTO
-import com.BloomGram.messenger.api.dto.BoostySubscriberDTO
-import com.BloomGram.messenger.api.dto.ProfileDTO
+import com.exteragram.messenger.api.ApiController
+import com.exteragram.messenger.api.dto.AddedRegDateDTO
+import com.exteragram.messenger.api.dto.BoostySubscriberDTO
+import com.exteragram.messenger.api.dto.ProfileDTO
 import org.telegram.messenger.ApplicationLoader
 
 @Database(entities = [ProfileDTO::class, AddedRegDateDTO::class, BoostySubscriberDTO::class], version = 6)

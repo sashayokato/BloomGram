@@ -30,8 +30,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.ui.GlassUiHelper;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.ui.GlassUiHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

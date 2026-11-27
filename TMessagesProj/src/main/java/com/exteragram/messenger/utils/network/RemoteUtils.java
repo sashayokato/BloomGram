@@ -12,15 +12,15 @@
 
 */
 
-package com.BloomGram.messenger.utils.network;
+package com.exteragram.messenger.utils.network;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.utils.AppUtils;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.utils.AppUtils;
+import com.exteragram.messenger.utils.chats.ChatUtils;
 
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;

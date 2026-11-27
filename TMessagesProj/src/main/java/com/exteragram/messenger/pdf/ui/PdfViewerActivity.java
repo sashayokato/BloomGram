@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pdf.ui;
+package com.exteragram.messenger.pdf.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.getString;
@@ -38,9 +38,9 @@ import androidx.annotation.NonNull;
 import androidx.core.content.FileProvider;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.BloomGram.messenger.pdf.PdfDocumentRenderer;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
-import com.BloomGram.messenger.utils.ui.ChatHeaderUiHelper;
+import com.exteragram.messenger.pdf.PdfDocumentRenderer;
+import com.exteragram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.utils.ui.ChatHeaderUiHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

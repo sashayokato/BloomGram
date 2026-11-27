@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.system;
+package com.exteragram.messenger.utils.system;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -39,8 +39,8 @@ import android.os.SystemClock;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 
-import com.BloomGram.messenger.utils.network.RemoteUtils;
-import com.BloomGram.messenger.utils.ui.UIUtil;
+import com.exteragram.messenger.utils.network.RemoteUtils;
+import com.exteragram.messenger.utils.ui.UIUtil;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

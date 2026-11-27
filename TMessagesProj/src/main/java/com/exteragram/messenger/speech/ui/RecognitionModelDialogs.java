@@ -12,16 +12,16 @@
 
 */
 
-package com.BloomGram.messenger.speech.ui;
+package com.exteragram.messenger.speech.ui;
 
 import static org.telegram.messenger.LocaleController.getString;
 
 import android.content.DialogInterface;
 import android.widget.TextView;
 
-import com.BloomGram.messenger.speech.VoiceRecognitionController;
-import com.BloomGram.messenger.translator.TranslatorUtils;
-import com.BloomGram.messenger.utils.ui.PopupUtils;
+import com.exteragram.messenger.speech.VoiceRecognitionController;
+import com.exteragram.messenger.translator.TranslatorUtils;
+import com.exteragram.messenger.utils.ui.PopupUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

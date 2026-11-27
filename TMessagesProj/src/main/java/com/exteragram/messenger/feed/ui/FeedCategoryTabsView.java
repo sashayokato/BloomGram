@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.feed.ui;
+package com.exteragram.messenger.feed.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.lerp;
@@ -34,7 +34,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.feed.FeedConfig;
+import com.exteragram.messenger.feed.FeedConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.R;

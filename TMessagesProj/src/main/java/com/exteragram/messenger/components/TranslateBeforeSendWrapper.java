@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.components;
+package com.exteragram.messenger.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
-import com.BloomGram.messenger.translator.TranslatorUtils;
-import com.BloomGram.messenger.utils.ui.PopupUtils;
+import com.exteragram.messenger.translator.TranslatorUtils;
+import com.exteragram.messenger.utils.ui.PopupUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

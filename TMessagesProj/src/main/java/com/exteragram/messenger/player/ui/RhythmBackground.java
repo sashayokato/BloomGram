@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.player.ui;
+package com.exteragram.messenger.player.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dpf2;
 
@@ -28,7 +28,7 @@ import android.os.SystemClock;
 
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.player.rhythm.RhythmTap;
+import com.exteragram.messenger.player.rhythm.RhythmTap;
 
 import org.telegram.messenger.Utilities;
 

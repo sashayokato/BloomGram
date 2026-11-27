@@ -149,10 +149,10 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.Stack;
 
-import com.BloomGram.messenger.AvatarCornerType;
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.badges.BadgesController;
-import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.exteragram.messenger.AvatarCornerType;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.badges.BadgesController;
+import com.exteragram.messenger.utils.text.LocaleUtils;
 
 import me.vkryl.android.animator.BoolAnimator;
 import java.util.HashSet;

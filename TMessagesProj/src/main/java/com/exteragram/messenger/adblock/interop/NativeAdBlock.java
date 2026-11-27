@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.adblock.interop;
+package com.exteragram.messenger.adblock.interop;
 
-import com.BloomGram.messenger.adblock.data.BlockResult;
-import com.BloomGram.messenger.adblock.data.FilterListMetadata;
-import com.BloomGram.messenger.adblock.data.UrlCosmeticResources;
+import com.exteragram.messenger.adblock.data.BlockResult;
+import com.exteragram.messenger.adblock.data.FilterListMetadata;
+import com.exteragram.messenger.adblock.data.UrlCosmeticResources;
 
 import org.telegram.messenger.FileLog;
 

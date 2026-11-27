@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.export.api;
+package com.exteragram.messenger.export.api;
 
-import com.BloomGram.messenger.export.ExportSettings;
-import com.BloomGram.messenger.export.output.OutputFile;
-import com.BloomGram.messenger.export.output.Result;
+import com.exteragram.messenger.export.ExportSettings;
+import com.exteragram.messenger.export.output.OutputFile;
+import com.exteragram.messenger.export.output.Result;
 
 import org.telegram.messenger.DispatchQueue;
 import org.telegram.messenger.FileLog;

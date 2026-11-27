@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.drawer;
+package com.exteragram.messenger.drawer;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -27,9 +27,9 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.api.dto.BadgeDTO;
-import com.BloomGram.messenger.badges.BadgesController;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.api.dto.BadgeDTO;
+import com.exteragram.messenger.badges.BadgesController;
 
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.AndroidUtilities;

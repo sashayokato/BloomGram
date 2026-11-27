@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components;
+package com.exteragram.messenger.components;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -24,7 +24,7 @@ import android.webkit.WebSettings;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.utils.network.ExteraHttpClient;
+import com.exteragram.messenger.utils.network.ExteraHttpClient;
 
 import org.json.JSONObject;
 import org.telegram.messenger.AndroidUtilities;

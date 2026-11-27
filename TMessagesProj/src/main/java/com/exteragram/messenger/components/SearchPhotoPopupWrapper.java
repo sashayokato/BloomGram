@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components;
+package com.exteragram.messenger.components;
 
 import android.content.Context;
 import android.text.method.LinkMovementMethod;
@@ -22,7 +22,7 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.BloomGram.messenger.components.ReverseImageSearch.Provider;
+import com.exteragram.messenger.components.ReverseImageSearch.Provider;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

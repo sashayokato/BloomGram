@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom;
+package com.exteragram.messenger.pillstack.custom;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -29,7 +29,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 
-import com.BloomGram.messenger.utils.ui.GlyphBounds;
+import com.exteragram.messenger.utils.ui.GlyphBounds;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.Emoji;

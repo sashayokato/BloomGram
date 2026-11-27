@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.inline.rates
+package com.exteragram.messenger.inline.rates
 
 interface CurrencyRates {
     fun supports(code: String): Boolean

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.reactions
+package com.exteragram.messenger.reactions
 
 import android.animation.LayoutTransition
 import android.content.Context
@@ -36,7 +36,7 @@ import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.createBitmap
 import androidx.core.graphics.withSave
-import com.BloomGram.messenger.reactions.ReactionsEditHelper.Companion.STAR_ID
+import com.exteragram.messenger.reactions.ReactionsEditHelper.Companion.STAR_ID
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.AndroidUtilities.dp
 import org.telegram.messenger.AndroidUtilities.replaceTags

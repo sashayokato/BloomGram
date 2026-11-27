@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.ui;
+package com.exteragram.messenger.messageexport.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.getString;
@@ -33,7 +33,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.messageexport.appearance.MessageExportAppearance;
+import com.exteragram.messenger.messageexport.appearance.MessageExportAppearance;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ChatThemeController;

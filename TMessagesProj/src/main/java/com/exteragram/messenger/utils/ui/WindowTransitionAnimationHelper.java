@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui;
+package com.exteragram.messenger.utils.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.Utilities.clamp01;

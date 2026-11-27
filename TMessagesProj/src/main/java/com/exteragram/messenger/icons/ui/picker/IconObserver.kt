@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.icons.ui.picker
+package com.exteragram.messenger.icons.ui.picker
 
-import com.BloomGram.messenger.editingIconPackId
+import com.exteragram.messenger.editingIconPackId
 import org.telegram.ui.ActionBar.BaseFragment
 import org.telegram.ui.LaunchActivity
 import java.util.WeakHashMap

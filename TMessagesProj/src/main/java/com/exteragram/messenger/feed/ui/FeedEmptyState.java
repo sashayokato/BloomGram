@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.feed.ui;
+package com.exteragram.messenger.feed.ui;
 
 import static org.telegram.messenger.LocaleController.getString;
 
 import android.view.View;
 
-import com.BloomGram.messenger.feed.FeedConfig;
-import com.BloomGram.messenger.feed.FeedController;
+import com.exteragram.messenger.feed.FeedConfig;
+import com.exteragram.messenger.feed.FeedController;
 
 import org.telegram.messenger.R;
 import org.telegram.ui.ActionBar.BaseFragment;

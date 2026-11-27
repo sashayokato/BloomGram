@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.inline.math
+package com.exteragram.messenger.inline.math
 
-import com.BloomGram.messenger.inline.rates.Currencies
-import com.BloomGram.messenger.inline.rates.CurrencyRates
-import com.BloomGram.messenger.inline.time.TimeZoneOptions
-import com.BloomGram.messenger.inline.time.TimeZones
-import com.BloomGram.messenger.inline.units.Measures
+import com.exteragram.messenger.inline.rates.Currencies
+import com.exteragram.messenger.inline.rates.CurrencyRates
+import com.exteragram.messenger.inline.time.TimeZoneOptions
+import com.exteragram.messenger.inline.time.TimeZones
+import com.exteragram.messenger.inline.units.Measures
 
 import kotlin.math.abs
 

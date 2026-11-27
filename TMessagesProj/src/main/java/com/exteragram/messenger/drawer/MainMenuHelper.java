@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.drawer;
+package com.exteragram.messenger.drawer;
 
 import android.Manifest;
 import android.content.SharedPreferences;
@@ -20,15 +20,15 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.text.TextUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.components.QRCodeSheet;
-import com.BloomGram.messenger.feed.ui.FeedActivity;
-import com.BloomGram.messenger.plugins.PluginsConstants;
-import com.BloomGram.messenger.plugins.PluginsController;
-import com.BloomGram.messenger.plugins.hooks.MenuItemRecord;
-import com.BloomGram.messenger.plugins.ui.PluginsActivity;
-import com.BloomGram.messenger.plugins.utils.MenuContextBuilder;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.components.QRCodeSheet;
+import com.exteragram.messenger.feed.ui.FeedActivity;
+import com.exteragram.messenger.plugins.PluginsConstants;
+import com.exteragram.messenger.plugins.PluginsController;
+import com.exteragram.messenger.plugins.hooks.MenuItemRecord;
+import com.exteragram.messenger.plugins.ui.PluginsActivity;
+import com.exteragram.messenger.plugins.utils.MenuContextBuilder;
+import com.exteragram.messenger.utils.chats.ChatUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BuildVars;

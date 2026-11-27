@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.adblock.backend;
+package com.exteragram.messenger.adblock.backend;
 
 import android.content.SharedPreferences;
 import android.util.Base64;
@@ -20,8 +20,8 @@ import android.util.Base64;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.backup.PreferencesUtils;
-import com.BloomGram.messenger.utils.network.ExteraHttpClient;
+import com.exteragram.messenger.backup.PreferencesUtils;
+import com.exteragram.messenger.utils.network.ExteraHttpClient;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.export;
+package com.exteragram.messenger.export;
 
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.time.FastDateFormat;

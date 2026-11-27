@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.inline
+package com.exteragram.messenger.inline
 
 import android.icu.text.TimeZoneFormat
 import android.icu.text.TimeZoneNames
 import android.icu.util.TimeZone
 import android.icu.util.ULocale
 
-import com.BloomGram.messenger.inline.time.TimeZones
+import com.exteragram.messenger.inline.time.TimeZones
 
 import org.telegram.messenger.FileLog
 import org.telegram.messenger.LocaleController

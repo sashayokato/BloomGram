@@ -12,24 +12,24 @@
 
 */
 
-package com.BloomGram.messenger.preferences.appearance
+package com.exteragram.messenger.preferences.appearance
 
 import android.content.Context
 import android.graphics.drawable.Drawable
 import android.os.Build
 import android.view.View
 import androidx.core.content.ContextCompat
-import com.BloomGram.messenger.*
-import com.BloomGram.messenger.drawer.MainMenuItem
-import com.BloomGram.messenger.drawer.ensureSettingsVisibility
-import com.BloomGram.messenger.drawer.getDefaultMainMenuLayout
-import com.BloomGram.messenger.drawer.mainMenuHiddenItems
-import com.BloomGram.messenger.drawer.mainMenuLayout
-import com.BloomGram.messenger.drawer.saveMainMenuLayout
-import com.BloomGram.messenger.config.*
-import com.BloomGram.messenger.plugins.PluginsController
-import com.BloomGram.messenger.preferences.BasePreferencesActivity
-import com.BloomGram.messenger.preferences.components.AltSeekbar
+import com.exteragram.messenger.*
+import com.exteragram.messenger.drawer.MainMenuItem
+import com.exteragram.messenger.drawer.ensureSettingsVisibility
+import com.exteragram.messenger.drawer.getDefaultMainMenuLayout
+import com.exteragram.messenger.drawer.mainMenuHiddenItems
+import com.exteragram.messenger.drawer.mainMenuLayout
+import com.exteragram.messenger.drawer.saveMainMenuLayout
+import com.exteragram.messenger.config.*
+import com.exteragram.messenger.plugins.PluginsController
+import com.exteragram.messenger.preferences.BasePreferencesActivity
+import com.exteragram.messenger.preferences.components.AltSeekbar
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController.getString
 import org.telegram.messenger.MediaDataController
@@ -46,8 +46,8 @@ import java.util.HashMap
 import java.util.Locale
 import kotlin.math.roundToInt
 import androidx.core.content.edit
-import com.BloomGram.messenger.utils.addIf
-import com.BloomGram.messenger.utils.ui.predictiveback.PredictiveBackAnimationHelper
+import com.exteragram.messenger.utils.addIf
+import com.exteragram.messenger.utils.ui.predictiveback.PredictiveBackAnimationHelper
 
 class AppNavigationPreferencesActivity : BasePreferencesActivity() {
 

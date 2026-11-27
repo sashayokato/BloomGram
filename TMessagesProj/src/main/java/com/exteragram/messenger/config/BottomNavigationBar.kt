@@ -14,7 +14,7 @@
 
 @file:JvmName("BottomNavigationBar")
 
-package com.BloomGram.messenger.config
+package com.exteragram.messenger.config
 
 const val SHOW = 0
 const val HIDE = 1

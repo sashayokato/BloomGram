@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.player;
+package com.exteragram.messenger.player;
 
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.text.TextUtils;
 
-import com.BloomGram.messenger.player.motion.ArtworkRepository;
+import com.exteragram.messenger.player.motion.ArtworkRepository;
 
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.DialogObject;

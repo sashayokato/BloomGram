@@ -12,16 +12,16 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.ui.pills.crypto;
+package com.exteragram.messenger.pillstack.ui.pills.crypto;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 
-import com.BloomGram.messenger.pillstack.core.PillStackConfig;
-import com.BloomGram.messenger.pillstack.core.PillType;
-import com.BloomGram.messenger.pillstack.ui.pills.crypto.utils.ColoredBackground;
-import com.BloomGram.messenger.pillstack.ui.pills.crypto.utils.PillStackCurrencies;
-import com.BloomGram.messenger.utils.network.ExchangeRates;
+import com.exteragram.messenger.pillstack.core.PillStackConfig;
+import com.exteragram.messenger.pillstack.core.PillType;
+import com.exteragram.messenger.pillstack.ui.pills.crypto.utils.ColoredBackground;
+import com.exteragram.messenger.pillstack.ui.pills.crypto.utils.PillStackCurrencies;
+import com.exteragram.messenger.utils.network.ExchangeRates;
 
 import org.telegram.messenger.R;
 import org.telegram.ui.ActionBar.Theme;

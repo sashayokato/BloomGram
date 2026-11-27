@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.api.db
+package com.exteragram.messenger.api.db
 
-import com.BloomGram.messenger.api.dto.AddedRegDateDTO
-import com.BloomGram.messenger.api.dto.BoostySubscriberDTO
-import com.BloomGram.messenger.api.dto.NowPlayingInfoDTO
-import com.BloomGram.messenger.api.dto.ProfileDTO
-import com.BloomGram.messenger.utils.backgroundScope
+import com.exteragram.messenger.api.dto.AddedRegDateDTO
+import com.exteragram.messenger.api.dto.BoostySubscriberDTO
+import com.exteragram.messenger.api.dto.NowPlayingInfoDTO
+import com.exteragram.messenger.api.dto.ProfileDTO
+import com.exteragram.messenger.utils.backgroundScope
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.launch
 import org.telegram.messenger.FileLog

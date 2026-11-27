@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.player.motion;
+package com.exteragram.messenger.player.motion;
 
-import com.BloomGram.messenger.player.TrackQuery;
+import com.exteragram.messenger.player.TrackQuery;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

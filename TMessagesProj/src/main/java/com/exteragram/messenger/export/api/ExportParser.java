@@ -12,15 +12,15 @@
 
 */
 
-package com.BloomGram.messenger.export.api;
+package com.exteragram.messenger.export.api;
 
 import android.text.TextUtils;
 import android.util.Base64;
 import android.webkit.MimeTypeMap;
 
-import com.BloomGram.messenger.export.ExportFormat;
-import com.BloomGram.messenger.export.ExportSettings;
-import com.BloomGram.messenger.export.output.ExportFiles;
+import com.exteragram.messenger.export.ExportFormat;
+import com.exteragram.messenger.export.ExportSettings;
+import com.exteragram.messenger.export.output.ExportFiles;
 
 import org.telegram.messenger.ChatObject;
 import org.telegram.messenger.MessageObject;

@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.preferences
+package com.exteragram.messenger.preferences
 
 import android.view.View
-import com.BloomGram.messenger.preferences.utils.SettingsRegistry
-import com.BloomGram.messenger.utils.text.LocaleUtils
+import com.exteragram.messenger.preferences.utils.SettingsRegistry
+import com.exteragram.messenger.utils.text.LocaleUtils
 import org.telegram.messenger.LocaleController.getString
 import org.telegram.ui.Cells.TextCheckCell2
 import org.telegram.ui.Components.UItem

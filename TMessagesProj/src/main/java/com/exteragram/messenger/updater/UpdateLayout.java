@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.updater;
+package com.exteragram.messenger.updater;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 

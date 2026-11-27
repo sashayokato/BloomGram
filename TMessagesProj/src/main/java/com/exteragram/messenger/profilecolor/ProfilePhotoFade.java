@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.profilecolor;
+package com.exteragram.messenger.profilecolor;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 

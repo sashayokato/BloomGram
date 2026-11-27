@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.ai.ui;
+package com.exteragram.messenger.ai.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.dpf2;
@@ -54,14 +54,14 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.ai.AiConfig;
-import com.BloomGram.messenger.ai.AiController;
-import com.BloomGram.messenger.ai.data.Message;
-import com.BloomGram.messenger.ai.data.Role;
-import com.BloomGram.messenger.ai.data.Service;
-import com.BloomGram.messenger.ai.network.Client;
-import com.BloomGram.messenger.ai.network.GenerationCallback;
-import com.BloomGram.messenger.ai.network.backend.OnDeviceAvailability;
+import com.exteragram.messenger.ai.AiConfig;
+import com.exteragram.messenger.ai.AiController;
+import com.exteragram.messenger.ai.data.Message;
+import com.exteragram.messenger.ai.data.Role;
+import com.exteragram.messenger.ai.data.Service;
+import com.exteragram.messenger.ai.network.Client;
+import com.exteragram.messenger.ai.network.GenerationCallback;
+import com.exteragram.messenger.ai.network.backend.OnDeviceAvailability;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.Emoji;

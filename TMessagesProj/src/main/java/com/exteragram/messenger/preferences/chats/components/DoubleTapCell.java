@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.preferences.chats.components;
+package com.exteragram.messenger.preferences.chats.components;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -35,10 +35,10 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.chats.DoubleTapUtils;
-import com.BloomGram.messenger.preferences.components.CustomPreferenceCell;
-import com.BloomGram.messenger.preferences.components.PreviewColors;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.chats.DoubleTapUtils;
+import com.exteragram.messenger.preferences.components.CustomPreferenceCell;
+import com.exteragram.messenger.preferences.components.PreviewColors;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.MessageDrawable;

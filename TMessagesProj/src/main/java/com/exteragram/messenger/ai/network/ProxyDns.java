@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.ai.network;
+package com.exteragram.messenger.ai.network;
 
 import android.content.SharedPreferences;
 
-import com.BloomGram.messenger.utils.network.ExteraHttpClient;
-import com.BloomGram.messenger.utils.network.RemoteUtils;
+import com.exteragram.messenger.utils.network.ExteraHttpClient;
+import com.exteragram.messenger.utils.network.RemoteUtils;
 
 import org.jetbrains.annotations.NotNull;
 

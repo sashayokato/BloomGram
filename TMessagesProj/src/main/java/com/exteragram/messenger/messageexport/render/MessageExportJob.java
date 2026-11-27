@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.render;
+package com.exteragram.messenger.messageexport.render;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.os.SystemClock;
 
-import com.BloomGram.messenger.messageexport.appearance.MessageExportBackground;
+import com.exteragram.messenger.messageexport.appearance.MessageExportBackground;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.DispatchQueue;

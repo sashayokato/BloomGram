@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pdf.ui;
+package com.exteragram.messenger.pdf.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -37,9 +37,9 @@ import android.widget.Magnifier;
 import androidx.annotation.RequiresApi;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.pdf.PdfDocumentRenderer;
-import com.BloomGram.messenger.translator.TranslatorUtils;
-import com.BloomGram.messenger.utils.system.VibratorUtils;
+import com.exteragram.messenger.pdf.PdfDocumentRenderer;
+import com.exteragram.messenger.translator.TranslatorUtils;
+import com.exteragram.messenger.utils.system.VibratorUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

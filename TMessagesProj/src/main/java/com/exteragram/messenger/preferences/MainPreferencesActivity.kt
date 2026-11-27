@@ -12,20 +12,20 @@
 
 */
 
-package com.BloomGram.messenger.preferences
+package com.exteragram.messenger.preferences
 
 import android.content.Context
 import android.view.HapticFeedbackConstants
 import android.view.View
-import com.BloomGram.messenger.plugins.PluginsController
-import com.BloomGram.messenger.plugins.ui.PluginsActivity
-import com.BloomGram.messenger.preferences.appearance.AppearancePreferencesActivity
-import com.BloomGram.messenger.preferences.chats.ChatsPreferencesActivity
-import com.BloomGram.messenger.preferences.components.CommunityCardCell
-import com.BloomGram.messenger.preferences.components.HeaderSettingsCell
-import com.BloomGram.messenger.useSystemIconShape
-import com.BloomGram.messenger.utils.addIf
-import com.BloomGram.messenger.utils.system.VibratorUtils
+import com.exteragram.messenger.plugins.PluginsController
+import com.exteragram.messenger.plugins.ui.PluginsActivity
+import com.exteragram.messenger.preferences.appearance.AppearancePreferencesActivity
+import com.exteragram.messenger.preferences.chats.ChatsPreferencesActivity
+import com.exteragram.messenger.preferences.components.CommunityCardCell
+import com.exteragram.messenger.preferences.components.HeaderSettingsCell
+import com.exteragram.messenger.useSystemIconShape
+import com.exteragram.messenger.utils.addIf
+import com.exteragram.messenger.utils.system.VibratorUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.BuildVars
 import org.telegram.messenger.LocaleController.formatPluralString

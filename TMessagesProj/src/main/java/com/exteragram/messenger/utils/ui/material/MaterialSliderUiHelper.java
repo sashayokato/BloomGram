@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui.material;
+package com.exteragram.messenger.utils.ui.material;
 
 import static com.google.android.material.slider.LabelFormatter.LABEL_GONE;
 import static com.google.android.material.slider.TickVisibilityMode.TICK_VISIBILITY_AUTO_LIMIT;

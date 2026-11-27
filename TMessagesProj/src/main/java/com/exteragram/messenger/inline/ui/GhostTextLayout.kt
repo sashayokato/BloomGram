@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.inline.ui
+package com.exteragram.messenger.inline.ui
 
 import android.graphics.Canvas
 import android.os.Build

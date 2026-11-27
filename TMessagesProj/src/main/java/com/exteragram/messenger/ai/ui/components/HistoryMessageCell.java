@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.ai.ui.components;
+package com.exteragram.messenger.ai.ui.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.getString;
@@ -30,7 +30,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.ai.data.Message;
+import com.exteragram.messenger.ai.data.Message;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.Emoji;

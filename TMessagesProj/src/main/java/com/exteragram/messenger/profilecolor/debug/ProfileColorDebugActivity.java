@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.profilecolor.debug;
+package com.exteragram.messenger.profilecolor.debug;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
@@ -23,7 +23,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.BloomGram.messenger.debug.DebugConfig;
+import com.exteragram.messenger.debug.DebugConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LiteMode;

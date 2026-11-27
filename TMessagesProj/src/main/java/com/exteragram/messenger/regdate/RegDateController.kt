@@ -12,16 +12,16 @@
 
 */
 
-package com.BloomGram.messenger.regdate
+package com.exteragram.messenger.regdate
 
 import android.content.Context
 import androidx.collection.LruCache
-import com.BloomGram.messenger.api.db.DatabaseHelper
-import com.BloomGram.messenger.api.dto.RegDateDTO
-import com.BloomGram.messenger.api.model.RegDateFlag
-import com.BloomGram.messenger.backup.InvisibleEncryptor
-import com.BloomGram.messenger.badges.BadgesController
-import com.BloomGram.messenger.utils.chats.ChatUtils
+import com.exteragram.messenger.api.db.DatabaseHelper
+import com.exteragram.messenger.api.dto.RegDateDTO
+import com.exteragram.messenger.api.model.RegDateFlag
+import com.exteragram.messenger.backup.InvisibleEncryptor
+import com.exteragram.messenger.badges.BadgesController
+import com.exteragram.messenger.utils.chats.ChatUtils
 import com.google.gson.Gson
 import com.google.gson.JsonObject
 import org.telegram.messenger.AndroidUtilities

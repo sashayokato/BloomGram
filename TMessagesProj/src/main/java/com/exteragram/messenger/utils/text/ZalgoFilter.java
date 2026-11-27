@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.utils.text;
+package com.exteragram.messenger.utils.text;
 
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import java.util.ArrayList;
 

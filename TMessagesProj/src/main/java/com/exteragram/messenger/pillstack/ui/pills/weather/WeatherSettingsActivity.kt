@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.ui.pills.weather
+package com.exteragram.messenger.pillstack.ui.pills.weather
 
 import android.content.Context
 import android.graphics.Canvas
@@ -24,15 +24,15 @@ import android.view.View.MeasureSpec
 import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
-import com.BloomGram.messenger.GSON
-import com.BloomGram.messenger.pillstack.core.PillType
-import com.BloomGram.messenger.pillstack.core.activePills
-import com.BloomGram.messenger.pillstack.core.customWeatherAddress
-import com.BloomGram.messenger.pillstack.core.customWeatherLocation
-import com.BloomGram.messenger.pillstack.core.notifySettingsChanged
-import com.BloomGram.messenger.pillstack.core.useCurrentLocation
-import com.BloomGram.messenger.pillstack.ui.PillStackPreferencesActivity
-import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.exteragram.messenger.GSON
+import com.exteragram.messenger.pillstack.core.PillType
+import com.exteragram.messenger.pillstack.core.activePills
+import com.exteragram.messenger.pillstack.core.customWeatherAddress
+import com.exteragram.messenger.pillstack.core.customWeatherLocation
+import com.exteragram.messenger.pillstack.core.notifySettingsChanged
+import com.exteragram.messenger.pillstack.core.useCurrentLocation
+import com.exteragram.messenger.pillstack.ui.PillStackPreferencesActivity
+import com.exteragram.messenger.preferences.BasePreferencesActivity
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.AndroidUtilities.dp
 import org.telegram.messenger.DocumentObject

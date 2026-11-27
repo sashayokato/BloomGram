@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.utils.folders
+package com.exteragram.messenger.utils.folders
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.BloomGram.messenger.utils.network.BotCloudStorage
+import com.exteragram.messenger.utils.network.BotCloudStorage
 import org.json.JSONObject
 import org.telegram.messenger.ApplicationLoader
 import org.telegram.messenger.ChatObject

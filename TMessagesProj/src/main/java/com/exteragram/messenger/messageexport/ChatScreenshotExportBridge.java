@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport;
+package com.exteragram.messenger.messageexport;
 
 import static org.telegram.messenger.LocaleController.getString;
 

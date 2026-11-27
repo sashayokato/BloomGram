@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components;
+package com.exteragram.messenger.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -48,9 +48,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.utils.system.VibratorUtils;
-import com.BloomGram.messenger.utils.ui.SliderHapticsHelper;
-import com.BloomGram.messenger.utils.ui.material.Material3Tokens;
+import com.exteragram.messenger.utils.system.VibratorUtils;
+import com.exteragram.messenger.utils.ui.SliderHapticsHelper;
+import com.exteragram.messenger.utils.ui.material.Material3Tokens;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

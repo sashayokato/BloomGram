@@ -5,7 +5,7 @@ import android.text.TextUtils;
 import android.view.HapticFeedbackConstants;
 import android.view.View;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.json.JSONObject;
 import org.telegram.messenger.AndroidUtilities;

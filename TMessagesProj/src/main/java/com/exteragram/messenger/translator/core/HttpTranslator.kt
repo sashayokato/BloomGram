@@ -12,16 +12,16 @@
 
 */
 
-package com.BloomGram.messenger.translator.core
+package com.exteragram.messenger.translator.core
 
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.Response
 
-import com.BloomGram.messenger.translator.FormattedTranslation
-import com.BloomGram.messenger.translator.TranslatorUtils
+import com.exteragram.messenger.translator.FormattedTranslation
+import com.exteragram.messenger.translator.TranslatorUtils
 import org.telegram.tgnet.TLRPC
-import com.BloomGram.messenger.utils.network.ExteraHttpClient
+import com.exteragram.messenger.utils.network.ExteraHttpClient
 
 abstract class HttpTranslator : BaseTranslator() {
 

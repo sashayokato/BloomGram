@@ -60,8 +60,8 @@ import android.view.accessibility.AccessibilityNodeInfo;
 import android.widget.OverScroller;
 import android.widget.TextView;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.inline.InlineMathController;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.inline.InlineMathController;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BuildVars;

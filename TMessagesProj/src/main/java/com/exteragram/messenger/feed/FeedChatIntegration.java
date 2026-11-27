@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.feed;
+package com.exteragram.messenger.feed;
 
 import androidx.collection.LongSparseArray;
 
-import com.BloomGram.messenger.feed.ads.FeedAdController;
-import com.BloomGram.messenger.feed.ads.FeedAdInjector;
+import com.exteragram.messenger.feed.ads.FeedAdController;
+import com.exteragram.messenger.feed.ads.FeedAdInjector;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

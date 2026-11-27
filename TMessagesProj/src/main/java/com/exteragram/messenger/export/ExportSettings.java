@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.export;
+package com.exteragram.messenger.export;
 
-import com.BloomGram.messenger.config.PrefEnum;
+import com.exteragram.messenger.config.PrefEnum;
 
 import org.telegram.tgnet.TLRPC;
 

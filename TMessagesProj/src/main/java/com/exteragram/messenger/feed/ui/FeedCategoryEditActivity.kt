@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.feed.ui
+package com.exteragram.messenger.feed.ui
 
 import android.content.Context
 import android.content.DialogInterface
@@ -27,11 +27,11 @@ import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.FrameLayout
 import android.widget.TextView
-import com.BloomGram.messenger.feed.FeedConfig
-import com.BloomGram.messenger.feed.FeedController
-import com.BloomGram.messenger.icons.IconManager
-import com.BloomGram.messenger.preferences.BasePreferencesActivity
-import com.BloomGram.messenger.utils.ui.UIUtil
+import com.exteragram.messenger.feed.FeedConfig
+import com.exteragram.messenger.feed.FeedController
+import com.exteragram.messenger.icons.IconManager
+import com.exteragram.messenger.preferences.BasePreferencesActivity
+import com.exteragram.messenger.utils.ui.UIUtil
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.AndroidUtilities.dp
 import org.telegram.messenger.BotWebViewVibrationEffect

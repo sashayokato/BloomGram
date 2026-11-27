@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.ai.network.backend;
+package com.exteragram.messenger.ai.network.backend;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ai.data.Message;
-import com.BloomGram.messenger.ai.data.Role;
-import com.BloomGram.messenger.ai.data.Service;
+import com.exteragram.messenger.ai.data.Message;
+import com.exteragram.messenger.ai.data.Role;
+import com.exteragram.messenger.ai.data.Service;
 
 import java.util.List;
 

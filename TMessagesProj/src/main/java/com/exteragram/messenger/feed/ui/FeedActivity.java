@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.feed.ui;
+package com.exteragram.messenger.feed.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -28,10 +28,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.config.BottomNavigationBar;
-import com.BloomGram.messenger.feed.FeedController;
-import com.BloomGram.messenger.feed.FeedConfig;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.config.BottomNavigationBar;
+import com.exteragram.messenger.feed.FeedController;
+import com.exteragram.messenger.feed.FeedConfig;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -39,7 +39,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.BloomGram.messenger.utils.ui.tabs.MainTabsUiHelper;
+import com.exteragram.messenger.utils.ui.tabs.MainTabsUiHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

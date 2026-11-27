@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.badges.source
+package com.exteragram.messenger.badges.source
 
-import com.BloomGram.messenger.api.db.ProfileDao
-import com.BloomGram.messenger.api.dto.BadgeDTO
-import com.BloomGram.messenger.api.dto.ProfileDTO
-import com.BloomGram.messenger.api.model.ProfileStatus
+import com.exteragram.messenger.api.db.ProfileDao
+import com.exteragram.messenger.api.dto.BadgeDTO
+import com.exteragram.messenger.api.dto.ProfileDTO
+import com.exteragram.messenger.api.model.ProfileStatus
 import java.util.concurrent.ConcurrentHashMap
 
 private data class BadgeInfo(

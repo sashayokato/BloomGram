@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.camera;
+package com.exteragram.messenger.camera;
 
 import android.content.Context;
 import android.content.pm.PackageManager;
@@ -59,8 +59,8 @@ import androidx.lifecycle.LifecycleRegistry;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Observer;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.system.SystemUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.system.SystemUtils;
 import com.google.common.util.concurrent.ListenableFuture;
 
 import org.telegram.messenger.AndroidUtilities;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.icons.ui.components;
+package com.exteragram.messenger.icons.ui.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -48,10 +48,10 @@ import androidx.annotation.Nullable;
 import androidx.core.content.res.ResourcesCompat;
 
 import com.caverock.androidsvg.SVG;
-import com.BloomGram.messenger.icons.ExteraResources;
-import com.BloomGram.messenger.icons.IconManager;
-import com.BloomGram.messenger.icons.IconPack;
-import com.BloomGram.messenger.icons.IconPackStorage;
+import com.exteragram.messenger.icons.ExteraResources;
+import com.exteragram.messenger.icons.IconManager;
+import com.exteragram.messenger.icons.IconPack;
+import com.exteragram.messenger.icons.IconPackStorage;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

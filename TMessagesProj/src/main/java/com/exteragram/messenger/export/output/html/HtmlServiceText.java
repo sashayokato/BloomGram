@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.export.output.html;
+package com.exteragram.messenger.export.output.html;
 
-import com.BloomGram.messenger.export.ExportFormat;
-import com.BloomGram.messenger.export.api.ExportData;
-import com.BloomGram.messenger.export.api.ExportParser;
+import com.exteragram.messenger.export.ExportFormat;
+import com.exteragram.messenger.export.api.ExportData;
+import com.exteragram.messenger.export.api.ExportParser;
 
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.MessageObject;

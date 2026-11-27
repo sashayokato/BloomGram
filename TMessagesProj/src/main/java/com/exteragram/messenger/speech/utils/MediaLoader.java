@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.speech.utils;
+package com.exteragram.messenger.speech.utils;
 
-import com.BloomGram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.utils.chats.ChatUtils;
 
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;

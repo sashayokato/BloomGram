@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.ui;
+package com.exteragram.messenger.messageexport.ui;
 
 import android.Manifest;
 import android.app.Activity;

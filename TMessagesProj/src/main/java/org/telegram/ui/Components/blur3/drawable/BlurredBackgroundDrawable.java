@@ -28,8 +28,8 @@ import androidx.annotation.RequiresApi;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.GlassOutlineStyle;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.GlassOutlineStyle;
 
 import org.telegram.messenger.utils.RadiiUtils;
 import org.telegram.ui.ActionBar.Theme;

@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom.ui;
+package com.exteragram.messenger.pillstack.custom.ui;
 
 import android.text.InputType;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.BloomGram.messenger.pillstack.custom.CustomPillSpec;
+import com.exteragram.messenger.pillstack.custom.CustomPillSpec;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BotWebViewVibrationEffect;

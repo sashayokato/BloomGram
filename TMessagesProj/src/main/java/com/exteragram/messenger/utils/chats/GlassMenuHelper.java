@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.chats;
+package com.exteragram.messenger.utils.chats;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.dpf2;
@@ -24,7 +24,7 @@ import android.view.ViewGroup;
 
 import androidx.core.content.ContextCompat;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.LiteMode;
 import org.telegram.messenger.R;

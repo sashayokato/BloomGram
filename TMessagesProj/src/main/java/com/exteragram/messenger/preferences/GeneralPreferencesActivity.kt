@@ -12,18 +12,18 @@
 
 */
 
-package com.BloomGram.messenger.preferences
+package com.exteragram.messenger.preferences
 
 import android.text.InputType
 import android.text.TextUtils
 import android.util.TypedValue
 import android.view.View
 import android.widget.LinearLayout
-import com.BloomGram.messenger.*
-import com.BloomGram.messenger.translator.TranslationProviders
-import com.BloomGram.messenger.translator.TranslatorUtils
-import com.BloomGram.messenger.utils.addIf
-import com.BloomGram.messenger.utils.text.ZalgoFilter
+import com.exteragram.messenger.*
+import com.exteragram.messenger.translator.TranslationProviders
+import com.exteragram.messenger.translator.TranslatorUtils
+import com.exteragram.messenger.utils.addIf
+import com.exteragram.messenger.utils.text.ZalgoFilter
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.LocaleController.getString

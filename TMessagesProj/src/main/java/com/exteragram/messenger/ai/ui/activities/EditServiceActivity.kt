@@ -10,7 +10,7 @@
  in ADDITIONAL_TERMS.md at the root of the repository.
 */
 
-package com.BloomGram.messenger.ai.ui.activities
+package com.exteragram.messenger.ai.ui.activities
 
 import android.content.ClipboardManager
 import android.content.Context
@@ -22,18 +22,18 @@ import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.TextView
 import androidx.core.view.WindowInsetsCompat
-import com.BloomGram.messenger.ai.DEFAULT_SERVICE
-import com.BloomGram.messenger.ai.AiController
-import com.BloomGram.messenger.ai.clearSelectedService
-import com.BloomGram.messenger.ai.setSelectedServices
-import com.BloomGram.messenger.ai.data.Service
-import com.BloomGram.messenger.ai.data.Suggestions
-import com.BloomGram.messenger.ai.network.Client
-import com.BloomGram.messenger.ai.network.GenerationCallback
-import com.BloomGram.messenger.preferences.BasePreferencesActivity
-import com.BloomGram.messenger.preferences.utils.SettingsRegistry
-import com.BloomGram.messenger.utils.addIf
-import com.BloomGram.messenger.utils.text.LocaleUtils
+import com.exteragram.messenger.ai.DEFAULT_SERVICE
+import com.exteragram.messenger.ai.AiController
+import com.exteragram.messenger.ai.clearSelectedService
+import com.exteragram.messenger.ai.setSelectedServices
+import com.exteragram.messenger.ai.data.Service
+import com.exteragram.messenger.ai.data.Suggestions
+import com.exteragram.messenger.ai.network.Client
+import com.exteragram.messenger.ai.network.GenerationCallback
+import com.exteragram.messenger.preferences.BasePreferencesActivity
+import com.exteragram.messenger.preferences.utils.SettingsRegistry
+import com.exteragram.messenger.utils.addIf
+import com.exteragram.messenger.utils.text.LocaleUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.BotWebViewVibrationEffect
 import org.telegram.messenger.LocaleController

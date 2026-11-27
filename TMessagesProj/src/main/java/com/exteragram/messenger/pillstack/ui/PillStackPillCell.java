@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.ui;
+package com.exteragram.messenger.pillstack.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -34,8 +34,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.pillstack.custom.CustomPillSpec;
-import com.BloomGram.messenger.pillstack.custom.PillIconBadgeView;
+import com.exteragram.messenger.pillstack.custom.CustomPillSpec;
+import com.exteragram.messenger.pillstack.custom.PillIconBadgeView;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.Emoji;

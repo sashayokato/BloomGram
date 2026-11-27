@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.feed.ui;
+package com.exteragram.messenger.feed.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.getString;
@@ -29,7 +29,7 @@ import android.widget.ImageView;
 
 import androidx.core.content.ContextCompat;
 
-import com.BloomGram.messenger.feed.FeedConfig;
+import com.exteragram.messenger.feed.FeedConfig;
 
 import org.telegram.messenger.LocaleController;
 import org.telegram.messenger.R;

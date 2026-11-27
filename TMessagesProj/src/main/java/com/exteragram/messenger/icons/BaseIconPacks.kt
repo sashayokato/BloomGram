@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.icons
+package com.exteragram.messenger.icons
 
 import android.util.SparseIntArray
 import org.telegram.messenger.LocaleController

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.adblock.ui;
+package com.exteragram.messenger.adblock.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.getString;
@@ -29,10 +29,10 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.adblock.WebAdBlocker;
-import com.BloomGram.messenger.adblock.backend.AdBlockManager;
-import com.BloomGram.messenger.utils.ui.material.SwitchUiHelper;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.adblock.WebAdBlocker;
+import com.exteragram.messenger.adblock.backend.AdBlockManager;
+import com.exteragram.messenger.utils.ui.material.SwitchUiHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

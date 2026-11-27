@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.chats;
+package com.exteragram.messenger.utils.chats;
 
 import android.content.SharedPreferences;
 

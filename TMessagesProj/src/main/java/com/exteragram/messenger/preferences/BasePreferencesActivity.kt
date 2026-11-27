@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.preferences
+package com.exteragram.messenger.preferences
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -25,9 +25,9 @@ import androidx.annotation.StringRes
 import androidx.collection.LongSparseArray
 import androidx.core.util.Consumer
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.BloomGram.messenger.preferences.utils.SettingsRegistry
-import com.BloomGram.messenger.utils.ui.ChatHeaderUiHelper
-import com.BloomGram.messenger.utils.ui.PopupUtils
+import com.exteragram.messenger.preferences.utils.SettingsRegistry
+import com.exteragram.messenger.utils.ui.ChatHeaderUiHelper
+import com.exteragram.messenger.utils.ui.PopupUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.AndroidUtilities.dp
 import org.telegram.messenger.LocaleController

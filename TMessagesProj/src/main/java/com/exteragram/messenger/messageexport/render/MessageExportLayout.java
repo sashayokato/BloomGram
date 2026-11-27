@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.render;
+package com.exteragram.messenger.messageexport.render;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
 import android.os.SystemClock;
 
-import com.BloomGram.messenger.messageexport.model.MessageExportDocument;
+import com.exteragram.messenger.messageexport.model.MessageExportDocument;
 
 import org.telegram.messenger.AndroidUtilities;
 

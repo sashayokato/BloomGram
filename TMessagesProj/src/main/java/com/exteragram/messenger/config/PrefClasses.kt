@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.config
+package com.exteragram.messenger.config
 
-import com.BloomGram.messenger.backup.PreferencesUtils.BackupItem
-import com.BloomGram.messenger.editor as exteraEditor
-import com.BloomGram.messenger.preferences as exteraPreferences
+import com.exteragram.messenger.backup.PreferencesUtils.BackupItem
+import com.exteragram.messenger.editor as exteraEditor
+import com.exteragram.messenger.preferences as exteraPreferences
 import kotlin.reflect.KProperty
 
 val allDelegates = mutableListOf<BasePref<*>>()

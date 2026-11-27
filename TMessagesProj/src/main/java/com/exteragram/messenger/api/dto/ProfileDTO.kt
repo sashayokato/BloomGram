@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.api.dto
+package com.exteragram.messenger.api.dto
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.BloomGram.messenger.api.model.ProfileStatus
-import com.BloomGram.messenger.api.model.ProfileType
+import com.exteragram.messenger.api.model.ProfileStatus
+import com.exteragram.messenger.api.model.ProfileType
 
 @Entity
 data class ProfileDTO(

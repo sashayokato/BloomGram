@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.adblock.interop;
+package com.exteragram.messenger.adblock.interop;
 
-import com.BloomGram.messenger.adblock.backend.ScriptletsManager;
-import com.BloomGram.messenger.adblock.backend.SubscriptionsManager;
-import com.BloomGram.messenger.adblock.data.BlockResult;
-import com.BloomGram.messenger.adblock.data.UrlCosmeticResources;
+import com.exteragram.messenger.adblock.backend.ScriptletsManager;
+import com.exteragram.messenger.adblock.backend.SubscriptionsManager;
+import com.exteragram.messenger.adblock.data.BlockResult;
+import com.exteragram.messenger.adblock.data.UrlCosmeticResources;
 
 import java.util.Collection;
 import java.util.concurrent.locks.ReentrantReadWriteLock;

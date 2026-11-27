@@ -12,10 +12,10 @@
 
 */
 
-package com.BloomGram.messenger.feed.ads;
+package com.exteragram.messenger.feed.ads;
 
-import com.BloomGram.messenger.feed.FeedChatIntegration;
-import com.BloomGram.messenger.feed.FeedMessageUtils;
+import com.exteragram.messenger.feed.FeedChatIntegration;
+import com.exteragram.messenger.feed.FeedMessageUtils;
 
 import org.telegram.messenger.MessageObject;
 

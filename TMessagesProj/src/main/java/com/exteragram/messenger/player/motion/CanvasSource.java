@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.player.motion;
+package com.exteragram.messenger.player.motion;
 
 import android.graphics.Bitmap;
 import android.provider.MediaStore;
 
-import com.BloomGram.messenger.player.PlayerCache;
-import com.BloomGram.messenger.player.TrackQuery;
+import com.exteragram.messenger.player.PlayerCache;
+import com.exteragram.messenger.player.TrackQuery;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.DispatchQueue;

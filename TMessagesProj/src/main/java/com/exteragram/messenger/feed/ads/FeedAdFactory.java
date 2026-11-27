@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.feed.ads;
+package com.exteragram.messenger.feed.ads;
 
 import org.telegram.messenger.MessageObject;
 import org.telegram.tgnet.ConnectionsManager;

@@ -12,17 +12,17 @@
 
 */
 
-package com.BloomGram.messenger.export;
+package com.exteragram.messenger.export;
 
 import android.content.SharedPreferences;
 import android.os.SystemClock;
 
-import com.BloomGram.messenger.export.api.ExportApi;
-import com.BloomGram.messenger.export.api.ExportData;
-import com.BloomGram.messenger.export.output.AbstractWriter;
-import com.BloomGram.messenger.export.output.ExportFiles;
-import com.BloomGram.messenger.export.output.OutputFile;
-import com.BloomGram.messenger.export.output.Result;
+import com.exteragram.messenger.export.api.ExportApi;
+import com.exteragram.messenger.export.api.ExportData;
+import com.exteragram.messenger.export.output.AbstractWriter;
+import com.exteragram.messenger.export.output.ExportFiles;
+import com.exteragram.messenger.export.output.OutputFile;
+import com.exteragram.messenger.export.output.Result;
 
 import org.telegram.messenger.AndroidUtilities;
 import android.content.Context;

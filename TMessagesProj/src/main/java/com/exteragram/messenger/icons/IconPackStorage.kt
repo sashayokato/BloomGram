@@ -12,9 +12,9 @@
 
 */
 
-package com.BloomGram.messenger.icons
+package com.exteragram.messenger.icons
 
-import com.BloomGram.messenger.export.output.ExportFiles
+import com.exteragram.messenger.export.output.ExportFiles
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import org.json.JSONObject

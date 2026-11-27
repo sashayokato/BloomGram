@@ -51,14 +51,14 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.util.Consumer;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.plugins.hooks.PluginsHooks;
-import com.BloomGram.messenger.plugins.PluginsController;
-import com.BloomGram.messenger.regdate.RegDateController;
-import com.BloomGram.messenger.utils.folders.FolderRoles;
-import com.BloomGram.messenger.utils.chats.PeerSettingsPrefs;
-import com.BloomGram.messenger.utils.ui.MonetUtils;
-import com.BloomGram.messenger.utils.network.RemoteUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.plugins.hooks.PluginsHooks;
+import com.exteragram.messenger.plugins.PluginsController;
+import com.exteragram.messenger.regdate.RegDateController;
+import com.exteragram.messenger.utils.folders.FolderRoles;
+import com.exteragram.messenger.utils.chats.PeerSettingsPrefs;
+import com.exteragram.messenger.utils.ui.MonetUtils;
+import com.exteragram.messenger.utils.network.RemoteUtils;
 
 import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLiteDatabase;

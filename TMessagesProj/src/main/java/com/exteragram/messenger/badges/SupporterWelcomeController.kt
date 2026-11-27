@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.badges
+package com.exteragram.messenger.badges
 
 import androidx.core.content.edit
-import com.BloomGram.messenger.api.network.ApiClient
-import com.BloomGram.messenger.components.SupporterWelcomeSheet
-import com.BloomGram.messenger.preferences
-import com.BloomGram.messenger.utils.network.BotCloudStorage
+import com.exteragram.messenger.api.network.ApiClient
+import com.exteragram.messenger.components.SupporterWelcomeSheet
+import com.exteragram.messenger.preferences
+import com.exteragram.messenger.utils.network.BotCloudStorage
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.ApplicationLoader
 import org.telegram.messenger.NotificationCenter

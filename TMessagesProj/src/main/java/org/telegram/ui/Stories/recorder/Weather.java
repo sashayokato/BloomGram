@@ -35,9 +35,9 @@ import org.telegram.ui.Components.PermissionRequest;
 import org.telegram.ui.LaunchActivity;
 import org.telegram.ui.Stories.DarkThemeResourceProvider;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.pillstack.core.PillStackConfig;
-import com.BloomGram.messenger.pillstack.core.PillType;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.pillstack.core.PillStackConfig;
+import com.exteragram.messenger.pillstack.core.PillType;
 
 import java.util.Calendar;
 import java.util.Date;

@@ -12,19 +12,19 @@
 
 */
 
-package com.BloomGram.messenger.ai.ui.activities
+package com.exteragram.messenger.ai.ui.activities
 
 import android.content.Context
 import android.content.DialogInterface
 import android.view.Gravity
 import android.view.View
 import android.widget.TextView
-import com.BloomGram.messenger.PLACEHOLDERS
-import com.BloomGram.messenger.ai.AiController
-import com.BloomGram.messenger.ai.data.Role
-import com.BloomGram.messenger.ai.setSelectedAiRole
-import com.BloomGram.messenger.ai.ui.components.RoleCell
-import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.exteragram.messenger.PLACEHOLDERS
+import com.exteragram.messenger.ai.AiController
+import com.exteragram.messenger.ai.data.Role
+import com.exteragram.messenger.ai.setSelectedAiRole
+import com.exteragram.messenger.ai.ui.components.RoleCell
+import com.exteragram.messenger.preferences.BasePreferencesActivity
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.LocaleController.getString

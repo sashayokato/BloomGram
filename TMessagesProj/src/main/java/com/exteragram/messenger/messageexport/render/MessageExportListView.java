@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.render;
+package com.exteragram.messenger.messageexport.render;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -37,9 +37,9 @@ import androidx.recyclerview.widget.GridLayoutManagerFixed;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.messageexport.model.MessageExportChatContext;
-import com.BloomGram.messenger.messageexport.model.MessageExportDocument;
-import com.BloomGram.messenger.messageexport.model.MessageExportSession;
+import com.exteragram.messenger.messageexport.model.MessageExportChatContext;
+import com.exteragram.messenger.messageexport.model.MessageExportDocument;
+import com.exteragram.messenger.messageexport.model.MessageExportSession;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ImageReceiver;

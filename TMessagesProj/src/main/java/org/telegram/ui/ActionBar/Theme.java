@@ -57,7 +57,7 @@ import android.hardware.SensorManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.SystemClock;
-import com.BloomGram.messenger.utils.ui.TextPaint;
+import com.exteragram.messenger.utils.ui.TextPaint;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
@@ -74,10 +74,10 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import com.BloomGram.messenger.DividerStyle;
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.utils.text.LocaleUtils;
-import com.BloomGram.messenger.utils.ui.MonetUtils;
+import com.exteragram.messenger.DividerStyle;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.utils.text.LocaleUtils;
+import com.exteragram.messenger.utils.ui.MonetUtils;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

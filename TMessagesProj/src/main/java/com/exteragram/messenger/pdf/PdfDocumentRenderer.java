@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pdf;
+package com.exteragram.messenger.pdf;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;

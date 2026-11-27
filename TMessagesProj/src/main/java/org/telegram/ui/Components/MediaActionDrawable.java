@@ -18,7 +18,7 @@ import android.text.TextPaint;
 import android.util.SparseArray;
 import android.view.animation.DecelerateInterpolator;
 
-import com.BloomGram.messenger.plugins.PluginsController;
+import com.exteragram.messenger.plugins.PluginsController;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.MessageDrawable;

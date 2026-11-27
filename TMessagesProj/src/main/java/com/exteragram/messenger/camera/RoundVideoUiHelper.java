@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.camera;
+package com.exteragram.messenger.camera;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -26,12 +26,12 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.CameraType;
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.VideoMessagesCamera;
-import com.BloomGram.messenger.debug.DebugConfig;
-import com.BloomGram.messenger.debug.DebugOverlayView;
-import com.BloomGram.messenger.utils.system.SystemUtils;
+import com.exteragram.messenger.CameraType;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.VideoMessagesCamera;
+import com.exteragram.messenger.debug.DebugConfig;
+import com.exteragram.messenger.debug.DebugOverlayView;
+import com.exteragram.messenger.utils.system.SystemUtils;
 
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.Utilities;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.reactions
+package com.exteragram.messenger.reactions
 
 import android.content.ClipData
 import android.content.ClipboardManager

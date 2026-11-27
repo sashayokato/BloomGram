@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.preferences.components;
+package com.exteragram.messenger.preferences.components;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -34,8 +34,8 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.pm.PackageInfoCompat;
 
-import com.BloomGram.messenger.preferences.utils.IconShapeHelper;
-import com.BloomGram.messenger.utils.ui.MonetUtils;
+import com.exteragram.messenger.preferences.utils.IconShapeHelper;
+import com.exteragram.messenger.utils.ui.MonetUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.inline.docs
+package com.exteragram.messenger.inline.docs
 
 class InlineExampleGroup(private val english: List<String>, private val russian: List<String> = english) {
     fun examples(russian: Boolean): List<String> = if (russian) this.russian else english

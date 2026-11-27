@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.icons.ui.components;
+package com.exteragram.messenger.icons.ui.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -33,8 +33,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.icons.IconPack;
-import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.exteragram.messenger.icons.IconPack;
+import com.exteragram.messenger.utils.text.LocaleUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.R;

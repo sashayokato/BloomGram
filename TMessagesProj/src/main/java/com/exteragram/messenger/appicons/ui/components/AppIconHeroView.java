@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.appicons.ui.components;
+package com.exteragram.messenger.appicons.ui.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -32,10 +32,10 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.appicons.AppIcon;
-import com.BloomGram.messenger.appicons.AppIconController;
-import com.BloomGram.messenger.appicons.AppIconPreviewLoader;
-import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.exteragram.messenger.appicons.AppIcon;
+import com.exteragram.messenger.appicons.AppIconController;
+import com.exteragram.messenger.appicons.AppIconPreviewLoader;
+import com.exteragram.messenger.utils.text.LocaleUtils;
 
 import androidx.core.graphics.ColorUtils;
 

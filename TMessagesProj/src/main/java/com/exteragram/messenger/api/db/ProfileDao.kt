@@ -12,15 +12,15 @@
 
 */
 
-package com.BloomGram.messenger.api.db
+package com.exteragram.messenger.api.db
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.BloomGram.messenger.api.dto.BadgeDTO
-import com.BloomGram.messenger.api.dto.NowPlayingInfoDTO
-import com.BloomGram.messenger.api.dto.ProfileDTO
+import com.exteragram.messenger.api.dto.BadgeDTO
+import com.exteragram.messenger.api.dto.NowPlayingInfoDTO
+import com.exteragram.messenger.api.dto.ProfileDTO
 
 @Dao
 interface ProfileDao {

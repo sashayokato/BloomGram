@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.player.motion;
+package com.exteragram.messenger.player.motion;
 
 import android.text.TextUtils;
 import android.util.Base64;
 
-import com.BloomGram.messenger.player.PlayerCache;
-import com.BloomGram.messenger.player.TrackQuery;
-import com.BloomGram.messenger.utils.network.ExteraHttpClient;
+import com.exteragram.messenger.player.PlayerCache;
+import com.exteragram.messenger.player.TrackQuery;
+import com.exteragram.messenger.utils.network.ExteraHttpClient;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

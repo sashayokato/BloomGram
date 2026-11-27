@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui.material;
+package com.exteragram.messenger.utils.ui.material;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.dpf2;
@@ -29,7 +29,7 @@ import androidx.dynamicanimation.animation.FloatPropertyCompat;
 import androidx.dynamicanimation.animation.SpringAnimation;
 import androidx.dynamicanimation.animation.SpringForce;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.Utilities;
 import org.telegram.ui.ActionBar.Theme;

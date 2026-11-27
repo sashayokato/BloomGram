@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.preferences.utils.IconShapeHelper;
+import com.exteragram.messenger.preferences.utils.IconShapeHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

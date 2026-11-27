@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui
+package com.exteragram.messenger.utils.ui
 
-import com.BloomGram.messenger.DividerStyle
-import com.BloomGram.messenger.getApiBotInfo
-import com.BloomGram.messenger.dividerStyle
-import com.BloomGram.messenger.getSectionRadiusDp
-import com.BloomGram.messenger.sectionsSeparatedHeaders
+import com.exteragram.messenger.DividerStyle
+import com.exteragram.messenger.getApiBotInfo
+import com.exteragram.messenger.dividerStyle
+import com.exteragram.messenger.getSectionRadiusDp
+import com.exteragram.messenger.sectionsSeparatedHeaders
 import org.json.JSONObject
 import org.telegram.tgnet.TLRPC
 

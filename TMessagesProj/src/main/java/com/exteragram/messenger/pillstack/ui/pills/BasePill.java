@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.ui.pills;
+package com.exteragram.messenger.pillstack.ui.pills;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -34,7 +34,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.BloomGram.messenger.pillstack.core.PillStackConfig;
+import com.exteragram.messenger.pillstack.core.PillStackConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

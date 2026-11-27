@@ -12,10 +12,10 @@
 
 */
 
-package com.BloomGram.messenger.export.output.html;
+package com.exteragram.messenger.export.output.html;
 
-import com.BloomGram.messenger.export.api.ExportData;
-import com.BloomGram.messenger.export.api.ExportParser;
+import com.exteragram.messenger.export.api.ExportData;
+import com.exteragram.messenger.export.api.ExportParser;
 
 import java.util.List;
 import java.util.Map;

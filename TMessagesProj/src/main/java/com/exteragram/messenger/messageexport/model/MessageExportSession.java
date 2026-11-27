@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.messageexport.model;
+package com.exteragram.messenger.messageexport.model;
 
 import android.content.Context;
 
-import com.BloomGram.messenger.messageexport.appearance.MessageExportAppearance;
+import com.exteragram.messenger.messageexport.appearance.MessageExportAppearance;
 
 import org.telegram.messenger.ChatMessageSharedResources;
 import org.telegram.messenger.MessageObject;

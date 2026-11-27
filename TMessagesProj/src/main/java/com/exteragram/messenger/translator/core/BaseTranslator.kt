@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.translator.core
+package com.exteragram.messenger.translator.core
 
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.R
 
 import java.util.Locale
 
-import com.BloomGram.messenger.translator.TranslatorUtils
+import com.exteragram.messenger.translator.TranslatorUtils
 
 abstract class BaseTranslator {
 

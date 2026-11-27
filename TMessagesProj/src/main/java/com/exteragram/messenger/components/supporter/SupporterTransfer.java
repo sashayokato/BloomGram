@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components.supporter;
+package com.exteragram.messenger.components.supporter;
 
 import static org.telegram.messenger.LocaleController.getString;
 
@@ -23,11 +23,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.api.ApiController;
-import com.BloomGram.messenger.badges.BadgesController;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
-import com.BloomGram.messenger.utils.ui.AccountsUiHelper;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.api.ApiController;
+import com.exteragram.messenger.badges.BadgesController;
+import com.exteragram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.utils.ui.AccountsUiHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

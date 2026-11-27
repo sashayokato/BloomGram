@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.backup;
+package com.exteragram.messenger.backup;
 
 import android.text.TextUtils;
 

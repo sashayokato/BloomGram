@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.ai.ui;
+package com.exteragram.messenger.ai.ui;
 
 import static org.telegram.messenger.LocaleController.getString;
 
-import com.BloomGram.messenger.ai.network.backend.OnDeviceAvailability;
+import com.exteragram.messenger.ai.network.backend.OnDeviceAvailability;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

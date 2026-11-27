@@ -133,48 +133,48 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.player.PlayerLauncher;
-import com.BloomGram.messenger.config.BottomNavigationBar;
-import com.BloomGram.messenger.debug.DebugConfig;
-import com.BloomGram.messenger.IconPackType;
-import com.BloomGram.messenger.icons.IconManager;
-import com.BloomGram.messenger.api.ApiController;
-import com.BloomGram.messenger.api.db.ExteraDatabase;
-import com.BloomGram.messenger.api.dto.BadgeDTO;
-import com.BloomGram.messenger.badges.BadgesController;
-import com.BloomGram.messenger.export.ui.ExportActivity;
-import com.BloomGram.messenger.export.ui.ExportUiHelper;
-import com.BloomGram.messenger.components.supporter.SupporterBadgeEditSheet;
-import com.BloomGram.messenger.components.supporter.SupporterBadgeHint;
-import com.BloomGram.messenger.components.supporter.SupporterBadgeLanding;
-import com.BloomGram.messenger.components.supporter.SupporterEnterFrom;
-import com.BloomGram.messenger.nowplaying.NowPlayingController;
-import com.BloomGram.messenger.nowplaying.ui.components.NowPlayingCard;
-import com.BloomGram.messenger.nowplaying.ui.components.NowPlayingCardData;
-import com.BloomGram.messenger.plugins.PluginsConstants;
-import com.BloomGram.messenger.plugins.PluginsController;
-import com.BloomGram.messenger.plugins.ui.PluginsActivity;
-import com.BloomGram.messenger.plugins.ui.components.PluginsMenuWrapper;
-import com.BloomGram.messenger.plugins.utils.MenuContextBuilder;
-import com.BloomGram.messenger.profilecolor.ProfileColorTheme;
-import com.BloomGram.messenger.profilecolor.ProfilePhotoFade;
-import com.BloomGram.messenger.regdate.RegDateController;
-import com.BloomGram.messenger.preferences.MainPreferencesActivity;
-import com.BloomGram.messenger.preferences.utils.SettingsRegistry;
-import com.BloomGram.messenger.utils.AppUtils;
-import com.BloomGram.messenger.utils.system.SystemUtils;
-import com.BloomGram.messenger.utils.ui.ChatHeaderUiHelper;
-import com.BloomGram.messenger.utils.ui.GlassUiHelper;
-import com.BloomGram.messenger.utils.ui.tabs.HideOnScrollTracker;
-import com.BloomGram.messenger.utils.ui.tabs.MainTabsUiHelper;
-import com.BloomGram.messenger.utils.ui.ProfileUiHelper;
-import com.BloomGram.messenger.utils.ui.tabs.TabsVisibilityAnimator;
-import com.BloomGram.messenger.utils.ui.UIUtil;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
-import com.BloomGram.messenger.translator.TranslatorUtils;
-import com.BloomGram.messenger.utils.network.RemoteUtils;
-import com.BloomGram.messenger.utils.system.VibratorUtils;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.player.PlayerLauncher;
+import com.exteragram.messenger.config.BottomNavigationBar;
+import com.exteragram.messenger.debug.DebugConfig;
+import com.exteragram.messenger.IconPackType;
+import com.exteragram.messenger.icons.IconManager;
+import com.exteragram.messenger.api.ApiController;
+import com.exteragram.messenger.api.db.ExteraDatabase;
+import com.exteragram.messenger.api.dto.BadgeDTO;
+import com.exteragram.messenger.badges.BadgesController;
+import com.exteragram.messenger.export.ui.ExportActivity;
+import com.exteragram.messenger.export.ui.ExportUiHelper;
+import com.exteragram.messenger.components.supporter.SupporterBadgeEditSheet;
+import com.exteragram.messenger.components.supporter.SupporterBadgeHint;
+import com.exteragram.messenger.components.supporter.SupporterBadgeLanding;
+import com.exteragram.messenger.components.supporter.SupporterEnterFrom;
+import com.exteragram.messenger.nowplaying.NowPlayingController;
+import com.exteragram.messenger.nowplaying.ui.components.NowPlayingCard;
+import com.exteragram.messenger.nowplaying.ui.components.NowPlayingCardData;
+import com.exteragram.messenger.plugins.PluginsConstants;
+import com.exteragram.messenger.plugins.PluginsController;
+import com.exteragram.messenger.plugins.ui.PluginsActivity;
+import com.exteragram.messenger.plugins.ui.components.PluginsMenuWrapper;
+import com.exteragram.messenger.plugins.utils.MenuContextBuilder;
+import com.exteragram.messenger.profilecolor.ProfileColorTheme;
+import com.exteragram.messenger.profilecolor.ProfilePhotoFade;
+import com.exteragram.messenger.regdate.RegDateController;
+import com.exteragram.messenger.preferences.MainPreferencesActivity;
+import com.exteragram.messenger.preferences.utils.SettingsRegistry;
+import com.exteragram.messenger.utils.AppUtils;
+import com.exteragram.messenger.utils.system.SystemUtils;
+import com.exteragram.messenger.utils.ui.ChatHeaderUiHelper;
+import com.exteragram.messenger.utils.ui.GlassUiHelper;
+import com.exteragram.messenger.utils.ui.tabs.HideOnScrollTracker;
+import com.exteragram.messenger.utils.ui.tabs.MainTabsUiHelper;
+import com.exteragram.messenger.utils.ui.ProfileUiHelper;
+import com.exteragram.messenger.utils.ui.tabs.TabsVisibilityAnimator;
+import com.exteragram.messenger.utils.ui.UIUtil;
+import com.exteragram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.translator.TranslatorUtils;
+import com.exteragram.messenger.utils.network.RemoteUtils;
+import com.exteragram.messenger.utils.system.VibratorUtils;
 
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.AccountInstance;
@@ -2845,24 +2845,24 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                 } else if (id == block_contact) {
                     onBlockContactClicked(false);
                 } else if (id >= bloom_grant_dev && id <= bloom_revoke_media) {
-                    com.BloomGram.messenger.badges.BloomBadges.BadgeType type;
+                    com.exteragram.messenger.badges.BloomBadges.BadgeType type;
                     boolean grant;
                     if (id == bloom_grant_dev || id == bloom_revoke_dev) {
-                        type = com.BloomGram.messenger.badges.BloomBadges.BadgeType.DEV;
+                        type = com.exteragram.messenger.badges.BloomBadges.BadgeType.DEV;
                         grant = id == bloom_grant_dev;
                     } else if (id == bloom_grant_vip || id == bloom_revoke_vip) {
-                        type = com.BloomGram.messenger.badges.BloomBadges.BadgeType.VIP;
+                        type = com.exteragram.messenger.badges.BloomBadges.BadgeType.VIP;
                         grant = id == bloom_grant_vip;
                     } else if (id == bloom_grant_admin || id == bloom_revoke_admin) {
-                        type = com.BloomGram.messenger.badges.BloomBadges.BadgeType.ADMIN;
+                        type = com.exteragram.messenger.badges.BloomBadges.BadgeType.ADMIN;
                         grant = id == bloom_grant_admin;
                     } else {
-                        type = com.BloomGram.messenger.badges.BloomBadges.BadgeType.MEDIA;
+                        type = com.exteragram.messenger.badges.BloomBadges.BadgeType.MEDIA;
                         grant = id == bloom_grant_media;
                     }
                     boolean ok = grant
-                            ? com.BloomGram.messenger.badges.BloomBadges.INSTANCE.grant(type, userId)
-                            : com.BloomGram.messenger.badges.BloomBadges.INSTANCE.revoke(type, userId);
+                            ? com.exteragram.messenger.badges.BloomBadges.INSTANCE.grant(type, userId)
+                            : com.exteragram.messenger.badges.BloomBadges.INSTANCE.revoke(type, userId);
                     if (ok) {
                         int message = grant ? R.string.BloomBadgeGrantedGeneric : R.string.BloomBadgeRevokedGeneric;
                         BulletinFactory.of(ProfileActivity.this).createSimpleBulletin(R.raw.contact_check, LocaleController.getString(message)).show();
@@ -13106,14 +13106,14 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                             createAutoDeleteItem(context);
                         }
                         otherItem.addSubItem(add_shortcut, R.drawable.msg_home, LocaleController.getString(R.string.AddShortcut));
-                        if (com.BloomGram.messenger.badges.BloomBadges.INSTANCE.isCurrentUserCreator() && !com.BloomGram.messenger.badges.BloomBadges.INSTANCE.isCreator(user.id)) {
-                            com.BloomGram.messenger.badges.BloomBadges.BadgeType[] bloomTypes = com.BloomGram.messenger.badges.BloomBadges.BadgeType.values();
+                        if (com.exteragram.messenger.badges.BloomBadges.INSTANCE.isCurrentUserCreator() && !com.exteragram.messenger.badges.BloomBadges.INSTANCE.isCreator(user.id)) {
+                            com.exteragram.messenger.badges.BloomBadges.BadgeType[] bloomTypes = com.exteragram.messenger.badges.BloomBadges.BadgeType.values();
                             int[] bloomGrantIds = {bloom_grant_dev, bloom_grant_vip, bloom_grant_admin, bloom_grant_media};
                             int[] bloomRevokeIds = {bloom_revoke_dev, bloom_revoke_vip, bloom_revoke_admin, bloom_revoke_media};
                             int[] bloomGrantStrings = {R.string.BloomGrantDevBadge, R.string.BloomGrantVipBadge, R.string.BloomGrantAdminBadge, R.string.BloomGrantMediaBadge};
                             int[] bloomRevokeStrings = {R.string.BloomRevokeDevBadge, R.string.BloomRevokeVipBadge, R.string.BloomRevokeAdminBadge, R.string.BloomRevokeMediaBadge};
                             for (int i = 0; i < bloomTypes.length; i++) {
-                                boolean granted = com.BloomGram.messenger.badges.BloomBadges.INSTANCE.isGranted(bloomTypes[i], user.id);
+                                boolean granted = com.exteragram.messenger.badges.BloomBadges.INSTANCE.isGranted(bloomTypes[i], user.id);
                                 otherItem.addSubItem(
                                         granted ? bloomRevokeIds[i] : bloomGrantIds[i],
                                         granted ? R.drawable.msg_delete : R.drawable.msg_contacts,

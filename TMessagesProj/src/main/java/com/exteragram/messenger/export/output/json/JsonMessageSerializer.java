@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.export.output.json;
+package com.exteragram.messenger.export.output.json;
 
 import android.util.Base64;
 
-import com.BloomGram.messenger.export.ExportFormat;
-import com.BloomGram.messenger.export.api.ExportData;
-import com.BloomGram.messenger.export.api.ExportParser;
+import com.exteragram.messenger.export.ExportFormat;
+import com.exteragram.messenger.export.api.ExportData;
+import com.exteragram.messenger.export.api.ExportParser;
 
 import org.telegram.messenger.MessageObject;
 import org.telegram.tgnet.TLRPC;

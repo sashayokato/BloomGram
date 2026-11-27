@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.ai.network;
+package com.exteragram.messenger.ai.network;
 
 public interface GenerationCallback {
     default void onThinking() {

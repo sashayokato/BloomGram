@@ -12,17 +12,17 @@
 
 */
 
-package com.BloomGram.messenger.translator
+package com.exteragram.messenger.translator
 
 import org.telegram.messenger.MessagesController
 import org.telegram.messenger.UserConfig
 
-import com.BloomGram.messenger.translationProvider
-import com.BloomGram.messenger.translator.core.BaseTranslator
-import com.BloomGram.messenger.translator.providers.GoogleTranslator
-import com.BloomGram.messenger.translator.providers.MicrosoftTranslator
-import com.BloomGram.messenger.translator.providers.TelegramTranslator
-import com.BloomGram.messenger.translator.providers.YandexTranslator
+import com.exteragram.messenger.translationProvider
+import com.exteragram.messenger.translator.core.BaseTranslator
+import com.exteragram.messenger.translator.providers.GoogleTranslator
+import com.exteragram.messenger.translator.providers.MicrosoftTranslator
+import com.exteragram.messenger.translator.providers.TelegramTranslator
+import com.exteragram.messenger.translator.providers.YandexTranslator
 
 object TranslationProviders {
 

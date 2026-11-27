@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.ai.ui;
+package com.exteragram.messenger.ai.ui;
 
 import static org.telegram.messenger.LocaleController.getString;
 
@@ -24,9 +24,9 @@ import androidx.core.app.NotificationChannelCompat;
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
-import com.BloomGram.messenger.ai.network.backend.OnDeviceAvailability;
-import com.BloomGram.messenger.icons.IconManager;
-import com.BloomGram.messenger.utils.AppUtils;
+import com.exteragram.messenger.ai.network.backend.OnDeviceAvailability;
+import com.exteragram.messenger.icons.IconManager;
+import com.exteragram.messenger.utils.AppUtils;
 
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.FileLog;

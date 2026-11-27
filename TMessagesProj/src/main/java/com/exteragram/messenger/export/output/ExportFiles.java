@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.export.output;
+package com.exteragram.messenger.export.output;
 
 import android.content.res.AssetManager;
 import android.os.Environment;
 import android.text.TextUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.export.ExportFormat;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.export.ExportFormat;
 
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.FileLog;

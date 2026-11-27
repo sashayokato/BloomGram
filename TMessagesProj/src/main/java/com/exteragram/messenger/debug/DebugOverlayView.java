@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.debug;
+package com.exteragram.messenger.debug;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 

@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.api.dto
+package com.exteragram.messenger.api.dto
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

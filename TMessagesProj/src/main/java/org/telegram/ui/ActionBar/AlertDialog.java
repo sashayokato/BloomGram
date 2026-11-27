@@ -56,8 +56,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
-import com.BloomGram.messenger.security.SensitiveRequestConfirmation;
+import com.exteragram.messenger.ExteraConfig;
+import com.exteragram.messenger.security.SensitiveRequestConfirmation;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

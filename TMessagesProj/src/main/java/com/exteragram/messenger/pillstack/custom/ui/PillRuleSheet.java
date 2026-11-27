@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom.ui;
+package com.exteragram.messenger.pillstack.custom.ui;
 
 import android.text.TextUtils;
 import android.view.Gravity;
@@ -21,11 +21,11 @@ import android.widget.FrameLayout;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.pillstack.custom.CustomPillSpec;
-import com.BloomGram.messenger.pillstack.custom.PillColors;
-import com.BloomGram.messenger.pillstack.custom.PillIconBadgeView;
-import com.BloomGram.messenger.pillstack.custom.PillTemplate;
-import com.BloomGram.messenger.utils.ui.PopupUtils;
+import com.exteragram.messenger.pillstack.custom.CustomPillSpec;
+import com.exteragram.messenger.pillstack.custom.PillColors;
+import com.exteragram.messenger.pillstack.custom.PillIconBadgeView;
+import com.exteragram.messenger.pillstack.custom.PillTemplate;
+import com.exteragram.messenger.utils.ui.PopupUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BotWebViewVibrationEffect;

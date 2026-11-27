@@ -65,7 +65,7 @@ import android.widget.Toast;
 import androidx.core.content.FileProvider;
 import androidx.core.graphics.ColorUtils;
 
-import com.BloomGram.messenger.ExteraConfig;
+import com.exteragram.messenger.ExteraConfig;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

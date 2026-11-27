@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.api.model
+package com.exteragram.messenger.api.model
 
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.R

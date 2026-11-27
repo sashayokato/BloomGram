@@ -12,12 +12,12 @@
 
 */
 
-package com.BloomGram.messenger.utils.ui;
+package com.exteragram.messenger.utils.ui;
 
 import androidx.annotation.Nullable;
 
-import com.BloomGram.messenger.IconPackType;
-import com.BloomGram.messenger.icons.IconManager;
+import com.exteragram.messenger.IconPackType;
+import com.exteragram.messenger.icons.IconManager;
 
 import org.telegram.messenger.R;
 import org.telegram.ui.Components.ChatActivityEnterViewAnimatedIconView.State;

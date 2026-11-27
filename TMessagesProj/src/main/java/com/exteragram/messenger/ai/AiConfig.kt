@@ -13,19 +13,19 @@
 */
 
 @file:JvmName("AiConfig")
-package com.BloomGram.messenger.ai
+package com.exteragram.messenger.ai
 
 import android.content.SharedPreferences
 import android.util.Base64
-import com.BloomGram.messenger.GSON
-import com.BloomGram.messenger.editor as exteraEditor
-import com.BloomGram.messenger.ai.data.Message
-import com.BloomGram.messenger.ai.data.Role
-import com.BloomGram.messenger.ai.data.Service
-import com.BloomGram.messenger.ai.data.Suggestions
-import com.BloomGram.messenger.backup.PreferencesUtils
-import com.BloomGram.messenger.config.*
-import com.BloomGram.messenger.preferences as exteraPreferences
+import com.exteragram.messenger.GSON
+import com.exteragram.messenger.editor as exteraEditor
+import com.exteragram.messenger.ai.data.Message
+import com.exteragram.messenger.ai.data.Role
+import com.exteragram.messenger.ai.data.Service
+import com.exteragram.messenger.ai.data.Suggestions
+import com.exteragram.messenger.backup.PreferencesUtils
+import com.exteragram.messenger.config.*
+import com.exteragram.messenger.preferences as exteraPreferences
 import com.google.gson.reflect.TypeToken
 import org.telegram.messenger.FileLog
 import org.telegram.messenger.UserConfig

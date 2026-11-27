@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.export.api;
+package com.exteragram.messenger.export.api;
 
 import org.telegram.tgnet.InputSerializedData;
 import org.telegram.tgnet.OutputSerializedData;

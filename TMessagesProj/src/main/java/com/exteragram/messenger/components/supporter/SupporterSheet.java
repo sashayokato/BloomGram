@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.components.supporter;
+package com.exteragram.messenger.components.supporter;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -38,8 +38,8 @@ import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.badges.BadgesController;
-import com.BloomGram.messenger.utils.ui.UIUtil;
+import com.exteragram.messenger.badges.BadgesController;
+import com.exteragram.messenger.utils.ui.UIUtil;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.Emoji;

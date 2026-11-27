@@ -12,14 +12,14 @@
 
 */
 
-package com.BloomGram.messenger.feed.ads;
+package com.exteragram.messenger.feed.ads;
 
 import android.os.SystemClock;
 import android.text.TextUtils;
 
-import com.BloomGram.messenger.badges.BadgesController;
-import com.BloomGram.messenger.utils.chats.ChatUtils;
-import com.BloomGram.messenger.utils.network.RemoteUtils;
+import com.exteragram.messenger.badges.BadgesController;
+import com.exteragram.messenger.utils.chats.ChatUtils;
+import com.exteragram.messenger.utils.network.RemoteUtils;
 
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;

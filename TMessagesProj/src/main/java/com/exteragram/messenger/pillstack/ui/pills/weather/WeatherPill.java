@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.ui.pills.weather;
+package com.exteragram.messenger.pillstack.ui.pills.weather;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -26,9 +26,9 @@ import android.widget.LinearLayout;
 
 import androidx.annotation.DrawableRes;
 
-import com.BloomGram.messenger.pillstack.core.PillType;
-import com.BloomGram.messenger.pillstack.ui.pills.BasePill;
-import com.BloomGram.messenger.pillstack.core.PillStackConfig;
+import com.exteragram.messenger.pillstack.core.PillType;
+import com.exteragram.messenger.pillstack.ui.pills.BasePill;
+import com.exteragram.messenger.pillstack.core.PillStackConfig;
 
 import org.telegram.messenger.Emoji;
 import org.telegram.messenger.LocaleController;

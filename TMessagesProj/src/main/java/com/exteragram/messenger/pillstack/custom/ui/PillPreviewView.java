@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.pillstack.custom.ui;
+package com.exteragram.messenger.pillstack.custom.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -28,8 +28,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.BloomGram.messenger.pillstack.custom.CustomPill;
-import com.BloomGram.messenger.pillstack.custom.CustomPillSpec;
+import com.exteragram.messenger.pillstack.custom.CustomPill;
+import com.exteragram.messenger.pillstack.custom.CustomPillSpec;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

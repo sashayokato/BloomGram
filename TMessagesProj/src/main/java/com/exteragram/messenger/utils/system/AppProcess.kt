@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.system
+package com.exteragram.messenger.utils.system
 
 import android.app.Application
 import android.os.Build

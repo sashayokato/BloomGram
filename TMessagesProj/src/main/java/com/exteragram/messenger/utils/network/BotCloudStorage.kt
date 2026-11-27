@@ -12,10 +12,10 @@
 
 */
 
-package com.BloomGram.messenger.utils.network
+package com.exteragram.messenger.utils.network
 
-import com.BloomGram.messenger.getApiBotInfo
-import com.BloomGram.messenger.utils.chats.ChatUtils
+import com.exteragram.messenger.getApiBotInfo
+import com.exteragram.messenger.utils.chats.ChatUtils
 import org.json.JSONArray
 import org.json.JSONObject
 import org.telegram.messenger.AndroidUtilities

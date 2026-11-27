@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.camera;
+package com.exteragram.messenger.camera;
 
 import android.Manifest;
 import android.bluetooth.BluetoothAdapter;
@@ -37,7 +37,7 @@ import android.opengl.GLUtils;
 import android.os.SystemClock;
 import android.view.Surface;
 
-import com.BloomGram.messenger.utils.system.SystemUtils;
+import com.exteragram.messenger.utils.system.SystemUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

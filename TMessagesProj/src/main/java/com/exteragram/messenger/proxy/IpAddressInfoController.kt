@@ -12,11 +12,11 @@
 
 */
 
-package com.BloomGram.messenger.proxy
+package com.exteragram.messenger.proxy
 
 import android.os.SystemClock
 import androidx.core.net.toUri
-import com.BloomGram.messenger.utils.network.ExteraHttpClient
+import com.exteragram.messenger.utils.network.ExteraHttpClient
 import okhttp3.Call
 import okhttp3.Callback
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull

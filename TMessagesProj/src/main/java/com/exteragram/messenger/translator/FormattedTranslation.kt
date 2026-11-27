@@ -12,13 +12,13 @@
 
 */
 
-package com.BloomGram.messenger.translator
+package com.exteragram.messenger.translator
 
 import android.text.Html
 import androidx.core.text.htmlEncode
 
-import com.BloomGram.messenger.translator.core.HttpTranslator
-import com.BloomGram.messenger.translator.core.TranslationError
+import com.exteragram.messenger.translator.core.HttpTranslator
+import com.exteragram.messenger.translator.core.TranslationError
 
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.FileLog

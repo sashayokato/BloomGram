@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.appicons.ui;
+package com.exteragram.messenger.appicons.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.getString;
@@ -38,15 +38,15 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.BloomGram.messenger.appicons.AppIcon;
-import com.BloomGram.messenger.appicons.AppIconController;
-import com.BloomGram.messenger.appicons.AppIconPreviewLoader;
-import com.BloomGram.messenger.appicons.ui.components.AppIconBulletinLayout;
-import com.BloomGram.messenger.appicons.ui.components.AppIconCell;
-import com.BloomGram.messenger.appicons.ui.components.AppIconHeroView;
-import com.BloomGram.messenger.utils.ui.ChatHeaderUiHelper;
+import com.exteragram.messenger.appicons.AppIcon;
+import com.exteragram.messenger.appicons.AppIconController;
+import com.exteragram.messenger.appicons.AppIconPreviewLoader;
+import com.exteragram.messenger.appicons.ui.components.AppIconBulletinLayout;
+import com.exteragram.messenger.appicons.ui.components.AppIconCell;
+import com.exteragram.messenger.appicons.ui.components.AppIconHeroView;
+import com.exteragram.messenger.utils.ui.ChatHeaderUiHelper;
 
-import com.BloomGram.messenger.utils.ui.UIUtil;
+import com.exteragram.messenger.utils.ui.UIUtil;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.R;

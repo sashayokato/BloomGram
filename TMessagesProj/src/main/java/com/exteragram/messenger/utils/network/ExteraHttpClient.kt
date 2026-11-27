@@ -12,7 +12,7 @@
 
 */
 
-package com.BloomGram.messenger.utils.network
+package com.exteragram.messenger.utils.network
 
 import okhttp3.OkHttpClient
 import java.util.concurrent.TimeUnit
