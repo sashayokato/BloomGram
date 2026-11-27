@@ -50,7 +50,7 @@
     <string name="ShardCopy">Copy</string>
     <string name="ShardCopied">Copied</string>
     <string name="ShardWalletMenu">Shard wallet (SHD)</string>
-    <string name="GrantsUrl">http://10.0.2.2:8787/grants</string>
+    <string name="GrantsUrl">https://raw.githubusercontent.com/sashayokato/BloomGram/main/grants.json</string>
     <string name="ShardAdminToken">bloomgram-admin</string>
     <string name="BloomBackend">http://10.0.2.2:8787</string>
     <string name="ProfileShardBalance">SHD balance</string>

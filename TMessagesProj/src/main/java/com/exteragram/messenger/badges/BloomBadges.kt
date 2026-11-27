@@ -122,29 +122,47 @@ object BloomBadges {
             "\"media\":[${array(BadgeType.MEDIA)}]}"
     }
 
+    private fun applyGrants(body: String) {
+        val editor = prefs.edit()
+        for (type in BadgeType.entries) {
+            val section = body.substringAfter("\"${type.jsonKey}\"", "")
+                .substringAfter("[", "")
+                .substringBefore("]", "")
+            val ids = Regex("\\d+").findAll(section).map { it.value }.toSet()
+            editor.putStringSet(key(type, true), ids)
+        }
+        editor.apply()
+    }
+
+    private fun loadBundled() {
+        try {
+            val body = ApplicationLoader.applicationContext.assets
+                .open("bloomgram_grants.json").bufferedReader().use { it.readText() }
+            applyGrants(body)
+        } catch (t: Throwable) {
+            FileLog.e(t)
+        }
+    }
+
     fun refreshRemote() {
         if (GRANTS_URL.isEmpty()) return
         val now = System.currentTimeMillis()
         if (now - lastFetch < REFRESH_MS) return
         lastFetch = now
         thread(name = "bloom-grants") {
+            var loaded = false
             try {
-                val c = URL(GRANTS_URL).openConnection() as HttpURLConnection
+                val separator = if (GRANTS_URL.contains("?")) "&" else "?"
+                val c = URL(GRANTS_URL + separator + "t=$now").openConnection() as HttpURLConnection
                 c.connectTimeout = 10_000
                 c.readTimeout = 10_000
                 val body = c.inputStream.bufferedReader().use { it.readText() }
-                val editor = prefs.edit()
-                for (type in BadgeType.entries) {
-                    val section = body.substringAfter("\"${type.jsonKey}\"", "")
-                        .substringAfter("[", "")
-                        .substringBefore("]", "")
-                    val ids = Regex("\\d+").findAll(section).map { it.value }.toSet()
-                    editor.putStringSet(key(type, true), ids)
-                }
-                editor.apply()
+                applyGrants(body)
+                loaded = true
             } catch (t: Throwable) {
                 FileLog.e(t)
             }
+            if (!loaded) loadBundled()
         }
     }
 
