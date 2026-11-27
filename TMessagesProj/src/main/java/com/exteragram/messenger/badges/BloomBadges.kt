@@ -37,7 +37,8 @@ object BloomBadges {
     const val CREATOR_USERNAME = "vlodt"
 
     /** Optional raw JSON shared by all BloomGram clients. */
-    const val GRANTS_URL = ""
+    val GRANTS_URL: String
+        get() = ApplicationLoader.applicationContext.getString(org.telegram.messenger.R.string.GrantsUrl)
 
     /** Custom-emoji document ids (reused from BloomGram's own badge set). */
     private const val CREATOR_EMOJI_ID = 5359407509327085568L

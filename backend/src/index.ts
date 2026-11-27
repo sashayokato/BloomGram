@@ -1,5 +1,7 @@
 import { createServer, IncomingMessage, ServerResponse } from 'http';
 import { createHash } from 'crypto';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'fs';
+import { dirname, resolve } from 'path';
 import { Address, beginCell, toNano } from '@ton/core';
 import { TonClient } from '@ton/ton';
 import {
@@ -9,12 +11,37 @@ import {
     storeBuyUsername,
     storeUpgrade,
     storeGiftNft,
+    storeTransferShd,
 } from '../../ton/build/shard_world_ShardWorld';
 
 const CONTRACT_ADDRESS = process.env.SHARD_CONTRACT_ADDRESS ?? '';
 const ENDPOINT = process.env.TON_ENDPOINT ?? 'https://testnet.toncenter.com/api/v2/jsonRPC';
 const PORT = Number(process.env.PORT ?? 8787);
 const SHD = 1_000_000_000n;
+const GRANTS_FILE = resolve(process.env.GRANTS_FILE ?? 'data/grants.json');
+const ADMIN_TOKEN = process.env.ADMIN_TOKEN ?? 'bloomgram-admin';
+const GRANT_TYPES = ['developers', 'admins', 'vip', 'media'];
+
+type Grants = Record<string, string[]>;
+
+function readGrants(): Grants {
+    if (existsSync(GRANTS_FILE)) {
+        try {
+            const parsed = JSON.parse(readFileSync(GRANTS_FILE, 'utf8'));
+            const result: Grants = {};
+            for (const t of GRANT_TYPES) result[t] = Array.isArray(parsed[t]) ? parsed[t].map(String) : [];
+            return result;
+        } catch { /* fall through to empty */ }
+    }
+    const empty: Grants = {};
+    for (const t of GRANT_TYPES) empty[t] = [];
+    return empty;
+}
+
+function writeGrants(g: Grants) {
+    mkdirSync(dirname(GRANTS_FILE), { recursive: true });
+    writeFileSync(GRANTS_FILE, JSON.stringify(g, null, 2));
+}
 
 if (!CONTRACT_ADDRESS) {
     console.error('Set SHARD_CONTRACT_ADDRESS (address of deployed ShardWorld contract).');
@@ -48,6 +75,59 @@ async function handle(req: IncomingMessage, res: ServerResponse) {
 
     if (method === 'GET' && path === '/health') {
         return json(res, 200, { ok: true, contract: CONTRACT_ADDRESS, network: ENDPOINT });
+    }
+
+    if (method === 'GET' && path === '/grants') {
+        return json(res, 200, readGrants());
+    }
+
+    if (method === 'POST' && path === '/grants/update') {
+        const data = await body(req);
+        if (req.headers['x-admin-token'] !== ADMIN_TOKEN) {
+            return json(res, 403, { error: 'invalid admin token' });
+        }
+        const type = String(data.type ?? '');
+        if (!GRANT_TYPES.includes(type)) return json(res, 400, { error: 'unknown badge type' });
+        const id = String(data.id ?? '').trim();
+        if (!/^\d+$/.test(id)) return json(res, 400, { error: 'id must be numeric' });
+        const grants = readGrants();
+        const set = new Set(grants[type]);
+        if (data.grant === true) set.add(id); else set.delete(id);
+        grants[type] = [...set].sort((a, b) => Number(a) - Number(b));
+        writeGrants(grants);
+        return json(res, 200, grants);
+    }
+
+    if (method === 'GET' && path === '/admin') {
+        res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+        res.end(`<!doctype html><html><head><meta charset="utf-8"><title>BloomGram badges</title>
+<style>body{font:16px sans-serif;max-width:760px;margin:30px auto}input,select,button{padding:8px;margin:4px}li{margin:3px}</style></head><body>
+<h2>BloomGram badge admin</h2>
+<p>Token: <input id="token" type="password" value=""><br>
+Type: <select id="type">${GRANT_TYPES.map(t => `<option value="${t}">${t}</option>`).join('')}</select>
+User ID: <input id="id" placeholder="5853805443">
+<button onclick="upd(true)">Grant</button><button onclick="upd(false)">Revoke</button></p>
+<div id="lists"></div>
+<script>
+async function load(){const g=await (await fetch('/grants')).json();document.getElementById('lists').innerHTML=Object.keys(g).map(k=>'<h3>'+k+'</h3><ul>'+(g[k].length?g[k].map(x=>'<li>'+x+'</li>').join(''):'<li>(empty)</li>')+'</ul>').join('');}
+async function upd(grant){const r=await fetch('/grants/update',{method:'POST',headers:{'Content-Type':'application/json','X-Admin-Token':document.getElementById('token').value},body:JSON.stringify({type:document.getElementById('type').value,id:document.getElementById('id').value,grant})});if(r.ok){document.getElementById('id').value='';load();}else alert(await r.text());}
+load();</script></body></html>`);
+        return;
+    }
+
+    if (method === 'POST' && path === '/shard/issue') {
+        const data = await body(req);
+        const to = String(data.to ?? '').trim();
+        const amount = Number(data.amount ?? 0);
+        if (!to || !/^\d+(\.\d+)?$/.test(String(amount)) || amount <= 0) {
+            return json(res, 400, { error: 'to and positive amount required' });
+        }
+        const boc = unsignedBody((b) => storeTransferShd({
+            $$type: 'TransferShd',
+            to: Address.parse(to),
+            amount: BigInt(Math.floor(amount * 1e9)),
+        })(b));
+        return json(res, 200, { to: CONTRACT_ADDRESS, value: '0.15', bodyBoc: boc, note: 'sign with treasury wallet' });
     }
 
     if (method === 'GET' && path === '/catalog') {

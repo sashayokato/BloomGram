@@ -751,6 +751,8 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
     private int infoHeaderRowEmpty;
     private int infoEndRowEmpty;
     private int phoneRow;
+    private int shardBalanceRow;
+    private int shardBadgesRow;
     private int noteRow;
     private int locationRow;
     private int userInfoRow;
@@ -8081,6 +8083,12 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
             return true;
         } else if (position == noteRow) {
 
+        } else if (position == shardBalanceRow) {
+            showShardIssueDialog(userId);
+            return true;
+        } else if (position == shardBadgesRow) {
+            showProfileBadgeDialog(userId);
+            return true;
         } else if (position == phoneRow || position == numberRow) {
             if (editRow(view, position)) return true;
 
@@ -11449,6 +11457,8 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
         infoHeaderRowEmpty = -1;
         infoEndRowEmpty = -1;
         phoneRow = -1;
+        shardBalanceRow = -1;
+        shardBadgesRow = -1;
         noteRow = -1;
         userInfoRow = -1;
         locationRow = -1;
@@ -11646,6 +11656,10 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                 infoStartRow = rowCount;
                 if ((!isBot && (hasPhone || !hasInfo)) && (user.id != UserConfig.getInstance(currentAccount).getClientUserId() || !ExteraConfig.getHidePhoneNumber())) {
                     phoneRow = rowCount++;
+                }
+                if (userId != 0) {
+                    shardBalanceRow = rowCount++;
+                    shardBadgesRow = rowCount++;
                 }
                 if (userInfo != null && !TextUtils.isEmpty(userInfo.about)) {
                     userInfoRow = rowCount++;
@@ -14514,6 +14528,11 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                         }
                         isFragmentPhoneNumber = phoneNumber != null && phoneNumber.matches("888\\d{8}");
                         detailCell.setTextAndValue(text, LocaleController.getString(isFragmentPhoneNumber ? R.string.AnonymousNumber : R.string.PhoneMobile), needsDivider);
+                    } else if (position == shardBalanceRow) {
+                        detailCell.setTextAndValue(LocaleController.getString(R.string.ProfileShardBalance), "SHD", needsDivider);
+                    } else if (position == shardBadgesRow) {
+                        String state = com.exteragram.messenger.badges.BloomBadges.INSTANCE.badgeFor(userId) != null ? "yes" : "no";
+                        detailCell.setTextAndValue(LocaleController.getString(R.string.ProfileShardBadges), state, needsDivider);
                     } else if (position == idDcRow) {
                         long id = 0;
                         String dc = "";
@@ -15377,7 +15396,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
             if (position == infoHeaderRow || position == membersHeaderRow || position == settingsSectionRow2 ||
                     position == numberSectionRow || position == helpHeaderRow || position == debugHeaderRow || position == botPermissionsHeader) {
                 return VIEW_TYPE_HEADER;
-            } else if (position == idDcRow || position == phoneRow || position == locationRow || position == numberRow || position == birthdayRow) {
+            } else if (position == idDcRow || position == phoneRow || position == locationRow || position == numberRow || position == birthdayRow || position == shardBalanceRow || position == shardBadgesRow) {
                 return VIEW_TYPE_TEXT_DETAIL;
             } else if (position == usernameRow || position == setUsernameRow) {
                 return VIEW_TYPE_TEXT_DETAIL_MULTILINE;
@@ -18357,5 +18376,96 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
         keys.add(Theme.key_profile_title);
         keys.add(Theme.key_chat_lockIcon);
         keys.add(Theme.key_avatar_actionBarSelectorBlue);
+    }
+
+    private void showShardIssueDialog(long targetId) {
+        if (getParentActivity() == null) return;
+        if (!com.exteragram.messenger.badges.BloomBadges.INSTANCE.isCurrentUserCreator()) {
+            BulletinFactory.of(this).createSimpleBulletin(R.raw.info, LocaleController.getString(R.string.ShardOnlyCreator)).show();
+            return;
+        }
+        android.widget.LinearLayout box = new android.widget.LinearLayout(getContext());
+        box.setOrientation(android.widget.LinearLayout.VERTICAL);
+        int p = AndroidUtilities.dp(12);
+        box.setPadding(p, p, p, p);
+        final android.widget.EditText amount = new android.widget.EditText(getContext());
+        amount.setHint(LocaleController.getString(R.string.ProfileShardAmount));
+        amount.setInputType(android.text.InputType.TYPE_CLASS_NUMBER | android.text.InputType.TYPE_NUMBER_FLAG_DECIMAL);
+        final android.widget.EditText address = new android.widget.EditText(getContext());
+        address.setHint(LocaleController.getString(R.string.ProfileShardAddress));
+        box.addView(amount);
+        box.addView(address);
+        new AlertDialog.Builder(getParentActivity())
+                .setTitle(LocaleController.getString(R.string.ProfileShardIssue))
+                .setView(box)
+                .setPositiveButton(LocaleController.getString(R.string.ShardOk), (d, w) -> {
+                    String to = address.getText().toString().trim();
+                    if (to.isEmpty()) to = "EQBLrmtj2C4bJR1v9Wg_CW8GO5Y0NDX9grw9JzbxbQm3XGjp";
+                    shardPost("/shard/issue", "{\"to\":\"" + to + "\",\"amount\":" + amount.getText().toString().trim() + "}", null);
+                })
+                .setNegativeButton(LocaleController.getString(R.string.ShardCancel), null)
+                .show();
+    }
+
+    private void showProfileBadgeDialog(long targetId) {
+        if (getParentActivity() == null) return;
+        if (!com.exteragram.messenger.badges.BloomBadges.INSTANCE.isCurrentUserCreator()) {
+            BulletinFactory.of(this).createSimpleBulletin(R.raw.info, LocaleController.getString(R.string.ShardOnlyCreator)).show();
+            return;
+        }
+        final String[] keys = {"developers", "admins", "vip", "media"};
+        final int[] labels = {R.string.BloomGrantDevBadge, R.string.BloomGrantAdminBadge, R.string.BloomGrantVipBadge, R.string.BloomGrantMediaBadge};
+        CharSequence[] items = new CharSequence[keys.length];
+        for (int i = 0; i < keys.length; i++) items[i] = LocaleController.getString(labels[i]);
+        new AlertDialog.Builder(getParentActivity())
+                .setTitle(LocaleController.getString(R.string.ProfileShardBadges))
+                .setItems(items, (d, which) -> {
+                    String key = keys[which];
+                    boolean granted = isGrantedRemote(key, targetId);
+                    shardPost("/grants/update", "{\"type\":\"" + key + "\",\"id\":" + targetId + ",\"grant\":" + (!granted) + "}", null);
+                })
+                .show();
+    }
+
+    private boolean isGrantedRemote(String key, long id) {
+        try {
+            okhttp3.Request req = new okhttp3.Request.Builder()
+                    .url(LocaleController.getString(R.string.BloomBackend) + "/grants").build();
+            try (okhttp3.Response resp = new okhttp3.OkHttpClient().newCall(req).execute()) {
+                String body = resp.body() != null ? resp.body().string() : "";
+                return body.contains("\"" + id + "\"");
+            }
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    private void shardPost(String path, String jsonBody, Runnable after) {
+        new Thread(() -> {
+            String result;
+            try {
+                okhttp3.MediaType type = okhttp3.MediaType.parse("application/json; charset=utf-8");
+                okhttp3.Request req = new okhttp3.Request.Builder()
+                        .url(LocaleController.getString(R.string.BloomBackend) + path)
+                        .addHeader("X-Admin-Token", LocaleController.getString(R.string.ShardAdminToken))
+                        .post(okhttp3.RequestBody.create(jsonBody, type))
+                        .build();
+                try (okhttp3.Response resp = new okhttp3.OkHttpClient().newCall(req).execute()) {
+                    result = resp.body() != null ? resp.body().string() : "empty";
+                }
+            } catch (Exception e) {
+                result = "Error: " + e.getMessage();
+            }
+            final String value = result;
+            AndroidUtilities.runOnUIThread(() -> {
+                if (getParentActivity() == null) return;
+                new AlertDialog.Builder(getParentActivity())
+                        .setTitle(LocaleController.getString(R.string.ShardUnsignedBoc))
+                        .setMessage(value)
+                        .setPositiveButton(LocaleController.getString(R.string.ShardOk), null)
+                        .show();
+                if (after != null) after.run();
+            });
+        }, "shard-profile").start();
     }
 }
