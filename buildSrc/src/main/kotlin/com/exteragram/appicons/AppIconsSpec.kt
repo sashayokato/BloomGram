@@ -114,7 +114,7 @@ internal object AppIconsSpec {
             throw GradleException("icon id \"$id\" must match ${ID_NAME.pattern}")
         }
 
-        val owner = (json.author?.trim().takeUnless { it.isNullOrEmpty() } ?: "exteragram").lowercase()
+        val owner = (json.author?.trim().takeUnless { it.isNullOrEmpty() } ?: "bloomgram").lowercase()
         val dir = File(File(sourceDir, owner), id)
 
         val resource = json.resource?.trim().takeUnless { it.isNullOrEmpty() } ?: "ic_launcher_$id"

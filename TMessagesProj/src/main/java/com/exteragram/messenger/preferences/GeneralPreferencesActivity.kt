@@ -1,29 +1,29 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.preferences
+package com.BloomGram.messenger.preferences
 
 import android.text.InputType
 import android.text.TextUtils
 import android.util.TypedValue
 import android.view.View
 import android.widget.LinearLayout
-import com.exteragram.messenger.*
-import com.exteragram.messenger.translator.TranslationProviders
-import com.exteragram.messenger.translator.TranslatorUtils
-import com.exteragram.messenger.utils.addIf
-import com.exteragram.messenger.utils.text.ZalgoFilter
+import com.BloomGram.messenger.*
+import com.BloomGram.messenger.translator.TranslationProviders
+import com.BloomGram.messenger.translator.TranslatorUtils
+import com.BloomGram.messenger.utils.addIf
+import com.BloomGram.messenger.utils.text.ZalgoFilter
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.LocaleController.getString

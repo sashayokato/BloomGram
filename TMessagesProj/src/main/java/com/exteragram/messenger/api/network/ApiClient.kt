@@ -1,21 +1,21 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.api.network
+package com.BloomGram.messenger.api.network
 
-import com.exteragram.messenger.debug.disableApiRequests
-import com.exteragram.messenger.utils.network.ExteraHttpClient
+import com.BloomGram.messenger.debug.disableApiRequests
+import com.BloomGram.messenger.utils.network.ExteraHttpClient
 import com.google.gson.GsonBuilder
 import okhttp3.Protocol
 import okhttp3.Response
@@ -25,7 +25,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object ApiClient {
 
-    private const val BASE_URL = "https://api.exteragram.app/api/v1/"
+    private const val BASE_URL = "https://api.BloomGram.app/api/v1/"
 
     internal val requestsEnabled: Boolean
         get() = !disableApiRequests

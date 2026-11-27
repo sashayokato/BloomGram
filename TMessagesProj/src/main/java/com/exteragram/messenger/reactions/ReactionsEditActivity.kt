@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.reactions
+package com.BloomGram.messenger.reactions
 
 import android.animation.LayoutTransition
 import android.content.Context
@@ -36,7 +36,7 @@ import android.widget.LinearLayout
 import androidx.core.content.ContextCompat
 import androidx.core.graphics.createBitmap
 import androidx.core.graphics.withSave
-import com.exteragram.messenger.reactions.ReactionsEditHelper.Companion.STAR_ID
+import com.BloomGram.messenger.reactions.ReactionsEditHelper.Companion.STAR_ID
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.AndroidUtilities.dp
 import org.telegram.messenger.AndroidUtilities.replaceTags

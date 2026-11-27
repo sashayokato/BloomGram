@@ -44,7 +44,7 @@ import androidx.recyclerview.widget.DiffUtil;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.BloomGram.messenger.ExteraConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;
@@ -1687,7 +1687,7 @@ public class PrivacyControlActivity extends BaseFragment implements Notification
     }
 
     private void setMessageText() {
-        // exteraGram: fix inverted forward header
+        // BloomGram: fix inverted forward header
         if (messageCell != null) {
             messageCell.messageObject.messageOwner.fwd_from.from_id = new TLRPC.TL_peerUser();
             if (currentType == TYPE_EVERYBODY) {

@@ -32,8 +32,8 @@ import androidx.annotation.Keep;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.notifications.AccountNotifications;
-import com.exteragram.messenger.notifications.AccountNotificationsActivity;
+import com.BloomGram.messenger.notifications.AccountNotifications;
+import com.BloomGram.messenger.notifications.AccountNotificationsActivity;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

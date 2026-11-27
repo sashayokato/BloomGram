@@ -55,9 +55,9 @@ import androidx.annotation.NonNull;
 import androidx.core.graphics.ColorUtils;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.ui.ActionBarTitleCollapseHelper;
-import com.exteragram.messenger.utils.ui.ChatHeaderUiHelper;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.utils.ui.ActionBarTitleCollapseHelper;
+import com.BloomGram.messenger.utils.ui.ChatHeaderUiHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LiteMode;

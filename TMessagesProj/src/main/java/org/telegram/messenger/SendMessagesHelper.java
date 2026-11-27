@@ -51,10 +51,10 @@ import androidx.annotation.UiThread;
 import androidx.collection.LongSparseArray;
 import androidx.core.view.inputmethod.InputContentInfoCompat;
 
-import com.exteragram.messenger.plugins.PluginsController;
-import com.exteragram.messenger.plugins.hooks.PluginsHooks;
-import com.exteragram.messenger.utils.text.LocaleUtils;
-import com.exteragram.messenger.utils.media.MediaUtils;
+import com.BloomGram.messenger.plugins.PluginsController;
+import com.BloomGram.messenger.plugins.hooks.PluginsHooks;
+import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.BloomGram.messenger.utils.media.MediaUtils;
 
 import org.json.JSONObject;
 import org.telegram.messenger.audioinfo.AudioInfo;

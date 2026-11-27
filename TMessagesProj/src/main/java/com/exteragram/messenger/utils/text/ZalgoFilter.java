@@ -1,24 +1,24 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.utils.text;
+package com.BloomGram.messenger.utils.text;
 
 import android.text.Spannable;
 import android.text.SpannableString;
 import android.text.TextUtils;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.BloomGram.messenger.ExteraConfig;
 
 import java.util.ArrayList;
 

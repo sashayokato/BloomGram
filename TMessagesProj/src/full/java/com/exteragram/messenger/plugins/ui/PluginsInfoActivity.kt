@@ -402,7 +402,7 @@ class PluginsInfoActivity : BasePreferencesActivity(),
         } else if (clickedItem == PreferenceItem.DOCUMENTATION || clickedItem == PreferenceItem.TRUSTED_PLUGINS) {
             Browser.openUrl(
                 parentActivity,
-                if (clickedItem == PreferenceItem.DOCUMENTATION) "https://plugins.exteragram.app/" else "https://t.me/addlist/${PluginCatalogController.TRUSTED_FOLDER_SLUG}",
+                if (clickedItem == PreferenceItem.DOCUMENTATION) "https://t.me/bloomgrams" else "https://t.me/addlist/${PluginCatalogController.TRUSTED_FOLDER_SLUG}",
             )
         } else if (clickedItem == PreferenceItem.CHECK_SDK_UPDATES) {
             if (AnalyzerUpdater.status != AnalyzerUpdater.Status.CHECKING) {

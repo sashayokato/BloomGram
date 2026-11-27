@@ -1,8 +1,8 @@
 package org.telegram.ui.Stars;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.ui.GlassUiHelper;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.utils.ui.GlassUiHelper;
 
 import org.telegram.utils.glass.BaseFragmentSimpleGlass;
 import static org.telegram.messenger.LocaleController.formatPluralString;

@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.backup;
+package com.BloomGram.messenger.backup;
 
 import android.app.Activity;
 import android.content.Context;
@@ -22,14 +22,14 @@ import android.text.TextUtils;
 import androidx.annotation.Nullable;
 import androidx.collection.LongSparseArray;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.ai.AiConfig;
-import com.exteragram.messenger.ai.network.backend.OnDeviceAvailability;
-import com.exteragram.messenger.pillstack.core.PillStackConfig;
-import com.exteragram.messenger.pillstack.custom.CustomPillStore;
-import com.exteragram.messenger.plugins.PluginsController;
-import com.exteragram.messenger.translator.TranslationProviders;
-import com.exteragram.messenger.utils.chats.ChatUtils;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.ai.AiConfig;
+import com.BloomGram.messenger.ai.network.backend.OnDeviceAvailability;
+import com.BloomGram.messenger.pillstack.core.PillStackConfig;
+import com.BloomGram.messenger.pillstack.custom.CustomPillStore;
+import com.BloomGram.messenger.plugins.PluginsController;
+import com.BloomGram.messenger.translator.TranslationProviders;
+import com.BloomGram.messenger.utils.chats.ChatUtils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonElement;

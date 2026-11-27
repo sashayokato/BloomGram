@@ -36,22 +36,22 @@ import androidx.annotation.NonNull;
 import androidx.work.Configuration.Builder;
 import androidx.work.Configuration.Provider;
 
-import com.exteragram.messenger.appicons.AppIconController;
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.ProxyDisableCondition;
-import com.exteragram.messenger.debug.FreezeMonitor;
-import com.exteragram.messenger.debug.HeapMonitor;
-import com.exteragram.messenger.debug.LoadMonitor;
-import com.exteragram.messenger.icons.IconManager;
-import com.exteragram.messenger.plugins.utils.NativeCrashHandler;
-import com.exteragram.messenger.plugins.PluginsController;
-import com.exteragram.messenger.security.SensitiveRequestConfirmation;
-import com.exteragram.messenger.security.SensitiveRequestSwitch;
-import com.exteragram.messenger.updater.UpdateAppAlertDialog;
-import com.exteragram.messenger.updater.UpdateLayout;
-import com.exteragram.messenger.updater.UpdaterUtils;
-import com.exteragram.messenger.utils.network.RemoteUtils;
-import com.exteragram.messenger.utils.system.AppProcess;
+import com.BloomGram.messenger.appicons.AppIconController;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.ProxyDisableCondition;
+import com.BloomGram.messenger.debug.FreezeMonitor;
+import com.BloomGram.messenger.debug.HeapMonitor;
+import com.BloomGram.messenger.debug.LoadMonitor;
+import com.BloomGram.messenger.icons.IconManager;
+import com.BloomGram.messenger.plugins.utils.NativeCrashHandler;
+import com.BloomGram.messenger.plugins.PluginsController;
+import com.BloomGram.messenger.security.SensitiveRequestConfirmation;
+import com.BloomGram.messenger.security.SensitiveRequestSwitch;
+import com.BloomGram.messenger.updater.UpdateAppAlertDialog;
+import com.BloomGram.messenger.updater.UpdateLayout;
+import com.BloomGram.messenger.updater.UpdaterUtils;
+import com.BloomGram.messenger.utils.network.RemoteUtils;
+import com.BloomGram.messenger.utils.system.AppProcess;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.firebase.analytics.FirebaseAnalytics;
@@ -177,7 +177,7 @@ public class ApplicationLoader extends Application implements Provider {
         } catch (Exception e) {
             FileLog.e(e);
         }
-        return new File("/data/data/com.exteragram.messenger/files");
+        return new File("/data/data/com.BloomGram.messenger/files");
     }
 
     public static File getFilesDirFixed(String child) {
@@ -446,7 +446,7 @@ public class ApplicationLoader extends Application implements Provider {
             }
 
             try {
-                Class.forName("com.exteragram.hook.ExteraHook").getMethod("useEmbeddedRuntime").invoke(null);
+                Class.forName("com.BloomGram.hook.ExteraHook").getMethod("useEmbeddedRuntime").invoke(null);
                 exteraHookEmbeddedConfigured = true;
             } catch (Throwable t) {
                 throw new RuntimeException("Failed to configure embedded exteraHook runtime", t);

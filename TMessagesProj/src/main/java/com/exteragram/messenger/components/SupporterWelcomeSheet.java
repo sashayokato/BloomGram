@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.components;
+package com.BloomGram.messenger.components;
 
 import static org.telegram.messenger.LocaleController.getString;
 
@@ -20,15 +20,15 @@ import android.os.Build;
 import android.text.TextUtils;
 import android.view.HapticFeedbackConstants;
 
-import com.exteragram.messenger.badges.BadgesController;
-import com.exteragram.messenger.components.supporter.SupporterBadgeLanding;
-import com.exteragram.messenger.components.supporter.SupporterEnterFrom;
-import com.exteragram.messenger.components.supporter.SupporterNumberView;
-import com.exteragram.messenger.components.supporter.SupporterPerks;
-import com.exteragram.messenger.components.supporter.SupporterSheet;
-import com.exteragram.messenger.components.supporter.SupporterTransfer;
-import com.exteragram.messenger.nowplaying.ui.SetupNowPlayingActivity;
-import com.exteragram.messenger.utils.network.RemoteUtils;
+import com.BloomGram.messenger.badges.BadgesController;
+import com.BloomGram.messenger.components.supporter.SupporterBadgeLanding;
+import com.BloomGram.messenger.components.supporter.SupporterEnterFrom;
+import com.BloomGram.messenger.components.supporter.SupporterNumberView;
+import com.BloomGram.messenger.components.supporter.SupporterPerks;
+import com.BloomGram.messenger.components.supporter.SupporterSheet;
+import com.BloomGram.messenger.components.supporter.SupporterTransfer;
+import com.BloomGram.messenger.nowplaying.ui.SetupNowPlayingActivity;
+import com.BloomGram.messenger.utils.network.RemoteUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

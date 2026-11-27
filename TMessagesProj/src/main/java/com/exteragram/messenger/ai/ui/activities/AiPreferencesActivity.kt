@@ -1,35 +1,35 @@
 /*
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 */
 
-package com.exteragram.messenger.ai.ui.activities
+package com.BloomGram.messenger.ai.ui.activities
 
 import android.text.TextUtils
 import android.view.View
-import com.exteragram.messenger.PLACEHOLDERS
-import com.exteragram.messenger.ai.AiController
-import com.exteragram.messenger.ai.getConversationHistory
-import com.exteragram.messenger.ai.getReplaceTelegramEditor
-import com.exteragram.messenger.ai.getReplaceTelegramSummaries
-import com.exteragram.messenger.ai.insertAsQuote
-import com.exteragram.messenger.ai.responseStreaming
-import com.exteragram.messenger.ai.saveHistory
-import com.exteragram.messenger.ai.selectedRole
-import com.exteragram.messenger.ai.setReplaceTelegramEditor
-import com.exteragram.messenger.ai.setReplaceTelegramSummaries
-import com.exteragram.messenger.ai.showResponseOnly
-import com.exteragram.messenger.ai.temperature
-import com.exteragram.messenger.preferences.BasePreferencesActivity
-import com.exteragram.messenger.preferences.utils.SettingsRegistry
-import com.exteragram.messenger.utils.text.LocaleUtils
+import com.BloomGram.messenger.PLACEHOLDERS
+import com.BloomGram.messenger.ai.AiController
+import com.BloomGram.messenger.ai.getConversationHistory
+import com.BloomGram.messenger.ai.getReplaceTelegramEditor
+import com.BloomGram.messenger.ai.getReplaceTelegramSummaries
+import com.BloomGram.messenger.ai.insertAsQuote
+import com.BloomGram.messenger.ai.responseStreaming
+import com.BloomGram.messenger.ai.saveHistory
+import com.BloomGram.messenger.ai.selectedRole
+import com.BloomGram.messenger.ai.setReplaceTelegramEditor
+import com.BloomGram.messenger.ai.setReplaceTelegramSummaries
+import com.BloomGram.messenger.ai.showResponseOnly
+import com.BloomGram.messenger.ai.temperature
+import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.BloomGram.messenger.preferences.utils.SettingsRegistry
+import com.BloomGram.messenger.utils.text.LocaleUtils
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.LocaleController.getString
 import org.telegram.messenger.R

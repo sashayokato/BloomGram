@@ -1,11 +1,11 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
@@ -13,12 +13,12 @@
 */
 
 @file:JvmName("PillStackConfig")
-package com.exteragram.messenger.pillstack.core
+package com.BloomGram.messenger.pillstack.core
 
 import android.content.SharedPreferences
-import com.exteragram.messenger.backup.PreferencesUtils
-import com.exteragram.messenger.config.*
-import com.exteragram.messenger.pillstack.ui.pills.crypto.utils.PillStackCurrencies
+import com.BloomGram.messenger.backup.PreferencesUtils
+import com.BloomGram.messenger.config.*
+import com.BloomGram.messenger.pillstack.ui.pills.crypto.utils.PillStackCurrencies
 import org.telegram.messenger.NotificationCenter
 import java.util.HashSet
 

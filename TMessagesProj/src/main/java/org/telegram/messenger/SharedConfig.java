@@ -28,7 +28,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.RequiresApi;
 import androidx.core.content.pm.ShortcutManagerCompat;
 
-import com.exteragram.messenger.proxy.ProxyController;
+import com.BloomGram.messenger.proxy.ProxyController;
 
 import org.json.JSONObject;
 import org.telegram.utils.proxy.ProxySettings;
@@ -1441,9 +1441,9 @@ public class SharedConfig {
         Utilities.globalQueue.postRunnable(() -> {
             try {
                 File telegramPath = new File(Environment.getExternalStorageDirectory(), "BloomGram");
-                File imagePath = new File(telegramPath, "exteraGram Images");
+                File imagePath = new File(telegramPath, "BloomGram Images");
                 imagePath.mkdir();
-                File videoPath = new File(telegramPath, "exteraGram Video");
+                File videoPath = new File(telegramPath, "BloomGram Video");
                 videoPath.mkdir();
 
                 if (!BuildVars.NO_SCOPED_STORAGE) {

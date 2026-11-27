@@ -24,7 +24,7 @@ import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.BloomGram.messenger.ExteraConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

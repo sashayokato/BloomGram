@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
 -->
 <resources>
@@ -395,7 +395,7 @@
     <string name="PluginsNotSupported">L\'installation de plugins est disponible uniquement dans la version **Full** de **BloomGram**.</string>
     <string name="PluginsEngine">Moteur de plugins</string>
     <string name="EnablePluginsEngine">Activer le moteur de plugins</string>
-    <string name="PluginsInfo">Vous pouvez trouver des plugins dans @exteraPlugins.</string>
+    <string name="PluginsInfo">Vous pouvez trouver des plugins dans @bloomgrams.</string>
     <string name="PluginsNotFound">Aucun plugin trouvé.</string>
     <string name="InstallPlugin">Installer</string>
     <string name="UpdatePlugin">Mettre à jour</string>

@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.inline
+package com.BloomGram.messenger.inline
 
 import android.graphics.Canvas
 import android.graphics.Region
@@ -29,12 +29,12 @@ import android.view.inputmethod.InputConnectionWrapper
 import android.widget.TextView
 import androidx.core.graphics.withClip
 
-import com.exteragram.messenger.inline.math.MathExpression
-import com.exteragram.messenger.inline.math.MathOptions
-import com.exteragram.messenger.inline.math.MathSuggestion
-import com.exteragram.messenger.inline.ui.GhostTextLayout
-import com.exteragram.messenger.inline.ui.MathRevealAnimation
-import com.exteragram.messenger.inlineTimeZones
+import com.BloomGram.messenger.inline.math.MathExpression
+import com.BloomGram.messenger.inline.math.MathOptions
+import com.BloomGram.messenger.inline.math.MathSuggestion
+import com.BloomGram.messenger.inline.ui.GhostTextLayout
+import com.BloomGram.messenger.inline.ui.MathRevealAnimation
+import com.BloomGram.messenger.inlineTimeZones
 
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.FileLog

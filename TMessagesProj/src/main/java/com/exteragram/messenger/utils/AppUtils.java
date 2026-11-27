@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.utils;
+package com.BloomGram.messenger.utils;
 
 import android.annotation.SuppressLint;
 import android.content.pm.PackageInfo;
@@ -25,7 +25,7 @@ import androidx.annotation.Keep;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.pm.PackageInfoCompat;
 
-import com.exteragram.messenger.utils.text.LocaleUtils;
+import com.BloomGram.messenger.utils.text.LocaleUtils;
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
 import com.google.gson.Gson;
@@ -48,7 +48,7 @@ public class AppUtils {
 
     // do not change or remove this part of the code if you're making public fork
     private static final String EXPECTED_SIGNATURE = "VdBS+IkXbbu+mQuHS4vyXw==";
-    private static final String EXPECTED_PACKAGE_NAME = "com.exteragram.messenger";
+    private static final String EXPECTED_PACKAGE_NAME = "com.BloomGram.messenger";
 
     private static Gson gson;
 
@@ -308,7 +308,7 @@ public class AppUtils {
         }
 
         if (AppUtils.isAppModified()) {
-            builder.append("\nbased on @exteraGram");
+            builder.append("\nbased on @BloomGram");
         }
 
         return builder.toString();

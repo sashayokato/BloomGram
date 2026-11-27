@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.debug
+package com.BloomGram.messenger.debug
 
 import android.app.Activity
 import android.os.Build
@@ -23,7 +23,7 @@ import android.os.Process
 import android.os.SystemClock
 import android.util.SparseArray
 import androidx.core.util.size
-import com.exteragram.messenger.plugins.PluginsController
+import com.BloomGram.messenger.plugins.PluginsController
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.BuildVars
 import org.telegram.messenger.DispatchQueue
@@ -70,7 +70,7 @@ object FreezeMonitor {
     private const val REPORT_TRIM_BYTES = 1_000_000
     private const val REPORT_NAME = "freeze_report.txt"
 
-    private val APP_FRAME_PREFIXES = arrayOf("org.telegram.", "com.exteragram.", "com.chaquo.")
+    private val APP_FRAME_PREFIXES = arrayOf("org.telegram.", "com.BloomGram.", "com.chaquo.")
     private val IDLE_TOP_FRAMES = arrayOf(
         "android.os.MessageQueue.nativePollOnce", "java.lang.Object.wait", "java.lang.Thread.sleep",
         "sun.misc.Unsafe.park", "jdk.internal.misc.Unsafe.park", "java.net.", "libcore.io.Linux.",

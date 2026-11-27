@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.pillstack.custom;
+package com.BloomGram.messenger.pillstack.custom;
 
 import android.location.Location;
 import android.net.Uri;
@@ -23,8 +23,8 @@ import android.util.SparseArray;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.exteragram.messenger.pillstack.ui.pills.crypto.utils.PillStackCurrencies;
-import com.exteragram.messenger.utils.network.ExteraHttpClient;
+import com.BloomGram.messenger.pillstack.ui.pills.crypto.utils.PillStackCurrencies;
+import com.BloomGram.messenger.utils.network.ExteraHttpClient;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 
@@ -239,7 +239,7 @@ public final class CustomPillFetcher {
         }
         Request.Builder builder = new Request.Builder()
                 .url(url)
-                .header("User-Agent", "exteraGram/" + BuildVars.BUILD_VERSION_STRING + " (Android; Custom Pill)")
+                .header("User-Agent", "BloomGram/" + BuildVars.BUILD_VERSION_STRING + " (Android; Custom Pill)")
                 .header("Accept", "application/json, text/plain, */*");
         for (CustomPillSpec.Header header : spec.headers) {
             if (!CustomPillSpec.isValidHeaderName(header.name)) {

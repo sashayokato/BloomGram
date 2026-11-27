@@ -1,25 +1,25 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.speech.recognizers;
+package com.BloomGram.messenger.speech.recognizers;
 
 import android.text.TextUtils;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.speech.VoiceRecognitionController;
-import com.exteragram.messenger.speech.utils.FormatConverter;
-import com.exteragram.messenger.utils.network.ExteraHttpClient;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.speech.VoiceRecognitionController;
+import com.BloomGram.messenger.speech.utils.FormatConverter;
+import com.BloomGram.messenger.utils.network.ExteraHttpClient;
 
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.FileLog;

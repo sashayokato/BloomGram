@@ -167,9 +167,9 @@ import java.util.Stack;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
 
-import com.exteragram.messenger.AvatarCornerType;
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.chats.ChatUtils;
+import com.BloomGram.messenger.AvatarCornerType;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.utils.chats.ChatUtils;
 
 import me.vkryl.core.BitwiseUtils;
 
@@ -2096,7 +2096,7 @@ public class ChatActionCell extends BaseCell implements DownloadController.FileD
                 if (giftPremiumReleasedText != null) {
                     backgroundRectHeight += dp(15);
                 }
-                // exteraGram: fix action message button padding
+                // BloomGram: fix action message button padding
                 if (giftPremiumTitleLayout != null) {
                     backgroundRectHeight += giftPremiumTitleLayout.getHeight() + dp(4);
                 }

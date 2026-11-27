@@ -1,33 +1,33 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.ai.network;
+package com.BloomGram.messenger.ai.network;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.text.TextUtils;
 
-import com.exteragram.messenger.ai.AiConfig;
-import com.exteragram.messenger.ai.AiController;
-import com.exteragram.messenger.ai.data.Message;
-import com.exteragram.messenger.ai.data.Role;
-import com.exteragram.messenger.ai.data.Service;
-import com.exteragram.messenger.ai.network.backend.Backend;
-import com.exteragram.messenger.ai.network.backend.BackendRequest;
-import com.exteragram.messenger.ai.network.backend.BackendSink;
-import com.exteragram.messenger.ai.network.backend.OnDeviceBackend;
-import com.exteragram.messenger.ai.network.backend.RestBackend;
+import com.BloomGram.messenger.ai.AiConfig;
+import com.BloomGram.messenger.ai.AiController;
+import com.BloomGram.messenger.ai.data.Message;
+import com.BloomGram.messenger.ai.data.Role;
+import com.BloomGram.messenger.ai.data.Service;
+import com.BloomGram.messenger.ai.network.backend.Backend;
+import com.BloomGram.messenger.ai.network.backend.BackendRequest;
+import com.BloomGram.messenger.ai.network.backend.BackendSink;
+import com.BloomGram.messenger.ai.network.backend.OnDeviceBackend;
+import com.BloomGram.messenger.ai.network.backend.RestBackend;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

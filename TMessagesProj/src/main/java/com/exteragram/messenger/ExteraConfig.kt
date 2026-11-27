@@ -1,11 +1,11 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
@@ -14,36 +14,36 @@
 
 @file:JvmName("ExteraConfig")
 
-package com.exteragram.messenger
+package com.BloomGram.messenger
 
 import android.app.Activity
 import android.content.SharedPreferences
 import android.util.Pair
 import androidx.core.content.edit
-import com.exteragram.messenger.backup.PreferencesUtils
-import com.exteragram.messenger.backup.PreferencesUtils.BackupItem
-import com.exteragram.messenger.TabIconsMode.TITLES_ONLY
-import com.exteragram.messenger.config.BooleanPref
-import com.exteragram.messenger.config.EnumPref
-import com.exteragram.messenger.config.FloatPref
-import com.exteragram.messenger.config.IntegerPref
-import com.exteragram.messenger.config.LongPref
-import com.exteragram.messenger.config.NullableStringPref
-import com.exteragram.messenger.config.PrefEnum
-import com.exteragram.messenger.config.SHOW
-import com.exteragram.messenger.config.SanitizedIntegerPref
-import com.exteragram.messenger.config.StringPref
-import com.exteragram.messenger.config.StringSetPref
-import com.exteragram.messenger.config.allDelegates
-import com.exteragram.messenger.config.registeredKeys
-import com.exteragram.messenger.config.setMode
-import com.exteragram.messenger.drawer.loadMainMenuLayout
-import com.exteragram.messenger.export.ExportSettings
-import com.exteragram.messenger.icons.loadIconPacksLayout
-import com.exteragram.messenger.plugins.PluginsController
-import com.exteragram.messenger.translator.TranslatorUtils
-import com.exteragram.messenger.utils.chats.DoubleTapUtils
-import com.exteragram.messenger.utils.network.RemoteUtils
+import com.BloomGram.messenger.backup.PreferencesUtils
+import com.BloomGram.messenger.backup.PreferencesUtils.BackupItem
+import com.BloomGram.messenger.TabIconsMode.TITLES_ONLY
+import com.BloomGram.messenger.config.BooleanPref
+import com.BloomGram.messenger.config.EnumPref
+import com.BloomGram.messenger.config.FloatPref
+import com.BloomGram.messenger.config.IntegerPref
+import com.BloomGram.messenger.config.LongPref
+import com.BloomGram.messenger.config.NullableStringPref
+import com.BloomGram.messenger.config.PrefEnum
+import com.BloomGram.messenger.config.SHOW
+import com.BloomGram.messenger.config.SanitizedIntegerPref
+import com.BloomGram.messenger.config.StringPref
+import com.BloomGram.messenger.config.StringSetPref
+import com.BloomGram.messenger.config.allDelegates
+import com.BloomGram.messenger.config.registeredKeys
+import com.BloomGram.messenger.config.setMode
+import com.BloomGram.messenger.drawer.loadMainMenuLayout
+import com.BloomGram.messenger.export.ExportSettings
+import com.BloomGram.messenger.icons.loadIconPacksLayout
+import com.BloomGram.messenger.plugins.PluginsController
+import com.BloomGram.messenger.translator.TranslatorUtils
+import com.BloomGram.messenger.utils.chats.DoubleTapUtils
+import com.BloomGram.messenger.utils.network.RemoteUtils
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import org.telegram.messenger.AndroidUtilities.dp
@@ -58,7 +58,7 @@ import kotlin.math.sqrt
 
 val GSON: Gson = Gson()
 
-const val PLACEHOLDERS = "exteraGramPlaceholders"
+const val PLACEHOLDERS = "BloomGramPlaceholders"
 
 private const val DEFAULT_BOT_ID = 8083294286L
 private const val DEFAULT_BOT_NAME = "exteraAuthBot"
@@ -230,7 +230,7 @@ fun setProxyDisabledOn(condition: ProxyDisableCondition, disable: Boolean) {
     doNotUseProxy = if (disable) doNotUseProxy or condition.flag else doNotUseProxy and condition.flag.inv()
 }
 
-var customSavePath by StringPref("exteraGram")
+var customSavePath by StringPref("BloomGram")
 
 var doNotMarkAsNew = ArrayList<String>()
 var newFeaturesShowedAt = HashMap<String, Long>()

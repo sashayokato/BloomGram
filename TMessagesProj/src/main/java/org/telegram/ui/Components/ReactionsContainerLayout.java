@@ -48,7 +48,7 @@ import androidx.core.util.Consumer;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.utils.chats.GlassMenuHelper;
+import com.BloomGram.messenger.utils.chats.GlassMenuHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

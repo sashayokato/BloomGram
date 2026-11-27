@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.adblock;
+package com.BloomGram.messenger.adblock;
 
 import android.text.TextUtils;
 import android.util.Base64;
@@ -20,8 +20,8 @@ import android.webkit.MimeTypeMap;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
 
-import com.exteragram.messenger.adblock.data.BlockResult;
-import com.exteragram.messenger.adblock.interop.AdBlock;
+import com.BloomGram.messenger.adblock.data.BlockResult;
+import com.BloomGram.messenger.adblock.interop.AdBlock;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

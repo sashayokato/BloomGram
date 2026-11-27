@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.preferences.components;
+package com.BloomGram.messenger.preferences.components;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -34,8 +34,8 @@ import androidx.annotation.Nullable;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.pm.PackageInfoCompat;
 
-import com.exteragram.messenger.preferences.utils.IconShapeHelper;
-import com.exteragram.messenger.utils.ui.MonetUtils;
+import com.BloomGram.messenger.preferences.utils.IconShapeHelper;
+import com.BloomGram.messenger.utils.ui.MonetUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;
@@ -88,7 +88,7 @@ public class HeaderSettingsCell extends LinearLayout implements CustomPreference
         titleTextView.setTextColor(Theme.getColor(Theme.key_windowBackgroundWhiteBlackText));
         titleTextView.setTypeface(AndroidUtilities.bold());
         titleTextView.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 20);
-        titleTextView.setText(LocaleController.getString(R.string.exteraAppName));
+        titleTextView.setText(LocaleController.getString(R.string.bloomAppName));
         titleTextView.setLines(1);
         titleTextView.setMaxLines(1);
         titleTextView.setSingleLine(true);

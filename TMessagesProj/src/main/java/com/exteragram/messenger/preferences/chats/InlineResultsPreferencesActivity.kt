@@ -1,46 +1,46 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.preferences.chats
+package com.BloomGram.messenger.preferences.chats
 
 import android.view.View
-import com.exteragram.messenger.AngleUnit
-import com.exteragram.messenger.MeasureSystem
-import com.exteragram.messenger.inline.InlineRates
-import com.exteragram.messenger.inline.InlineResults
-import com.exteragram.messenger.inline.docs.InlineExampleGroup
-import com.exteragram.messenger.inline.docs.InlineExamples
-import com.exteragram.messenger.inline.math.MathExpression
-import com.exteragram.messenger.inline.math.MathOptions
-import com.exteragram.messenger.inline.rates.Currencies
-import com.exteragram.messenger.inlineAngleUnit
-import com.exteragram.messenger.inlineCurrencyRates
-import com.exteragram.messenger.inlineDigitGrouping
-import com.exteragram.messenger.inlineMathResult
-import com.exteragram.messenger.inlineMeasureSystem
-import com.exteragram.messenger.inlineResults
-import com.exteragram.messenger.inlineTargetCurrency
-import com.exteragram.messenger.inlineTimeZones
-import com.exteragram.messenger.inlineUnitConversion
-import com.exteragram.messenger.preferences.BasePreferencesActivity
-import com.exteragram.messenger.preferences.chats.components.InlineDocBlock
-import com.exteragram.messenger.preferences.chats.components.InlineDocExample
-import com.exteragram.messenger.preferences.chats.components.InlineFeature
-import com.exteragram.messenger.preferences.chats.components.InlineFeatureCell
-import com.exteragram.messenger.utils.addIf
-import com.exteragram.messenger.utils.network.ExchangeRates
-import com.exteragram.messenger.utils.ui.PopupUtils
+import com.BloomGram.messenger.AngleUnit
+import com.BloomGram.messenger.MeasureSystem
+import com.BloomGram.messenger.inline.InlineRates
+import com.BloomGram.messenger.inline.InlineResults
+import com.BloomGram.messenger.inline.docs.InlineExampleGroup
+import com.BloomGram.messenger.inline.docs.InlineExamples
+import com.BloomGram.messenger.inline.math.MathExpression
+import com.BloomGram.messenger.inline.math.MathOptions
+import com.BloomGram.messenger.inline.rates.Currencies
+import com.BloomGram.messenger.inlineAngleUnit
+import com.BloomGram.messenger.inlineCurrencyRates
+import com.BloomGram.messenger.inlineDigitGrouping
+import com.BloomGram.messenger.inlineMathResult
+import com.BloomGram.messenger.inlineMeasureSystem
+import com.BloomGram.messenger.inlineResults
+import com.BloomGram.messenger.inlineTargetCurrency
+import com.BloomGram.messenger.inlineTimeZones
+import com.BloomGram.messenger.inlineUnitConversion
+import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.BloomGram.messenger.preferences.chats.components.InlineDocBlock
+import com.BloomGram.messenger.preferences.chats.components.InlineDocExample
+import com.BloomGram.messenger.preferences.chats.components.InlineFeature
+import com.BloomGram.messenger.preferences.chats.components.InlineFeatureCell
+import com.BloomGram.messenger.utils.addIf
+import com.BloomGram.messenger.utils.network.ExchangeRates
+import com.BloomGram.messenger.utils.ui.PopupUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.LocaleController.formatString

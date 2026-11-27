@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.icons
+package com.BloomGram.messenger.icons
 
 import android.app.Activity
 import android.content.Context
@@ -34,12 +34,12 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.core.graphics.drawable.IconCompat
 import androidx.core.graphics.drawable.toDrawable
 import androidx.core.graphics.scale
-import com.exteragram.messenger.export.output.ExportFiles
-import com.exteragram.messenger.icons.ui.components.InstallIconPackBottomSheet
-import com.exteragram.messenger.icons.ui.components.ReplaceIconBottomSheet
-import com.exteragram.messenger.icons.ui.picker.IconPickerController
-import com.exteragram.messenger.utils.backgroundScope
-import com.exteragram.messenger.utils.chats.ChatUtils
+import com.BloomGram.messenger.export.output.ExportFiles
+import com.BloomGram.messenger.icons.ui.components.InstallIconPackBottomSheet
+import com.BloomGram.messenger.icons.ui.components.ReplaceIconBottomSheet
+import com.BloomGram.messenger.icons.ui.picker.IconPickerController
+import com.BloomGram.messenger.utils.backgroundScope
+import com.BloomGram.messenger.utils.chats.ChatUtils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.isActive
@@ -67,10 +67,10 @@ import java.util.concurrent.CopyOnWriteArrayList
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 import kotlin.math.max
-import com.exteragram.messenger.IconPackType
-import com.exteragram.messenger.editingIconPackId
-import com.exteragram.messenger.iconPack
-import com.exteragram.messenger.loadConfig
+import com.BloomGram.messenger.IconPackType
+import com.BloomGram.messenger.editingIconPackId
+import com.BloomGram.messenger.iconPack
+import com.BloomGram.messenger.loadConfig
 import androidx.core.util.size
 import androidx.core.util.isEmpty
 

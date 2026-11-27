@@ -408,7 +408,7 @@ public class SessionCell extends FrameLayout {
             colorKey = Theme.key_avatar_backgroundPink;
             colorKey2 = Theme.key_avatar_background2Pink;
         }
-        boolean isExtera = session.app_name.toLowerCase().contains("exteragram");
+        boolean isExtera = session.app_name.toLowerCase().contains("BloomGram");
         Drawable iconDrawable = ContextCompat.getDrawable(ApplicationLoader.applicationContext, isExtera ? R.drawable.ic_foreground : iconId).mutate();
         if (!isExtera) {
             iconDrawable.setColorFilter(new PorterDuffColorFilter(Theme.getColor(Theme.key_avatar_text), PorterDuff.Mode.SRC_IN));

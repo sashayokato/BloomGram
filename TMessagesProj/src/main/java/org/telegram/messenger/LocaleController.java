@@ -71,8 +71,8 @@ import java.util.Locale;
 import java.util.Objects;
 import java.util.TimeZone;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.text.LocaleUtils;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.utils.text.LocaleUtils;
 
 public class LocaleController {
 
@@ -1619,7 +1619,7 @@ public class LocaleController {
     }
 
     private static boolean isAppNameResource(String key, int res) {
-        if (res == R.string.AppName || res == R.string.AppNameBeta || res == R.string.exteraAppName) {
+        if (res == R.string.AppName || res == R.string.AppNameBeta || res == R.string.bloomAppName) {
             return true;
         }
         return key != null && key.contains("AppName");

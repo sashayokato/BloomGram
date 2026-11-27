@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.profilecolor.debug;
+package com.BloomGram.messenger.profilecolor.debug;
 
 import org.telegram.messenger.MediaDataController;
 import org.telegram.messenger.MessageObject;
@@ -118,7 +118,7 @@ final class ProfileColorDebugMedia {
     }
 
     private static final String[] FILES = {"Design brief.pdf", "palette.zip", "Quarterly report.xlsx", "notes.txt", "build-release.apk", "Contract (signed).docx"};
-    private static final String[] LINKS = {"https://telegram.org/blog", "https://exteragram.app/changelog", "https://m3.material.io/styles/color", "https://oklch.com"};
+    private static final String[] LINKS = {"https://telegram.org/blog", "https://BloomGram.app/changelog", "https://m3.material.io/styles/color", "https://oklch.com"};
     private static final String[] TRACKS = {"Chroma", "Hue Shift", "Tonal Spot", "Gamut", "Lightness"};
 
     private static TLRPC.MessageMedia photo(int id) {

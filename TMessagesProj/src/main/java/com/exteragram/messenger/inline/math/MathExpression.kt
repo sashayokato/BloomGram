@@ -1,24 +1,24 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.inline.math
+package com.BloomGram.messenger.inline.math
 
-import com.exteragram.messenger.inline.rates.Currencies
-import com.exteragram.messenger.inline.rates.CurrencyRates
-import com.exteragram.messenger.inline.time.TimeZoneOptions
-import com.exteragram.messenger.inline.time.TimeZones
-import com.exteragram.messenger.inline.units.Measures
+import com.BloomGram.messenger.inline.rates.Currencies
+import com.BloomGram.messenger.inline.rates.CurrencyRates
+import com.BloomGram.messenger.inline.time.TimeZoneOptions
+import com.BloomGram.messenger.inline.time.TimeZones
+import com.BloomGram.messenger.inline.units.Measures
 
 import kotlin.math.abs
 

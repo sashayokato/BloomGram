@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.player.ui;
+package com.BloomGram.messenger.player.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.getString;
@@ -32,12 +32,12 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.player.lyrics.LyricsProvider;
-import com.exteragram.messenger.player.motion.CanvasRepository;
-import com.exteragram.messenger.player.motion.SpotifyAuth;
-import com.exteragram.messenger.player.motion.SpotifyCanvasRepository;
-import com.exteragram.messenger.player.motion.YandexCanvasRepository;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.player.lyrics.LyricsProvider;
+import com.BloomGram.messenger.player.motion.CanvasRepository;
+import com.BloomGram.messenger.player.motion.SpotifyAuth;
+import com.BloomGram.messenger.player.motion.SpotifyCanvasRepository;
+import com.BloomGram.messenger.player.motion.YandexCanvasRepository;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BotWebViewVibrationEffect;

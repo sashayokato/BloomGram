@@ -1,11 +1,11 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
@@ -14,13 +14,13 @@
 
 @file:JvmName("IconPacksLayout")
 
-package com.exteragram.messenger.icons
+package com.BloomGram.messenger.icons
 
-import com.exteragram.messenger.GSON
-import com.exteragram.messenger.IconPackType
-import com.exteragram.messenger.editor
-import com.exteragram.messenger.iconPack
-import com.exteragram.messenger.preferences
+import com.BloomGram.messenger.GSON
+import com.BloomGram.messenger.IconPackType
+import com.BloomGram.messenger.editor
+import com.BloomGram.messenger.iconPack
+import com.BloomGram.messenger.preferences
 import com.google.gson.reflect.TypeToken
 
 private val BASE_PACK_IDS = arrayOf(IconPack.ID_DEFAULT, IconPack.ID_SOLAR, IconPack.ID_REMIX)

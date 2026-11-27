@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.components;
+package com.BloomGram.messenger.components;
 
 import android.content.Intent;
 import android.graphics.BitmapFactory;
@@ -31,11 +31,11 @@ import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 import androidx.exifinterface.media.ExifInterface;
 
-import com.exteragram.messenger.utils.chats.ChatUtils;
-import com.exteragram.messenger.utils.media.JpegFingerprint;
-import com.exteragram.messenger.utils.media.MediaUtils;
-import com.exteragram.messenger.utils.media.OpusFingerprint;
-import com.exteragram.messenger.utils.media.Mp4Fingerprint;
+import com.BloomGram.messenger.utils.chats.ChatUtils;
+import com.BloomGram.messenger.utils.media.JpegFingerprint;
+import com.BloomGram.messenger.utils.media.MediaUtils;
+import com.BloomGram.messenger.utils.media.OpusFingerprint;
+import com.BloomGram.messenger.utils.media.Mp4Fingerprint;
 import com.google.zxing.Dimension;
 
 import org.telegram.messenger.AndroidUtilities;

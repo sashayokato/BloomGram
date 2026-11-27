@@ -1,40 +1,40 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.preferences.appearance
+package com.BloomGram.messenger.preferences.appearance
 
 import android.content.Context
 import android.os.Build
 import android.view.View
-import com.exteragram.messenger.*
-import com.exteragram.messenger.appicons.AppIcon
-import com.exteragram.messenger.appicons.AppIconController
-import com.exteragram.messenger.appicons.AppIconPreviewDrawable
-import com.exteragram.messenger.appicons.ui.AppIconsActivity
-import com.exteragram.messenger.icons.ui.IconPacksActivity
-import com.exteragram.messenger.pillstack.ui.PillStackPreferencesActivity
-import com.exteragram.messenger.preferences.BasePreferencesActivity
-import com.exteragram.messenger.preferences.SwitchGroup
-import com.exteragram.messenger.preferences.appearance.components.AvatarCornersPreviewCell
-import com.exteragram.messenger.preferences.appearance.components.ChatListPreviewCell
-import com.exteragram.messenger.preferences.appearance.components.FabShapeCell
-import com.exteragram.messenger.preferences.appearance.components.FilterTabsPreviewCell
-import com.exteragram.messenger.preferences.utils.SettingsRegistry
-import com.exteragram.messenger.utils.addIf
-import com.exteragram.messenger.utils.folders.FolderCounters
-import com.exteragram.messenger.utils.network.RemoteUtils
-import com.exteragram.messenger.utils.text.LocaleUtils
+import com.BloomGram.messenger.*
+import com.BloomGram.messenger.appicons.AppIcon
+import com.BloomGram.messenger.appicons.AppIconController
+import com.BloomGram.messenger.appicons.AppIconPreviewDrawable
+import com.BloomGram.messenger.appicons.ui.AppIconsActivity
+import com.BloomGram.messenger.icons.ui.IconPacksActivity
+import com.BloomGram.messenger.pillstack.ui.PillStackPreferencesActivity
+import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.BloomGram.messenger.preferences.SwitchGroup
+import com.BloomGram.messenger.preferences.appearance.components.AvatarCornersPreviewCell
+import com.BloomGram.messenger.preferences.appearance.components.ChatListPreviewCell
+import com.BloomGram.messenger.preferences.appearance.components.FabShapeCell
+import com.BloomGram.messenger.preferences.appearance.components.FilterTabsPreviewCell
+import com.BloomGram.messenger.preferences.utils.SettingsRegistry
+import com.BloomGram.messenger.utils.addIf
+import com.BloomGram.messenger.utils.folders.FolderCounters
+import com.BloomGram.messenger.utils.network.RemoteUtils
+import com.BloomGram.messenger.utils.text.LocaleUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.LocaleController.getString
@@ -135,7 +135,7 @@ class AppearancePreferencesActivity : BasePreferencesActivity() {
 
     override fun initializeOptionStrings() {
         titles = arrayOf(
-            getString(R.string.exteraAppName),
+            getString(R.string.bloomAppName),
             getString(R.string.Username),
             getString(R.string.ActionBarTitleName),
             getString(R.string.FilterChats)

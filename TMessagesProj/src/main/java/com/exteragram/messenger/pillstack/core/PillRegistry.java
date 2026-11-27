@@ -1,35 +1,35 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.pillstack.core;
+package com.BloomGram.messenger.pillstack.core;
 
-import static com.exteragram.messenger.pillstack.core.PillStackConfig.getActivePills;
-import static com.exteragram.messenger.pillstack.core.PillStackConfig.getConfigLoaded;
-import static com.exteragram.messenger.pillstack.core.PillStackConfig.getHiddenPills;
+import static com.BloomGram.messenger.pillstack.core.PillStackConfig.getActivePills;
+import static com.BloomGram.messenger.pillstack.core.PillStackConfig.getConfigLoaded;
+import static com.BloomGram.messenger.pillstack.core.PillStackConfig.getHiddenPills;
 
 import android.content.Context;
 
 import androidx.annotation.Keep;
 
-import com.exteragram.messenger.pillstack.custom.CustomPillStore;
-import com.exteragram.messenger.pillstack.ui.pills.BasePill;
-import com.exteragram.messenger.pillstack.ui.pills.crypto.BtcPill;
-import com.exteragram.messenger.pillstack.ui.pills.crypto.GramPill;
-import com.exteragram.messenger.pillstack.ui.pills.crypto.UsdPill;
-import com.exteragram.messenger.pillstack.ui.pills.system.CachePill;
-import com.exteragram.messenger.pillstack.ui.pills.system.ProxyPill;
-import com.exteragram.messenger.pillstack.ui.pills.weather.WeatherPill;
+import com.BloomGram.messenger.pillstack.custom.CustomPillStore;
+import com.BloomGram.messenger.pillstack.ui.pills.BasePill;
+import com.BloomGram.messenger.pillstack.ui.pills.crypto.BtcPill;
+import com.BloomGram.messenger.pillstack.ui.pills.crypto.GramPill;
+import com.BloomGram.messenger.pillstack.ui.pills.crypto.UsdPill;
+import com.BloomGram.messenger.pillstack.ui.pills.system.CachePill;
+import com.BloomGram.messenger.pillstack.ui.pills.system.ProxyPill;
+import com.BloomGram.messenger.pillstack.ui.pills.weather.WeatherPill;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.NotificationCenter;

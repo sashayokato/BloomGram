@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.appicons.ui;
+package com.BloomGram.messenger.appicons.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.LocaleController.getString;
@@ -38,15 +38,15 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.appicons.AppIcon;
-import com.exteragram.messenger.appicons.AppIconController;
-import com.exteragram.messenger.appicons.AppIconPreviewLoader;
-import com.exteragram.messenger.appicons.ui.components.AppIconBulletinLayout;
-import com.exteragram.messenger.appicons.ui.components.AppIconCell;
-import com.exteragram.messenger.appicons.ui.components.AppIconHeroView;
-import com.exteragram.messenger.utils.ui.ChatHeaderUiHelper;
+import com.BloomGram.messenger.appicons.AppIcon;
+import com.BloomGram.messenger.appicons.AppIconController;
+import com.BloomGram.messenger.appicons.AppIconPreviewLoader;
+import com.BloomGram.messenger.appicons.ui.components.AppIconBulletinLayout;
+import com.BloomGram.messenger.appicons.ui.components.AppIconCell;
+import com.BloomGram.messenger.appicons.ui.components.AppIconHeroView;
+import com.BloomGram.messenger.utils.ui.ChatHeaderUiHelper;
 
-import com.exteragram.messenger.utils.ui.UIUtil;
+import com.BloomGram.messenger.utils.ui.UIUtil;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.R;

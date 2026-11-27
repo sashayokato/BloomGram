@@ -1,25 +1,25 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.inline
+package com.BloomGram.messenger.inline
 
 import android.icu.text.TimeZoneFormat
 import android.icu.text.TimeZoneNames
 import android.icu.util.TimeZone
 import android.icu.util.ULocale
 
-import com.exteragram.messenger.inline.time.TimeZones
+import com.BloomGram.messenger.inline.time.TimeZones
 
 import org.telegram.messenger.FileLog
 import org.telegram.messenger.LocaleController

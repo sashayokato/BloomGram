@@ -40,7 +40,7 @@ import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.core.graphics.ColorUtils;
 
-import com.exteragram.messenger.icons.SvgDocumentPreview;
+import com.BloomGram.messenger.icons.SvgDocumentPreview;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -2518,7 +2518,7 @@ public class ImageLoader {
 
                 if (telegramPath.isDirectory()) {
                     try {
-                        File imagePath = new File(telegramPath, "exteraGram Images");
+                        File imagePath = new File(telegramPath, "BloomGram Images");
                         imagePath.mkdir();
                         if (imagePath.isDirectory() && canMoveFiles(cachePath, imagePath, FileLoader.MEDIA_DIR_IMAGE)) {
                             mediaDirs.put(FileLoader.MEDIA_DIR_IMAGE, imagePath);
@@ -2531,7 +2531,7 @@ public class ImageLoader {
                     }
 
                     try {
-                        File videoPath = new File(telegramPath, "exteraGram Video");
+                        File videoPath = new File(telegramPath, "BloomGram Video");
                         videoPath.mkdir();
                         if (videoPath.isDirectory() && canMoveFiles(cachePath, videoPath, FileLoader.MEDIA_DIR_VIDEO)) {
                             mediaDirs.put(FileLoader.MEDIA_DIR_VIDEO, videoPath);
@@ -2544,7 +2544,7 @@ public class ImageLoader {
                     }
 
                     try {
-                        File audioPath = new File(telegramPath, "exteraGram Audio");
+                        File audioPath = new File(telegramPath, "BloomGram Audio");
                         audioPath.mkdir();
                         if (audioPath.isDirectory() && canMoveFiles(cachePath, audioPath, FileLoader.MEDIA_DIR_AUDIO)) {
                             AndroidUtilities.createEmptyFile(new File(audioPath, ".nomedia"));
@@ -2558,7 +2558,7 @@ public class ImageLoader {
                     }
 
                     try {
-                        File documentPath = new File(telegramPath, "exteraGram Documents");
+                        File documentPath = new File(telegramPath, "BloomGram Documents");
                         documentPath.mkdir();
                         if (documentPath.isDirectory() && canMoveFiles(cachePath, documentPath, FileLoader.MEDIA_DIR_DOCUMENT)) {
                             AndroidUtilities.createEmptyFile(new File(documentPath, ".nomedia"));
@@ -2572,7 +2572,7 @@ public class ImageLoader {
                     }
 
                     try {
-                        File normalNamesPath = new File(telegramPath, "exteraGram Files");
+                        File normalNamesPath = new File(telegramPath, "BloomGram Files");
                         normalNamesPath.mkdir();
                         if (normalNamesPath.isDirectory() && canMoveFiles(cachePath, normalNamesPath, FileLoader.MEDIA_DIR_FILES)) {
                             AndroidUtilities.createEmptyFile(new File(normalNamesPath, ".nomedia"));
@@ -2586,7 +2586,7 @@ public class ImageLoader {
                     }
 
                     try {
-                        File normalNamesPath = new File(telegramPath, "exteraGram Stories");
+                        File normalNamesPath = new File(telegramPath, "BloomGram Stories");
                         normalNamesPath.mkdir();
                         if (normalNamesPath.isDirectory() && canMoveFiles(cachePath, normalNamesPath, FileLoader.MEDIA_DIR_STORIES)) {
                             AndroidUtilities.createEmptyFile(new File(normalNamesPath, ".nomedia"));
@@ -2601,7 +2601,7 @@ public class ImageLoader {
                 }
                 if (publicMediaDir != null && publicMediaDir.isDirectory()) {
                     try {
-                        File imagePath = new File(publicMediaDir, "exteraGram Images");
+                        File imagePath = new File(publicMediaDir, "BloomGram Images");
                         imagePath.mkdir();
                         if (imagePath.isDirectory() && canMoveFiles(cachePath, imagePath, FileLoader.MEDIA_DIR_IMAGE)) {
                             mediaDirs.put(FileLoader.MEDIA_DIR_IMAGE_PUBLIC, imagePath);
@@ -2614,7 +2614,7 @@ public class ImageLoader {
                     }
 
                     try {
-                        File videoPath = new File(publicMediaDir, "exteraGram Video");
+                        File videoPath = new File(publicMediaDir, "BloomGram Video");
                         videoPath.mkdir();
                         if (videoPath.isDirectory() && canMoveFiles(cachePath, videoPath, FileLoader.MEDIA_DIR_VIDEO)) {
                             mediaDirs.put(FileLoader.MEDIA_DIR_VIDEO_PUBLIC, videoPath);

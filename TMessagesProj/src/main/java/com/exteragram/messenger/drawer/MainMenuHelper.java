@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.drawer;
+package com.BloomGram.messenger.drawer;
 
 import android.Manifest;
 import android.content.SharedPreferences;
@@ -20,15 +20,15 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.text.TextUtils;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.components.QRCodeSheet;
-import com.exteragram.messenger.feed.ui.FeedActivity;
-import com.exteragram.messenger.plugins.PluginsConstants;
-import com.exteragram.messenger.plugins.PluginsController;
-import com.exteragram.messenger.plugins.hooks.MenuItemRecord;
-import com.exteragram.messenger.plugins.ui.PluginsActivity;
-import com.exteragram.messenger.plugins.utils.MenuContextBuilder;
-import com.exteragram.messenger.utils.chats.ChatUtils;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.components.QRCodeSheet;
+import com.BloomGram.messenger.feed.ui.FeedActivity;
+import com.BloomGram.messenger.plugins.PluginsConstants;
+import com.BloomGram.messenger.plugins.PluginsController;
+import com.BloomGram.messenger.plugins.hooks.MenuItemRecord;
+import com.BloomGram.messenger.plugins.ui.PluginsActivity;
+import com.BloomGram.messenger.plugins.utils.MenuContextBuilder;
+import com.BloomGram.messenger.utils.chats.ChatUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BuildVars;

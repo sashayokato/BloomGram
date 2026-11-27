@@ -15,8 +15,8 @@ import android.graphics.RectF;
 import android.graphics.Shader;
 import android.graphics.SweepGradient;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.GlassOutlineStyle;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.GlassOutlineStyle;
 
 import java.util.HashMap;
 

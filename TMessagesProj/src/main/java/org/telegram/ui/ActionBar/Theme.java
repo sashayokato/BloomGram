@@ -57,7 +57,7 @@ import android.hardware.SensorManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.SystemClock;
-import com.exteragram.messenger.utils.ui.TextPaint;
+import com.BloomGram.messenger.utils.ui.TextPaint;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
@@ -74,10 +74,10 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 
-import com.exteragram.messenger.DividerStyle;
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.text.LocaleUtils;
-import com.exteragram.messenger.utils.ui.MonetUtils;
+import com.BloomGram.messenger.DividerStyle;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.BloomGram.messenger.utils.ui.MonetUtils;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -2458,10 +2458,10 @@ public class Theme {
     public static TextPaint chat_contextResult_descriptionTextPaint;
     public static TextPaint chat_msgCodeBgPaint;
 
-    // exteraGram
+    // BloomGram
     public static Drawable chat_pencilIconDrawable;
     public static Drawable chat_channelIconDrawable;
-    // exteraGram
+    // BloomGram
 
     public static Drawable chat_msgNoSoundDrawable;
     public static Drawable chat_composeShadowDrawable;
@@ -8504,10 +8504,10 @@ public class Theme {
                 chat_psaHelpDrawable[a] = resources.getDrawable(R.drawable.msg_psa).mutate();
             }
 
-            // exteraGram
+            // BloomGram
             chat_pencilIconDrawable = resources.getDrawable(R.drawable.pencil).mutate();
             chat_channelIconDrawable = resources.getDrawable(R.drawable.channel).mutate();
-            // exteraGram
+            // BloomGram
 
             calllog_msgCallUpRedDrawable = resources.getDrawable(R.drawable.mini_call_out_16).mutate();
             calllog_msgCallUpGreenDrawable = resources.getDrawable(R.drawable.mini_call_out_16).mutate();

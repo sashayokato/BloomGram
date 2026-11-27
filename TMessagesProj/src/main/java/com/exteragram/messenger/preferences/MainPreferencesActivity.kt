@@ -1,31 +1,31 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.preferences
+package com.BloomGram.messenger.preferences
 
 import android.content.Context
 import android.view.HapticFeedbackConstants
 import android.view.View
-import com.exteragram.messenger.plugins.PluginsController
-import com.exteragram.messenger.plugins.ui.PluginsActivity
-import com.exteragram.messenger.preferences.appearance.AppearancePreferencesActivity
-import com.exteragram.messenger.preferences.chats.ChatsPreferencesActivity
-import com.exteragram.messenger.preferences.components.CommunityCardCell
-import com.exteragram.messenger.preferences.components.HeaderSettingsCell
-import com.exteragram.messenger.useSystemIconShape
-import com.exteragram.messenger.utils.addIf
-import com.exteragram.messenger.utils.system.VibratorUtils
+import com.BloomGram.messenger.plugins.PluginsController
+import com.BloomGram.messenger.plugins.ui.PluginsActivity
+import com.BloomGram.messenger.preferences.appearance.AppearancePreferencesActivity
+import com.BloomGram.messenger.preferences.chats.ChatsPreferencesActivity
+import com.BloomGram.messenger.preferences.components.CommunityCardCell
+import com.BloomGram.messenger.preferences.components.HeaderSettingsCell
+import com.BloomGram.messenger.useSystemIconShape
+import com.BloomGram.messenger.utils.addIf
+import com.BloomGram.messenger.utils.system.VibratorUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.BuildVars
 import org.telegram.messenger.LocaleController.formatPluralString
@@ -99,7 +99,7 @@ class MainPreferencesActivity : BasePreferencesActivity(), NotificationCenter.No
         val community = findCommunity()
         val linkedPeers = community?.let { messagesController.getChatFull(it.id)?.linked_peers }
         val chat = community ?: findChannel()
-        val title = chat?.title ?: getString(R.string.exteraAppName)
+        val title = chat?.title ?: getString(R.string.bloomAppName)
         val subtitle = if (linkedPeers.isNullOrEmpty()) "@$CHANNEL_USERNAME · @$FORUM_USERNAME" else formatPluralString("CommunityWithChats", linkedPeers.size)
         items.add(
             CommunityCardCell.Factory.of(PreferenceItem.COMMUNITY.id, chat, title, subtitle)
@@ -133,7 +133,7 @@ class MainPreferencesActivity : BasePreferencesActivity(), NotificationCenter.No
                 }
             }
             PreferenceItem.CROWDIN -> messagesController.openByUserName("vlodt", this, 1)
-            PreferenceItem.SOURCE_CODE -> Browser.openUrl(parentActivity, "https://github.com/exteraSquad/exteraGram")
+            PreferenceItem.SOURCE_CODE -> Browser.openUrl(parentActivity, "https://github.com/exteraSquad/BloomGram")
         }
     }
 

@@ -156,20 +156,20 @@ import androidx.media3.exoplayer.ExoPlayer;
 import androidx.media3.exoplayer.analytics.AnalyticsListener;
 import androidx.media3.exoplayer.video.VideoFrameMetadataListener;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.components.ChooseSubtitlesLayout;
-import com.exteragram.messenger.components.ReverseImageSearch;
-import com.exteragram.messenger.components.SearchPhotoPopupWrapper;
-import com.exteragram.messenger.utils.chats.ForwardContext;
-import com.exteragram.messenger.utils.AppUtils;
-import com.exteragram.messenger.utils.media.JpegFingerprint;
-import com.exteragram.messenger.utils.media.MediaUtils;
-import com.exteragram.messenger.utils.media.VideoSubtitlesHelper;
-import com.exteragram.messenger.translator.TranslatorUtils;
-import com.exteragram.messenger.utils.ui.PopupUtils;
-import com.exteragram.messenger.utils.ui.predictiveback.PredictiveBackAnimationHelper;
-import com.exteragram.messenger.utils.system.SystemUtils;
-import com.exteragram.messenger.icons.SvgDocumentPreview;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.components.ChooseSubtitlesLayout;
+import com.BloomGram.messenger.components.ReverseImageSearch;
+import com.BloomGram.messenger.components.SearchPhotoPopupWrapper;
+import com.BloomGram.messenger.utils.chats.ForwardContext;
+import com.BloomGram.messenger.utils.AppUtils;
+import com.BloomGram.messenger.utils.media.JpegFingerprint;
+import com.BloomGram.messenger.utils.media.MediaUtils;
+import com.BloomGram.messenger.utils.media.VideoSubtitlesHelper;
+import com.BloomGram.messenger.translator.TranslatorUtils;
+import com.BloomGram.messenger.utils.ui.PopupUtils;
+import com.BloomGram.messenger.utils.ui.predictiveback.PredictiveBackAnimationHelper;
+import com.BloomGram.messenger.utils.system.SystemUtils;
+import com.BloomGram.messenger.icons.SvgDocumentPreview;
 import com.google.android.gms.cast.framework.CastContext;
 import com.google.android.gms.vision.Frame;
 import com.google.android.gms.vision.face.Face;
@@ -4790,7 +4790,7 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
                     }
                 }
                 if (myMsg != null) {
-                    // exteraGram: dont stop video if reaction is set
+                    // BloomGram: dont stop video if reaction is set
                     var contentUnchanged = false;
 
                     var photoMyMsg = MessageObject.getPhoto(myMsg.messageOwner);
@@ -16889,7 +16889,7 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
             currentFileLocationVideo = imagesArrLocationsVideo.get(index);
             menuItem.setSubItemShown(gallery_menu_create_sticker, false);
 
-            // exteraGram: update gallery button arrow
+            // BloomGram: update gallery button arrow
             updateQualityItems();
         } else if (!imagesArrLocals.isEmpty()) {
             if (index < 0 || index >= imagesArrLocals.size()) {
@@ -19449,7 +19449,7 @@ public class PhotoViewer implements NotificationCenter.NotificationCenterDelegat
             return;
         }
 
-        // exteraGram: fix emoji keyboard appear
+        // BloomGram: fix emoji keyboard appear
         if (captionEdit != null && captionEdit.editText != null) {
             captionEdit.editText.hidePopup(false);
         }

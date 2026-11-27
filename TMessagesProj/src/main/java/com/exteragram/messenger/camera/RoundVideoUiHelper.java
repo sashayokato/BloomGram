@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.camera;
+package com.BloomGram.messenger.camera;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -26,12 +26,12 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.exteragram.messenger.CameraType;
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.VideoMessagesCamera;
-import com.exteragram.messenger.debug.DebugConfig;
-import com.exteragram.messenger.debug.DebugOverlayView;
-import com.exteragram.messenger.utils.system.SystemUtils;
+import com.BloomGram.messenger.CameraType;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.VideoMessagesCamera;
+import com.BloomGram.messenger.debug.DebugConfig;
+import com.BloomGram.messenger.debug.DebugOverlayView;
+import com.BloomGram.messenger.utils.system.SystemUtils;
 
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.Utilities;

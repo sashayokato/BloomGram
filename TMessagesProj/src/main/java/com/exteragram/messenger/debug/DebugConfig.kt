@@ -1,11 +1,11 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
@@ -13,10 +13,10 @@
 */
 
 @file:JvmName("DebugConfig")
-package com.exteragram.messenger.debug
+package com.BloomGram.messenger.debug
 
-import com.exteragram.messenger.config.BooleanPref
-import com.exteragram.messenger.config.IntegerPref
+import com.BloomGram.messenger.config.BooleanPref
+import com.BloomGram.messenger.config.IntegerPref
 
 var debugCameraMetrics by BooleanPref(false)
 var forceCompactSavedMusic by BooleanPref(false)

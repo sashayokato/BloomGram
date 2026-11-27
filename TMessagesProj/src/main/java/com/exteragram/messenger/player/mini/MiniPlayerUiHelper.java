@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.player.mini;
+package com.BloomGram.messenger.player.mini;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.dpf2;
@@ -51,14 +51,14 @@ import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
 import androidx.dynamicanimation.animation.SpringAnimation;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.player.CoverColorExtractor;
-import com.exteragram.messenger.player.CoverColorsWait;
-import com.exteragram.messenger.player.PlayerColors;
-import com.exteragram.messenger.player.PlayerCovers;
-import com.exteragram.messenger.player.ui.ExpressiveStateDrawable;
-import com.exteragram.messenger.utils.ui.material.ColorTones;
-import com.exteragram.messenger.utils.ui.material.Material3Tokens;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.player.CoverColorExtractor;
+import com.BloomGram.messenger.player.CoverColorsWait;
+import com.BloomGram.messenger.player.PlayerColors;
+import com.BloomGram.messenger.player.PlayerCovers;
+import com.BloomGram.messenger.player.ui.ExpressiveStateDrawable;
+import com.BloomGram.messenger.utils.ui.material.ColorTones;
+import com.BloomGram.messenger.utils.ui.material.Material3Tokens;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ImageReceiver;

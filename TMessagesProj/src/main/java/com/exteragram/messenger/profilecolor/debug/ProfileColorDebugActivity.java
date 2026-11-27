@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.profilecolor.debug;
+package com.BloomGram.messenger.profilecolor.debug;
 
 import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
@@ -23,7 +23,7 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.exteragram.messenger.debug.DebugConfig;
+import com.BloomGram.messenger.debug.DebugConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LiteMode;

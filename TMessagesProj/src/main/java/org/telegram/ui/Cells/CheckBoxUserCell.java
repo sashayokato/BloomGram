@@ -14,7 +14,7 @@ import android.graphics.drawable.Drawable;
 import android.view.Gravity;
 import android.widget.FrameLayout;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.BloomGram.messenger.ExteraConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ContactsController;

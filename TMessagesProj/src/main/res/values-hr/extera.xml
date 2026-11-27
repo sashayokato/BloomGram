@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
 -->
 <resources>
@@ -407,7 +407,7 @@
     <string name="Plugins">Dodaci</string>
     <string name="PluginsEngine">Pogon dodataka</string>
     <string name="EnablePluginsEngine">Omogući pogon dodataka</string>
-    <string name="PluginsInfo">Dodatke možete pronaći u @exteraPlugins.</string>
+    <string name="PluginsInfo">Dodatke možete pronaći u @bloomgrams.</string>
     <string name="PluginsNotFound">Nema pronađenih dodataka.</string>
     <string name="InstallPlugin">Instaliraj</string>
     <string name="UpdatePlugin">Ažuriraj</string>

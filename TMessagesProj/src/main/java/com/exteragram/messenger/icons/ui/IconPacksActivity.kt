@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.icons.ui
+package com.BloomGram.messenger.icons.ui
 
 import android.content.Context
 import android.content.DialogInterface
@@ -22,17 +22,17 @@ import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.core.content.FileProvider
 import androidx.recyclerview.widget.RecyclerView
-import com.exteragram.messenger.editingIconPackId
-import com.exteragram.messenger.icons.iconPacksHidden
-import com.exteragram.messenger.icons.iconPacksLayout
-import com.exteragram.messenger.icons.BaseIconPacks
-import com.exteragram.messenger.icons.IconManager
-import com.exteragram.messenger.icons.IconPack
-import com.exteragram.messenger.icons.ui.components.IconPackCell
-import com.exteragram.messenger.icons.ui.components.NewIconPackBottomSheet
-import com.exteragram.messenger.icons.ui.picker.IconPickerController
-import com.exteragram.messenger.preferences.BasePreferencesActivity
-import com.exteragram.messenger.icons.saveIconPacksLayout
+import com.BloomGram.messenger.editingIconPackId
+import com.BloomGram.messenger.icons.iconPacksHidden
+import com.BloomGram.messenger.icons.iconPacksLayout
+import com.BloomGram.messenger.icons.BaseIconPacks
+import com.BloomGram.messenger.icons.IconManager
+import com.BloomGram.messenger.icons.IconPack
+import com.BloomGram.messenger.icons.ui.components.IconPackCell
+import com.BloomGram.messenger.icons.ui.components.NewIconPackBottomSheet
+import com.BloomGram.messenger.icons.ui.picker.IconPickerController
+import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.BloomGram.messenger.icons.saveIconPacksLayout
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.ApplicationLoader
 import org.telegram.messenger.LocaleController

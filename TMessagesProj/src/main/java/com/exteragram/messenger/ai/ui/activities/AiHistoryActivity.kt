@@ -1,27 +1,27 @@
 /*
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 */
 
-package com.exteragram.messenger.ai.ui.activities
+package com.BloomGram.messenger.ai.ui.activities
 
 import android.view.Gravity
 import android.view.View
-import com.exteragram.messenger.ai.AiController
-import com.exteragram.messenger.ai.data.Message
-import com.exteragram.messenger.ai.getConversationHistory
-import com.exteragram.messenger.ai.saveConversationHistory
-import com.exteragram.messenger.ai.saveHistory
-import com.exteragram.messenger.ai.ui.MarkdownPreview
-import com.exteragram.messenger.ai.ui.components.HistoryMessageCell
-import com.exteragram.messenger.preferences.BasePreferencesActivity
+import com.BloomGram.messenger.ai.AiController
+import com.BloomGram.messenger.ai.data.Message
+import com.BloomGram.messenger.ai.getConversationHistory
+import com.BloomGram.messenger.ai.saveConversationHistory
+import com.BloomGram.messenger.ai.saveHistory
+import com.BloomGram.messenger.ai.ui.MarkdownPreview
+import com.BloomGram.messenger.ai.ui.components.HistoryMessageCell
+import com.BloomGram.messenger.preferences.BasePreferencesActivity
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.LocaleController.getString

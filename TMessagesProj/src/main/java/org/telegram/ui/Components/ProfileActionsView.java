@@ -41,13 +41,13 @@ import androidx.core.math.MathUtils;
 import androidx.dynamicanimation.animation.FloatPropertyCompat;
 import androidx.dynamicanimation.animation.SpringAnimation;
 
-import com.exteragram.messenger.DividerStyle;
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.IconPackType;
-import com.exteragram.messenger.icons.IconManager;
-import com.exteragram.messenger.utils.system.VibratorUtils;
-import com.exteragram.messenger.utils.ui.MonetUtils;
-import com.exteragram.messenger.utils.ui.ProfileUiHelper;
+import com.BloomGram.messenger.DividerStyle;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.IconPackType;
+import com.BloomGram.messenger.icons.IconManager;
+import com.BloomGram.messenger.utils.system.VibratorUtils;
+import com.BloomGram.messenger.utils.ui.MonetUtils;
+import com.BloomGram.messenger.utils.ui.ProfileUiHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.R;
@@ -305,7 +305,7 @@ public class ProfileActionsView extends View {
         );
         shaderPaint.setShader(radialGradient);
     }
-    // exteraGram: reduce StaticLayout initializations
+    // BloomGram: reduce StaticLayout initializations
     private void measureActions() {
         if (getMeasuredWidth() <= 0 || activeCount <= 0 || material3) {
             return;

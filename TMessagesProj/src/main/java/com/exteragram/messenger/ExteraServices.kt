@@ -1,11 +1,11 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
@@ -14,14 +14,14 @@
 
 @file:JvmName("ExteraServices")
 
-package com.exteragram.messenger
+package com.BloomGram.messenger
 
-import com.exteragram.messenger.adblock.backend.AdBlockManager
-import com.exteragram.messenger.api.ApiController
-import com.exteragram.messenger.icons.IconManager
-import com.exteragram.messenger.plugins.PluginsConstants
-import com.exteragram.messenger.plugins.PluginsController
-import com.exteragram.messenger.utils.network.RemoteUtils
+import com.BloomGram.messenger.adblock.backend.AdBlockManager
+import com.BloomGram.messenger.api.ApiController
+import com.BloomGram.messenger.icons.IconManager
+import com.BloomGram.messenger.plugins.PluginsConstants
+import com.BloomGram.messenger.plugins.PluginsController
+import com.BloomGram.messenger.utils.network.RemoteUtils
 import org.telegram.messenger.ApplicationLoader
 import java.util.concurrent.atomic.AtomicBoolean
 

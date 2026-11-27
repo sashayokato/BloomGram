@@ -1,25 +1,25 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.adblock.backend;
+package com.BloomGram.messenger.adblock.backend;
 
 import androidx.annotation.Nullable;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.adblock.interop.AdBlock;
-import com.exteragram.messenger.adblock.interop.NativeAdBlock;
-import com.exteragram.messenger.utils.network.RemoteUtils;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.adblock.interop.AdBlock;
+import com.BloomGram.messenger.adblock.interop.NativeAdBlock;
+import com.BloomGram.messenger.utils.network.RemoteUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.DispatchQueue;

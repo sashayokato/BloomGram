@@ -6,10 +6,10 @@ import android.text.TextUtils;
 import android.util.LongSparseArray;
 import android.view.View;
 
-import com.exteragram.messenger.plugins.models.SettingItem;
-import com.exteragram.messenger.preferences.BasePreferencesActivity;
-import com.exteragram.messenger.preferences.utils.SettingsRegistry;
-import com.exteragram.messenger.preferences.components.CustomPreferenceCell;
+import com.BloomGram.messenger.plugins.models.SettingItem;
+import com.BloomGram.messenger.preferences.BasePreferencesActivity;
+import com.BloomGram.messenger.preferences.utils.SettingsRegistry;
+import com.BloomGram.messenger.preferences.components.CustomPreferenceCell;
 
 import org.telegram.messenger.MessageObject;
 import org.telegram.messenger.Utilities;
@@ -67,7 +67,7 @@ public class UItem extends AdapterWithDiffUtils.Item {
     public Object object;
     public Object object2;
 
-    // exteraGram
+    // BloomGram
     public SettingItem settingItem;
     public boolean drawLine = true;
     public int checkBoxIconResId;

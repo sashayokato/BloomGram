@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.ai.ui;
+package com.BloomGram.messenger.ai.ui;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.dpf2;
@@ -54,14 +54,14 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.ai.AiConfig;
-import com.exteragram.messenger.ai.AiController;
-import com.exteragram.messenger.ai.data.Message;
-import com.exteragram.messenger.ai.data.Role;
-import com.exteragram.messenger.ai.data.Service;
-import com.exteragram.messenger.ai.network.Client;
-import com.exteragram.messenger.ai.network.GenerationCallback;
-import com.exteragram.messenger.ai.network.backend.OnDeviceAvailability;
+import com.BloomGram.messenger.ai.AiConfig;
+import com.BloomGram.messenger.ai.AiController;
+import com.BloomGram.messenger.ai.data.Message;
+import com.BloomGram.messenger.ai.data.Role;
+import com.BloomGram.messenger.ai.data.Service;
+import com.BloomGram.messenger.ai.network.Client;
+import com.BloomGram.messenger.ai.network.GenerationCallback;
+import com.BloomGram.messenger.ai.network.backend.OnDeviceAvailability;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.Emoji;

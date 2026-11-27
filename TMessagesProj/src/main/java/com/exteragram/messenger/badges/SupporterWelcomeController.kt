@@ -1,24 +1,24 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.badges
+package com.BloomGram.messenger.badges
 
 import androidx.core.content.edit
-import com.exteragram.messenger.api.network.ApiClient
-import com.exteragram.messenger.components.SupporterWelcomeSheet
-import com.exteragram.messenger.preferences
-import com.exteragram.messenger.utils.network.BotCloudStorage
+import com.BloomGram.messenger.api.network.ApiClient
+import com.BloomGram.messenger.components.SupporterWelcomeSheet
+import com.BloomGram.messenger.preferences
+import com.BloomGram.messenger.utils.network.BotCloudStorage
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.ApplicationLoader
 import org.telegram.messenger.NotificationCenter

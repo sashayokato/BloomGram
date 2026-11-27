@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.export;
+package com.BloomGram.messenger.export;
 
 import android.app.PendingIntent;
 import android.app.Service;
@@ -26,7 +26,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 import androidx.core.app.ServiceCompat;
 
-import com.exteragram.messenger.export.ui.ExportUiHelper;
+import com.BloomGram.messenger.export.ui.ExportUiHelper;
 
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.FileLog;
@@ -42,7 +42,7 @@ public class ExportService extends Service implements NotificationCenter.Notific
     private static final int RESULT_NOTIFICATION_ID = 42;
     private static final long NOTIFY_INTERVAL = 500;
     private static final long WAKE_LOCK_TIMEOUT = 10 * 60 * 1000L;
-    private static final String ACTION_STOP = "com.exteragram.messenger.export.STOP";
+    private static final String ACTION_STOP = "com.BloomGram.messenger.export.STOP";
 
     private final NotificationCenter.ObserversGroup[] observers = new NotificationCenter.ObserversGroup[UserConfig.MAX_ACCOUNT_COUNT];
     private NotificationCompat.Builder builder;
@@ -69,7 +69,7 @@ public class ExportService extends Service implements NotificationCenter.Notific
         }
         try {
             PowerManager powerManager = (PowerManager) getSystemService(Context.POWER_SERVICE);
-            wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "exteraGram:export");
+            wakeLock = powerManager.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "BloomGram:export");
             wakeLock.setReferenceCounted(false);
         } catch (Throwable e) {
             FileLog.e(e);

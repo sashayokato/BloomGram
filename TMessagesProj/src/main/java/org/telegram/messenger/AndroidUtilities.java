@@ -150,12 +150,12 @@ import com.google.android.gms.auth.api.phone.SmsRetriever;
 import com.google.android.gms.auth.api.phone.SmsRetrieverClient;
 import com.google.android.gms.tasks.Task;
 
-import com.exteragram.messenger.DividerStyle;
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.pdf.ui.PdfViewerActivity;
-import com.exteragram.messenger.proxy.ProxyController;
-import com.exteragram.messenger.utils.ui.FontUtils;
-import com.exteragram.messenger.utils.ui.TabletSplitUiHelper;
+import com.BloomGram.messenger.DividerStyle;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.pdf.ui.PdfViewerActivity;
+import com.BloomGram.messenger.proxy.ProxyController;
+import com.BloomGram.messenger.utils.ui.FontUtils;
+import com.BloomGram.messenger.utils.ui.TabletSplitUiHelper;
 
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.browser.Browser;

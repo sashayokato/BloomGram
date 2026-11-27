@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.nowplaying.ui.components
+package com.BloomGram.messenger.nowplaying.ui.components
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -31,11 +31,11 @@ import android.widget.LinearLayout
 import androidx.core.graphics.drawable.toDrawable
 import androidx.core.net.toUri
 import androidx.core.view.isVisible
-import com.exteragram.messenger.badges.BadgesController
-import com.exteragram.messenger.components.SupporterBottomSheet
-import com.exteragram.messenger.getSectionRadiusDp
-import com.exteragram.messenger.nowplaying.ServiceEmoji
-import com.exteragram.messenger.utils.ui.UIUtil
+import com.BloomGram.messenger.badges.BadgesController
+import com.BloomGram.messenger.components.SupporterBottomSheet
+import com.BloomGram.messenger.getSectionRadiusDp
+import com.BloomGram.messenger.nowplaying.ServiceEmoji
+import com.BloomGram.messenger.utils.ui.UIUtil
 import androidx.media3.common.util.UnstableApi
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.common.MediaItem

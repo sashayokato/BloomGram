@@ -5693,7 +5693,7 @@ public class VoIPService extends Service implements SensorEventListener, AudioMa
 		if (BuildVars.LOGS_ENABLED) {
 			FileLog.d("Call " + getCallID() + " ended");
 		}
-		// exteraGram: destroy camera device
+		// BloomGram: destroy camera device
 		destroyCaptureDevice[CAPTURE_DEVICE_CAMERA] = true;
 
 		isCallEnded = true;

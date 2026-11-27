@@ -1,26 +1,26 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.player.motion;
+package com.BloomGram.messenger.player.motion;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.exteragram.messenger.player.TrackQuery;
-import com.exteragram.messenger.utils.text.SealedString;
+import com.BloomGram.messenger.player.TrackQuery;
+import com.BloomGram.messenger.utils.text.SealedString;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -50,7 +50,7 @@ public final class YandexCanvasRepository {
     private static final String SEARCH_URL = "https://api.music.yandex.net/search";
     private static final String CLIENT_ID = SealedString.open("okHqhdCEJ2hLqOjsSTcZ_DBxUmZx6vZq2ucfkClTaOlbMA8zzL5dOw");
     private static final String CLIENT_SECRET = SealedString.open("qZBb82F9gU_ot9AomuVrkLfLto0rXl3kztHufEYv71NAm8HsA_g5TA");
-    private static final String DEVICE_NAME = "exteraGram";
+    private static final String DEVICE_NAME = "BloomGram";
     private static final String USER_AGENT = "Yandex-Music-API";
     private static final String MUSIC_CLIENT = "YandexMusicAndroid/24023621";
     private static final String PENDING_ERROR = "authorization_pending";

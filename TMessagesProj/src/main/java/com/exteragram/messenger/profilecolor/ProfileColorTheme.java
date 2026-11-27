@@ -1,37 +1,37 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.profilecolor;
+package com.BloomGram.messenger.profilecolor;
 
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLES_COUNT;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_ACCENT;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_ACCENT_PRESSED;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_BACKGROUND;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_CARD;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_DIVIDER;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_ICON;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_KEEP_HUE;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_KEEP_HUE_FILL;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_LINK_SELECTION;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_ON_ACCENT;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_PLACEHOLDER;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_RAISED;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_SELECTOR;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_TEXT;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_TEXT_HINT;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_TEXT_SECONDARY;
-import static com.exteragram.messenger.profilecolor.ProfileColorPalette.ROLE_TRACK;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLES_COUNT;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_ACCENT;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_ACCENT_PRESSED;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_BACKGROUND;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_CARD;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_DIVIDER;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_ICON;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_KEEP_HUE;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_KEEP_HUE_FILL;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_LINK_SELECTION;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_ON_ACCENT;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_PLACEHOLDER;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_RAISED;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_SELECTOR;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_TEXT;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_TEXT_HINT;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_TEXT_SECONDARY;
+import static com.BloomGram.messenger.profilecolor.ProfileColorPalette.ROLE_TRACK;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -46,7 +46,7 @@ import android.util.SparseIntArray;
 
 import androidx.core.graphics.ColorUtils;
 
-import com.exteragram.messenger.debug.DebugConfig;
+import com.BloomGram.messenger.debug.DebugConfig;
 
 import org.telegram.messenger.ChatObject;
 import org.telegram.messenger.MessagesController;

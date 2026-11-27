@@ -1,22 +1,22 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.proxy
+package com.BloomGram.messenger.proxy
 
 import android.os.SystemClock
 import androidx.core.net.toUri
-import com.exteragram.messenger.utils.network.ExteraHttpClient
+import com.BloomGram.messenger.utils.network.ExteraHttpClient
 import okhttp3.Call
 import okhttp3.Callback
 import okhttp3.HttpUrl.Companion.toHttpUrlOrNull

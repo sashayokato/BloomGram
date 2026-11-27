@@ -19,8 +19,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.exteragram.messenger.AvatarCornerType;
-import com.exteragram.messenger.ExteraConfig;
+import com.BloomGram.messenger.AvatarCornerType;
+import com.BloomGram.messenger.ExteraConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

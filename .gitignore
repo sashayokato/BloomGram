@@ -27,6 +27,17 @@ Tools/invisible.txt
 invisible.txt
 *.dm
 
+# Local build artifacts / secrets (never commit)
+*.log
+*.zip
+*.docx
+GOOGLE_SERVICES_BASE64.txt
+AyuGram4A/
+BloomGram-artifacts/
+.bloomgram-ci/
+apk/
+bloomgram-failed-logs/
+
 # All API key files
 API_KEYS*
 

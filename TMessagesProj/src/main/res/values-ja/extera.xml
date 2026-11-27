@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
 -->
 <resources>
@@ -413,7 +413,7 @@
     <string name="Plugins">プラグイン</string>
     <string name="PluginsEngine">プラグインエンジン</string>
     <string name="EnablePluginsEngine">プラグインエンジンを有効にする</string>
-    <string name="PluginsInfo">プラグインは @exteraPlugins で見つけることができます。</string>
+    <string name="PluginsInfo">プラグインは @bloomgrams で見つけることができます。</string>
     <string name="PluginsNotFound">プラグインが見つかりません。</string>
     <string name="InstallPlugin">インストール</string>
     <string name="UpdatePlugin">更新</string>

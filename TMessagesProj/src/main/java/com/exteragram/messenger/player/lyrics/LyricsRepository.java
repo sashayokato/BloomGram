@@ -1,27 +1,27 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.player.lyrics;
+package com.BloomGram.messenger.player.lyrics;
 
 import android.os.SystemClock;
 import android.text.TextUtils;
 import android.util.LruCache;
 
-import com.exteragram.messenger.player.PlayerCache;
-import com.exteragram.messenger.player.PlayerCovers;
-import com.exteragram.messenger.player.TrackQuery;
-import com.exteragram.messenger.utils.network.ExteraHttpClient;
+import com.BloomGram.messenger.player.PlayerCache;
+import com.BloomGram.messenger.player.PlayerCovers;
+import com.BloomGram.messenger.player.TrackQuery;
+import com.BloomGram.messenger.utils.network.ExteraHttpClient;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -659,7 +659,7 @@ public final class LyricsRepository {
     static String request(HttpUrl url, String[] headers, RequestBody body, int maxAttempts) throws Exception {
         final Request.Builder builder = new Request.Builder()
                 .url(url)
-                .header("User-Agent", "exteraGram/" + BuildVars.BUILD_VERSION_STRING + " (https://github.com/exteraGram/exteraGram)")
+                .header("User-Agent", "BloomGram/" + BuildVars.BUILD_VERSION_STRING + " (https://github.com/BloomGram/BloomGram)")
                 .header("Accept", "application/json");
         for (int i = 0; headers != null && i + 1 < headers.length; i += 2) {
             builder.header(headers[i], headers[i + 1]);

@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.api
+package com.BloomGram.messenger.api
 
 import android.content.SharedPreferences
 import androidx.core.content.edit
@@ -22,16 +22,16 @@ import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.NetworkType
 import androidx.work.PeriodicWorkRequestBuilder
 import androidx.work.WorkManager
-import com.exteragram.messenger.preferences
-import com.exteragram.messenger.api.db.DatabaseHelper
-import com.exteragram.messenger.api.db.ExteraDatabase
-import com.exteragram.messenger.api.dto.ProfileDTO
-import com.exteragram.messenger.api.model.ProfileStatus
-import com.exteragram.messenger.api.model.ProfileType
-import com.exteragram.messenger.api.network.ApiClient
-import com.exteragram.messenger.api.worker.SyncWorker
-import com.exteragram.messenger.badges.BadgesController
-import com.exteragram.messenger.utils.backgroundScope
+import com.BloomGram.messenger.preferences
+import com.BloomGram.messenger.api.db.DatabaseHelper
+import com.BloomGram.messenger.api.db.ExteraDatabase
+import com.BloomGram.messenger.api.dto.ProfileDTO
+import com.BloomGram.messenger.api.model.ProfileStatus
+import com.BloomGram.messenger.api.model.ProfileType
+import com.BloomGram.messenger.api.network.ApiClient
+import com.BloomGram.messenger.api.worker.SyncWorker
+import com.BloomGram.messenger.badges.BadgesController
+import com.BloomGram.messenger.utils.backgroundScope
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay

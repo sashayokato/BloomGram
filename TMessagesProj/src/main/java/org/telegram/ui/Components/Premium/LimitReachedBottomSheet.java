@@ -44,8 +44,8 @@ import androidx.core.graphics.ColorUtils;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.reactions.ReactionsEditActivity;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.reactions.ReactionsEditActivity;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.FileLog;

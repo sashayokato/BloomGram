@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.components;
+package com.BloomGram.messenger.components;
 
 import static androidx.core.view.ContentInfoCompat.FLAG_CONVERT_TO_PLAIN_TEXT;
 import static androidx.core.view.ContentInfoCompat.SOURCE_CLIPBOARD;
@@ -46,7 +46,7 @@ import androidx.core.view.inputmethod.EditorInfoCompat;
 import androidx.core.view.inputmethod.InputConnectionCompat;
 import androidx.core.widget.TextViewOnReceiveContentListener;
 
-import com.exteragram.messenger.inline.InlineMathController;
+import com.BloomGram.messenger.inline.InlineMathController;
 
 @SuppressLint({"RestrictedApi", "AppCompatCustomView"})
 public class ReceiveContentEditText extends EditText implements OnReceiveContentViewBehavior {

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
 -->
 <resources>
@@ -404,7 +404,7 @@
     <string name="Plugins">Programtillegg</string>
     <string name="PluginsEngine">Plugin-motor</string>
     <string name="EnablePluginsEngine">Aktiver plugin-motor</string>
-    <string name="PluginsInfo">Du finner programtillegg i @exteraPlugins.</string>
+    <string name="PluginsInfo">Du finner programtillegg i @bloomgrams.</string>
     <string name="PluginsNotFound">Ingen programtillegg funnet.</string>
     <string name="InstallPlugin">Installer</string>
     <string name="UpdatePlugin">Oppdater</string>

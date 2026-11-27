@@ -1,26 +1,26 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.translator
+package com.BloomGram.messenger.translator
 
 import org.telegram.messenger.AndroidUtilities
 
-import com.exteragram.messenger.translator.core.BaseTranslator
-import com.exteragram.messenger.translator.core.HttpTranslator
-import com.exteragram.messenger.translator.core.ProviderLimits
-import com.exteragram.messenger.translator.core.TranslationDispatcher
-import com.exteragram.messenger.translator.core.TranslationError
+import com.BloomGram.messenger.translator.core.BaseTranslator
+import com.BloomGram.messenger.translator.core.HttpTranslator
+import com.BloomGram.messenger.translator.core.ProviderLimits
+import com.BloomGram.messenger.translator.core.TranslationDispatcher
+import com.BloomGram.messenger.translator.core.TranslationError
 
 object ChatTranslator {
 

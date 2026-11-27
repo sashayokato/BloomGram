@@ -7,12 +7,12 @@
  Мы не запрещаем и не можем запретить использовать наш код,
  но имейте уважение и указывайте оригинального автора.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
 -->
 
 <resources>
-    <string name="exteraAppName" translatable="false">BloomGram</string>
+    <string name="bloomAppName" translatable="false">BloomGram</string>
     <string name="Preferences">Настройки BloomGram</string>
 
     <!-- Главное меню -->
@@ -605,10 +605,10 @@
     <string name="Plugins">Плагины</string>
     <string name="PluginsEngine">Система плагинов</string>
     <string name="EnablePluginsEngine">Включить систему плагинов</string>
-    <string name="PluginsInfo">Вы можете найти плагины в @exteraPlugins.</string>
+    <string name="PluginsInfo">Вы можете найти плагины в @bloomgrams.</string>
     <string name="PluginsNotFound">Плагины не найдены.</string>
     <string name="PluginsEmptyTitle">Плагинов пока нет</string>
-    <string name="PluginsEmptyInfo">Выберите плагины в каталоге или найдите больше в @exteraPlugins.</string>
+    <string name="PluginsEmptyInfo">Выберите плагины в каталоге или найдите больше в @bloomgrams.</string>
     <string name="PluginCatalogOpen">Открыть каталог</string>
     <string name="PluginCatalog">Каталог плагинов</string>
     <string name="PluginCatalogInfo">Плагины из Telegram-каналов и Git-репозиториев — смотрите и устанавливайте в одно касание.</string>
@@ -1116,7 +1116,7 @@
     <string name="SupporterCustomBadgeChoose">Выберите свой значок</string>
     <string name="SupporterCustomBadgeChooseInstantInfo">Сразу после оплаты нажмите на значок в профиле, чтобы выбрать любой эмодзи и подпись.</string>
     <string name="DonationIssues">Проблемы с оплатой</string>
-    <string name="DonationIssuesInfo">Если значок не появился, напишите **@exteraOwner**.</string>
+    <string name="DonationIssuesInfo">Если значок не появился, напишите **@vlodt**.</string>
     <string name="SupporterBadgeEditTitle">Ваш значок</string>
     <string name="SupporterBadgeEditInfo">Нажмите на значок, чтобы выбрать любой эмодзи.</string>
     <string name="SupporterBadgeCaptionInfo">Подпись видят все, кто нажмёт на ваш значок. {name} заменяется вашим именем, поддерживаются **жирный**, [ссылки](url) и @username.</string>

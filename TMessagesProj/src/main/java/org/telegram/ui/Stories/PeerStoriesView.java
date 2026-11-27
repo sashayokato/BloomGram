@@ -68,8 +68,8 @@ import androidx.core.graphics.ColorUtils;
 import androidx.core.math.MathUtils;
 import org.telegram.ui.recyclerview.ChatListItemAnimator;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.system.VibratorUtils;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.utils.system.VibratorUtils;
 
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;

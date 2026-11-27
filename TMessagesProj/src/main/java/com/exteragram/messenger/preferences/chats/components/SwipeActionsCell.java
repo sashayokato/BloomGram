@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.preferences.chats.components;
+package com.BloomGram.messenger.preferences.chats.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -33,10 +33,10 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.preferences.components.CustomPreferenceCell;
-import com.exteragram.messenger.utils.chats.SwipeAction;
-import com.exteragram.messenger.utils.chats.SwipeActionsHelper;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.preferences.components.CustomPreferenceCell;
+import com.BloomGram.messenger.utils.chats.SwipeAction;
+import com.BloomGram.messenger.utils.chats.SwipeActionsHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

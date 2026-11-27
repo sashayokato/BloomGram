@@ -1,24 +1,24 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.appicons;
+package com.BloomGram.messenger.appicons;
 
 import android.content.ComponentName;
 import android.content.Context;
 import android.os.Build;
 
-import com.exteragram.messenger.utils.AppUtils;
+import com.BloomGram.messenger.utils.AppUtils;
 
 import org.telegram.messenger.BuildVars;
 import org.telegram.messenger.LocaleController;
@@ -31,7 +31,7 @@ public final class AppIcon {
     private static final String AVAILABILITY_WINTER = "winter";
     private static final String AVAILABILITY_MONET = "monet";
 
-    private static final String AUTHOR_SELF = "exteraGram";
+    private static final String AUTHOR_SELF = "BloomGram";
 
     public final String id;
     public final String component;

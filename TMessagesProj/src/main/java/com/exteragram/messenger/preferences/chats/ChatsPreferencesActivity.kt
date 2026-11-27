@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.preferences.chats
+package com.BloomGram.messenger.preferences.chats
 
 import android.animation.ValueAnimator
 import android.content.Context
@@ -20,22 +20,22 @@ import android.text.SpannableStringBuilder
 import android.text.Spanned
 import android.view.View
 import androidx.core.content.ContextCompat
-import com.exteragram.messenger.*
-import com.exteragram.messenger.ai.AiController
-import com.exteragram.messenger.ai.ui.activities.AiPreferencesActivity
-import com.exteragram.messenger.camera.CameraXSession
-import com.exteragram.messenger.preferences.BasePreferencesActivity
-import com.exteragram.messenger.preferences.SwitchGroup
-import com.exteragram.messenger.preferences.chats.components.DoubleTapCell
-import com.exteragram.messenger.preferences.chats.components.MessagesPreviewCell
-import com.exteragram.messenger.preferences.chats.components.SliderPreviewCell
-import com.exteragram.messenger.preferences.chats.components.StickerShapeCell
-import com.exteragram.messenger.speech.VoiceRecognitionController
-import com.exteragram.messenger.speech.ui.RecognitionModelDialogs
-import com.exteragram.messenger.translator.TranslatorUtils
-import com.exteragram.messenger.utils.chats.DoubleTapUtils
-import com.exteragram.messenger.utils.chats.SwipeAction
-import com.exteragram.messenger.utils.ui.PopupUtils
+import com.BloomGram.messenger.*
+import com.BloomGram.messenger.ai.AiController
+import com.BloomGram.messenger.ai.ui.activities.AiPreferencesActivity
+import com.BloomGram.messenger.camera.CameraXSession
+import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.BloomGram.messenger.preferences.SwitchGroup
+import com.BloomGram.messenger.preferences.chats.components.DoubleTapCell
+import com.BloomGram.messenger.preferences.chats.components.MessagesPreviewCell
+import com.BloomGram.messenger.preferences.chats.components.SliderPreviewCell
+import com.BloomGram.messenger.preferences.chats.components.StickerShapeCell
+import com.BloomGram.messenger.speech.VoiceRecognitionController
+import com.BloomGram.messenger.speech.ui.RecognitionModelDialogs
+import com.BloomGram.messenger.translator.TranslatorUtils
+import com.BloomGram.messenger.utils.chats.DoubleTapUtils
+import com.BloomGram.messenger.utils.chats.SwipeAction
+import com.BloomGram.messenger.utils.ui.PopupUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.LocaleController
 import org.telegram.messenger.LocaleController.getString
@@ -52,7 +52,7 @@ import org.telegram.ui.Stories.recorder.DualCameraView
 import org.telegram.ui.ThemeActivity
 import java.util.ArrayList
 import androidx.core.content.edit
-import com.exteragram.messenger.utils.addIf
+import com.BloomGram.messenger.utils.addIf
 
 class ChatsPreferencesActivity : BasePreferencesActivity() {
 

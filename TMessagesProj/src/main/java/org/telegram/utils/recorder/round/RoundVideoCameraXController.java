@@ -1,11 +1,11 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
 */
 
@@ -31,7 +31,7 @@ import androidx.annotation.Nullable;
 import androidx.camera.core.SurfaceRequest;
 import androidx.core.content.ContextCompat;
 
-import com.exteragram.messenger.camera.CameraXSession;
+import com.BloomGram.messenger.camera.CameraXSession;
 
 import java.io.IOException;
 

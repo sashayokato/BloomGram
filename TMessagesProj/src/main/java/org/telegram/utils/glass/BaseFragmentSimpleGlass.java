@@ -12,10 +12,10 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.HeaderBlurStyle;
-import com.exteragram.messenger.utils.ui.GlassProgressiveBlur;
-import com.exteragram.messenger.utils.ui.GlassUiHelper;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.HeaderBlurStyle;
+import com.BloomGram.messenger.utils.ui.GlassProgressiveBlur;
+import com.BloomGram.messenger.utils.ui.GlassUiHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BuildVars;

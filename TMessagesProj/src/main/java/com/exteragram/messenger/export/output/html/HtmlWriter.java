@@ -1,28 +1,28 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.export.output.html;
+package com.BloomGram.messenger.export.output.html;
 
-import com.exteragram.messenger.export.ExportFormat;
-import com.exteragram.messenger.export.ExportSettings;
-import com.exteragram.messenger.export.api.ExportData;
-import com.exteragram.messenger.export.api.ExportParser;
-import com.exteragram.messenger.export.output.AbstractWriter;
-import com.exteragram.messenger.export.output.ExportEnvironment;
-import com.exteragram.messenger.export.output.ExportFiles;
-import com.exteragram.messenger.export.output.OutputFile;
-import com.exteragram.messenger.export.output.Result;
+import com.BloomGram.messenger.export.ExportFormat;
+import com.BloomGram.messenger.export.ExportSettings;
+import com.BloomGram.messenger.export.api.ExportData;
+import com.BloomGram.messenger.export.api.ExportParser;
+import com.BloomGram.messenger.export.output.AbstractWriter;
+import com.BloomGram.messenger.export.output.ExportEnvironment;
+import com.BloomGram.messenger.export.output.ExportFiles;
+import com.BloomGram.messenger.export.output.OutputFile;
+import com.BloomGram.messenger.export.output.Result;
 
 import org.telegram.tgnet.TLRPC;
 

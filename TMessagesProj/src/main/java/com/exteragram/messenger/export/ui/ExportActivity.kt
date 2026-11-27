@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.export.ui
+package com.BloomGram.messenger.export.ui
 
 import android.Manifest
 import android.app.Activity
@@ -23,19 +23,19 @@ import android.os.Build
 import android.view.Gravity
 import android.view.View
 import android.widget.FrameLayout
-import com.exteragram.messenger.export.ExportController
-import com.exteragram.messenger.export.ExportSettings
-import com.exteragram.messenger.export.ExportState
-import com.exteragram.messenger.export.output.ExportFiles
-import com.exteragram.messenger.exportFolder
-import com.exteragram.messenger.exportFormat
-import com.exteragram.messenger.exportFullChats
-import com.exteragram.messenger.exportMediaTypes
-import com.exteragram.messenger.exportSizeLimit
-import com.exteragram.messenger.exportTypes
-import com.exteragram.messenger.preferences.BasePreferencesActivity
-import com.exteragram.messenger.preferences.SwitchGroup
-import com.exteragram.messenger.utils.ui.UIUtil
+import com.BloomGram.messenger.export.ExportController
+import com.BloomGram.messenger.export.ExportSettings
+import com.BloomGram.messenger.export.ExportState
+import com.BloomGram.messenger.export.output.ExportFiles
+import com.BloomGram.messenger.exportFolder
+import com.BloomGram.messenger.exportFormat
+import com.BloomGram.messenger.exportFullChats
+import com.BloomGram.messenger.exportMediaTypes
+import com.BloomGram.messenger.exportSizeLimit
+import com.BloomGram.messenger.exportTypes
+import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.BloomGram.messenger.preferences.SwitchGroup
+import com.BloomGram.messenger.utils.ui.UIUtil
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.AndroidUtilities.dp
 import org.telegram.messenger.LocaleController

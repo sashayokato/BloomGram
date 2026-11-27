@@ -1,8 +1,8 @@
-package com.exteragram.messenger.badges
+package com.BloomGram.messenger.badges
 
 import android.content.Context
 import android.content.SharedPreferences
-import com.exteragram.messenger.api.dto.BadgeDTO
+import com.BloomGram.messenger.api.dto.BadgeDTO
 import org.telegram.messenger.ApplicationLoader
 import org.telegram.messenger.FileLog
 import org.telegram.messenger.UserConfig
@@ -39,7 +39,7 @@ object BloomBadges {
     /** Optional raw JSON shared by all BloomGram clients. */
     const val GRANTS_URL = ""
 
-    /** Custom-emoji document ids (reused from exteraGram's own badge set). */
+    /** Custom-emoji document ids (reused from BloomGram's own badge set). */
     private const val CREATOR_EMOJI_ID = 5359407509327085568L
 
     private const val PREFS = "bloomgram_badges"

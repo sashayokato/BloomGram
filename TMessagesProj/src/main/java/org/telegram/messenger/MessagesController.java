@@ -51,14 +51,14 @@ import androidx.core.app.NotificationManagerCompat;
 import androidx.core.graphics.ColorUtils;
 import androidx.core.util.Consumer;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.plugins.hooks.PluginsHooks;
-import com.exteragram.messenger.plugins.PluginsController;
-import com.exteragram.messenger.regdate.RegDateController;
-import com.exteragram.messenger.utils.folders.FolderRoles;
-import com.exteragram.messenger.utils.chats.PeerSettingsPrefs;
-import com.exteragram.messenger.utils.ui.MonetUtils;
-import com.exteragram.messenger.utils.network.RemoteUtils;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.plugins.hooks.PluginsHooks;
+import com.BloomGram.messenger.plugins.PluginsController;
+import com.BloomGram.messenger.regdate.RegDateController;
+import com.BloomGram.messenger.utils.folders.FolderRoles;
+import com.BloomGram.messenger.utils.chats.PeerSettingsPrefs;
+import com.BloomGram.messenger.utils.ui.MonetUtils;
+import com.BloomGram.messenger.utils.network.RemoteUtils;
 
 import org.telegram.SQLite.SQLiteCursor;
 import org.telegram.SQLite.SQLiteDatabase;
@@ -18771,13 +18771,13 @@ public class MessagesController extends BaseController implements NotificationCe
         for (int c = 0, size3 = updates.size(); c < size3; c++) {
             TLRPC.Update baseUpdate = updates.get(c);
 
-            // exteraGram
+            // BloomGram
             TLRPC.Update hookedUpdate = hooks.executeUpdateHook(baseUpdate.getClass().getSimpleName(), currentAccount, baseUpdate);
             if (hookedUpdate == null) {
                 continue;
             }
             baseUpdate = hookedUpdate;
-            // exteraGram
+            // BloomGram
 
             if (BuildVars.LOGS_ENABLED && baseUpdate != null) {
                 FileLog.d("process update " + baseUpdate.getClass().getSimpleName());

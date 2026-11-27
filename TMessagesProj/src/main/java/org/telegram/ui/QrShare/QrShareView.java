@@ -37,9 +37,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.ColorUtils;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.GlassOutlineStyle;
-import com.exteragram.messenger.utils.ui.GlassUiHelper;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.GlassOutlineStyle;
+import com.BloomGram.messenger.utils.ui.GlassUiHelper;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LiteMode;

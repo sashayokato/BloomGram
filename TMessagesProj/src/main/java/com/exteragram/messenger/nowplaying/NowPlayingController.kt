@@ -1,30 +1,30 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.nowplaying
+package com.BloomGram.messenger.nowplaying
 
 import androidx.collection.LruCache
-import com.exteragram.messenger.api.db.DatabaseHelper
-import com.exteragram.messenger.api.dto.NowPlayingDTO
-import com.exteragram.messenger.api.dto.NowPlayingInfoDTO
-import com.exteragram.messenger.api.model.NowPlayingServiceType
-import com.exteragram.messenger.api.network.ApiClient
-import com.exteragram.messenger.debug.forceCompactSavedMusic
-import com.exteragram.messenger.nowplaying.ui.components.NowPlayingCardData
-import com.exteragram.messenger.utils.chats.ChatUtils
-import com.exteragram.messenger.utils.network.ExteraHttpClient
-import com.exteragram.messenger.utils.network.RemoteUtils
+import com.BloomGram.messenger.api.db.DatabaseHelper
+import com.BloomGram.messenger.api.dto.NowPlayingDTO
+import com.BloomGram.messenger.api.dto.NowPlayingInfoDTO
+import com.BloomGram.messenger.api.model.NowPlayingServiceType
+import com.BloomGram.messenger.api.network.ApiClient
+import com.BloomGram.messenger.debug.forceCompactSavedMusic
+import com.BloomGram.messenger.nowplaying.ui.components.NowPlayingCardData
+import com.BloomGram.messenger.utils.chats.ChatUtils
+import com.BloomGram.messenger.utils.network.ExteraHttpClient
+import com.BloomGram.messenger.utils.network.RemoteUtils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

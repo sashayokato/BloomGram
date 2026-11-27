@@ -1,29 +1,29 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.ai.network.backend;
+package com.BloomGram.messenger.ai.network.backend;
 
-import static com.exteragram.messenger.translator.TranslatorUtils.formatUserAgent;
+import static com.BloomGram.messenger.translator.TranslatorUtils.formatUserAgent;
 
 import android.text.TextUtils;
 import android.util.Base64;
 
-import com.exteragram.messenger.ai.data.Message;
-import com.exteragram.messenger.ai.data.Role;
-import com.exteragram.messenger.ai.data.Service;
-import com.exteragram.messenger.ai.network.ProxyDns;
-import com.exteragram.messenger.utils.network.ExteraHttpClient;
+import com.BloomGram.messenger.ai.data.Message;
+import com.BloomGram.messenger.ai.data.Role;
+import com.BloomGram.messenger.ai.data.Service;
+import com.BloomGram.messenger.ai.network.ProxyDns;
+import com.BloomGram.messenger.utils.network.ExteraHttpClient;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -267,8 +267,8 @@ public class RestBackend implements Backend {
                 .addHeader("Content-Type", "application/json")
                 .addHeader("Authorization", "Bearer " + selectedService.getKey())
                 .addHeader("User-Agent", formatUserAgent())
-                .addHeader("HTTP-Referer", "exteragram.app")
-                .addHeader("X-Title", "exteraGram");
+                .addHeader("HTTP-Referer", "BloomGram.app")
+                .addHeader("X-Title", "BloomGram");
 
         return requestBuilder.post(body).build();
     }

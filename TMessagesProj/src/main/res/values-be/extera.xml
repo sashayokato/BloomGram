@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
 -->
 <resources>
@@ -725,10 +725,10 @@
     <string name="Plugins">Плагіны</string>
     <string name="PluginsEngine">Рухавік плагінаў</string>
     <string name="EnablePluginsEngine">Уключыць рухавік плагінаў</string>
-    <string name="PluginsInfo">Вы можаце знайсці плагіны ў @exteraPlugins.</string>
+    <string name="PluginsInfo">Вы можаце знайсці плагіны ў @bloomgrams.</string>
     <string name="PluginsNotFound">Плагіны не знойдзены.</string>
     <string name="PluginsEmptyTitle">Плагінаў пакуль няма</string>
-    <string name="PluginsEmptyInfo">Выберыце плагіны ў каталогу або знайдзіце больш у @exteraPlugins.</string>
+    <string name="PluginsEmptyInfo">Выберыце плагіны ў каталогу або знайдзіце больш у @bloomgrams.</string>
     <string name="PluginCatalogOpen">Адкрыць каталог</string>
     <string name="PluginCatalog">Каталог плагінаў</string>
     <string name="PluginCatalogInfo">Праглядайце плагіны з Telegram-каналаў і Git-рэпазіторыяў і ўсталёўвайце іх у адзін дотык.</string>

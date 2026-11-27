@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.profilecolor.debug;
+package com.BloomGram.messenger.profilecolor.debug;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -195,7 +195,7 @@ public final class ProfileColorDebugData {
             final TLRPC.TL_userFull full = new TLRPC.TL_userFull();
             full.id = id;
             full.user = user;
-            full.about = bot ? "Paints every profile it can reach. Try @souic or https://exteragram.app" : "Keep calm and send telegrams. Find me at @helloapple, write to hello@example.com or visit https://telegram.org";
+            full.about = bot ? "Paints every profile it can reach. Try @souic or https://BloomGram.app" : "Keep calm and send telegrams. Find me at @helloapple, write to hello@example.com or visit https://telegram.org";
             full.flags |= 2;
             full.phone_calls_available = !bot;
             full.video_calls_available = !bot;
@@ -253,7 +253,7 @@ public final class ProfileColorDebugData {
 
             final TLRPC.TL_channelFull full = new TLRPC.TL_channelFull();
             full.id = id;
-            full.about = group ? "A place to argue about colors. Rules: be kind, read https://telegram.org/faq before asking." : "Daily notes about interface colors. Contact @souic, more at https://exteragram.app";
+            full.about = group ? "A place to argue about colors. Rules: be kind, read https://telegram.org/faq before asking." : "Daily notes about interface colors. Contact @souic, more at https://BloomGram.app";
             full.participants_count = chat.participants_count;
             full.admins_count = 2;
             full.online_count = 3;

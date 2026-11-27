@@ -1,26 +1,26 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.ai.network.backend;
+package com.BloomGram.messenger.ai.network.backend;
 
 import android.os.Build;
 import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.exteragram.messenger.ai.data.Message;
-import com.exteragram.messenger.ai.data.Role;
+import com.BloomGram.messenger.ai.data.Message;
+import com.BloomGram.messenger.ai.data.Role;
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.mlkit.genai.common.FeatureStatus;
 import com.google.mlkit.genai.common.GenAiException;

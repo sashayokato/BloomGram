@@ -133,64 +133,64 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.export.ui.ExportActivity;
-import com.exteragram.messenger.player.PlayerLauncher;
-import com.exteragram.messenger.player.mini.MiniPlayerUiHelper;
-import com.exteragram.messenger.config.BottomNavigationBar;
-import com.exteragram.messenger.utils.ui.tabs.MainTabsUiHelper;
-import com.exteragram.messenger.feed.FeedChannelActions;
-import com.exteragram.messenger.feed.FeedController;
-import com.exteragram.messenger.feed.FeedChatIntegration;
-import com.exteragram.messenger.feed.FeedMessageUtils;
-import com.exteragram.messenger.feed.ui.FeedEmptyState;
-import com.exteragram.messenger.messageexport.ChatScreenshotExportBridge;
-import com.exteragram.messenger.messageexport.MessageExport;
-import com.exteragram.messenger.messageexport.ui.MessageExportSheet;
-import com.exteragram.messenger.utils.chats.MessageEmojiPacks;
-import com.exteragram.messenger.utils.chats.WidePosts;
-import com.exteragram.messenger.ai.AiController;
-import com.exteragram.messenger.ai.ui.GenerateFromMessageBottomSheet;
-import com.exteragram.messenger.ai.ui.AiResponseAlert;
-import com.exteragram.messenger.api.dto.BadgeDTO;
-import com.exteragram.messenger.backup.PreferencesUtils;
-import com.exteragram.messenger.backup.BackupBottomSheet;
-import com.exteragram.messenger.badges.BadgesController;
-import com.exteragram.messenger.camera.InstantCameraZoomSlider;
-import com.exteragram.messenger.components.ActionRow;
-import com.exteragram.messenger.components.MessageDetailsPopupWrapper;
-import com.exteragram.messenger.components.QuickAttachMenu;
-import com.exteragram.messenger.components.QuickStickersMenu;
-import com.exteragram.messenger.components.QuickTilesMenu;
-import com.exteragram.messenger.components.supporter.SupporterEnterFrom;
-import com.exteragram.messenger.utils.chats.ForwardContext;
-import com.exteragram.messenger.ai.network.Client;
-import com.exteragram.messenger.pdf.ui.PdfViewerActivity;
-import com.exteragram.messenger.plugins.PluginsConstants;
-import com.exteragram.messenger.plugins.PluginsController;
-import com.exteragram.messenger.plugins.hooks.MenuItemRecord;
-import com.exteragram.messenger.plugins.ui.PluginsActivity;
-import com.exteragram.messenger.drawer.MainMenuHelper;
-import com.exteragram.messenger.plugins.ui.components.PluginsMenuWrapper;
-import com.exteragram.messenger.plugins.utils.MenuContextBuilder;
-import com.exteragram.messenger.proxy.IpAddressInfoController;
-import com.exteragram.messenger.speech.VoiceRecognitionController;
-import com.exteragram.messenger.utils.MarkdownUtils;
-import com.exteragram.messenger.utils.chats.DoubleTapUtils;
-import com.exteragram.messenger.utils.chats.ChatUtils;
-import com.exteragram.messenger.utils.chats.GlassMenuHelper;
-import com.exteragram.messenger.utils.chats.SwipeAction;
-import com.exteragram.messenger.utils.chats.SwipeActionsHelper;
-import com.exteragram.messenger.ExteraFileHandler;
-import com.exteragram.messenger.utils.text.LocaleUtils;
-import com.exteragram.messenger.utils.system.SystemUtils;
-import com.exteragram.messenger.translator.TranslationProviders;
-import com.exteragram.messenger.translator.TranslatorUtils;
-import com.exteragram.messenger.utils.ui.ChatHeaderUiHelper;
-import com.exteragram.messenger.utils.ui.ChatSearchFilterUiHelper;
-import com.exteragram.messenger.utils.ui.ChatMessageCellUiHelper;
-import com.exteragram.messenger.utils.ui.predictiveback.PredictiveBackHandler;
-import com.exteragram.messenger.utils.system.VibratorUtils;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.export.ui.ExportActivity;
+import com.BloomGram.messenger.player.PlayerLauncher;
+import com.BloomGram.messenger.player.mini.MiniPlayerUiHelper;
+import com.BloomGram.messenger.config.BottomNavigationBar;
+import com.BloomGram.messenger.utils.ui.tabs.MainTabsUiHelper;
+import com.BloomGram.messenger.feed.FeedChannelActions;
+import com.BloomGram.messenger.feed.FeedController;
+import com.BloomGram.messenger.feed.FeedChatIntegration;
+import com.BloomGram.messenger.feed.FeedMessageUtils;
+import com.BloomGram.messenger.feed.ui.FeedEmptyState;
+import com.BloomGram.messenger.messageexport.ChatScreenshotExportBridge;
+import com.BloomGram.messenger.messageexport.MessageExport;
+import com.BloomGram.messenger.messageexport.ui.MessageExportSheet;
+import com.BloomGram.messenger.utils.chats.MessageEmojiPacks;
+import com.BloomGram.messenger.utils.chats.WidePosts;
+import com.BloomGram.messenger.ai.AiController;
+import com.BloomGram.messenger.ai.ui.GenerateFromMessageBottomSheet;
+import com.BloomGram.messenger.ai.ui.AiResponseAlert;
+import com.BloomGram.messenger.api.dto.BadgeDTO;
+import com.BloomGram.messenger.backup.PreferencesUtils;
+import com.BloomGram.messenger.backup.BackupBottomSheet;
+import com.BloomGram.messenger.badges.BadgesController;
+import com.BloomGram.messenger.camera.InstantCameraZoomSlider;
+import com.BloomGram.messenger.components.ActionRow;
+import com.BloomGram.messenger.components.MessageDetailsPopupWrapper;
+import com.BloomGram.messenger.components.QuickAttachMenu;
+import com.BloomGram.messenger.components.QuickStickersMenu;
+import com.BloomGram.messenger.components.QuickTilesMenu;
+import com.BloomGram.messenger.components.supporter.SupporterEnterFrom;
+import com.BloomGram.messenger.utils.chats.ForwardContext;
+import com.BloomGram.messenger.ai.network.Client;
+import com.BloomGram.messenger.pdf.ui.PdfViewerActivity;
+import com.BloomGram.messenger.plugins.PluginsConstants;
+import com.BloomGram.messenger.plugins.PluginsController;
+import com.BloomGram.messenger.plugins.hooks.MenuItemRecord;
+import com.BloomGram.messenger.plugins.ui.PluginsActivity;
+import com.BloomGram.messenger.drawer.MainMenuHelper;
+import com.BloomGram.messenger.plugins.ui.components.PluginsMenuWrapper;
+import com.BloomGram.messenger.plugins.utils.MenuContextBuilder;
+import com.BloomGram.messenger.proxy.IpAddressInfoController;
+import com.BloomGram.messenger.speech.VoiceRecognitionController;
+import com.BloomGram.messenger.utils.MarkdownUtils;
+import com.BloomGram.messenger.utils.chats.DoubleTapUtils;
+import com.BloomGram.messenger.utils.chats.ChatUtils;
+import com.BloomGram.messenger.utils.chats.GlassMenuHelper;
+import com.BloomGram.messenger.utils.chats.SwipeAction;
+import com.BloomGram.messenger.utils.chats.SwipeActionsHelper;
+import com.BloomGram.messenger.ExteraFileHandler;
+import com.BloomGram.messenger.utils.text.LocaleUtils;
+import com.BloomGram.messenger.utils.system.SystemUtils;
+import com.BloomGram.messenger.translator.TranslationProviders;
+import com.BloomGram.messenger.translator.TranslatorUtils;
+import com.BloomGram.messenger.utils.ui.ChatHeaderUiHelper;
+import com.BloomGram.messenger.utils.ui.ChatSearchFilterUiHelper;
+import com.BloomGram.messenger.utils.ui.ChatMessageCellUiHelper;
+import com.BloomGram.messenger.utils.ui.predictiveback.PredictiveBackHandler;
+import com.BloomGram.messenger.utils.system.VibratorUtils;
 import com.google.zxing.common.detector.MathUtils;
 
 import org.telegram.PhoneFormat.PhoneFormat;
@@ -4688,7 +4688,7 @@ public class ChatActivity extends BaseFragment implements
 
         if (chatMode == 0 && (threadMessageId == 0 || isTopic) && !UserObject.isReplyUser(currentUser) && !isReport()) {
             TLRPC.UserFull userFull = null;
-            if (currentUser != null && false) { // exteraGram: hide call button
+            if (currentUser != null && false) { // BloomGram: hide call button
                 audioCallIconItem = menu.lazilyAddItem(call, R.drawable.call, themeDelegate);
                 audioCallIconItem.setContentDescription(LocaleController.getString(R.string.Call));
                 userFull = getMessagesController().getUserFull(currentUser.id);
@@ -24932,7 +24932,7 @@ public class ChatActivity extends BaseFragment implements
                     TLRPC.MessageFwdHeader fwdHeader = obj.messageOwner.fwd_from;
                     obj.messageOwner = newMsgObj;
 
-                    // exteraGram: don't overwrite fwdHeader with local one
+                    // BloomGram: don't overwrite fwdHeader with local one
 
 //                    if (fwdHeader != null && newMsgObj.fwd_from != null && !TextUtils.isEmpty(newMsgObj.fwd_from.from_name)) {
 //                        obj.messageOwner.fwd_from = fwdHeader;
@@ -26519,7 +26519,7 @@ public class ChatActivity extends BaseFragment implements
                     }
                 }
                 if (headerItem != null) {
-                    showAudioCallAsIcon = false; // exteraGram: hide call button
+                    showAudioCallAsIcon = false; // BloomGram: hide call button
                     if (userInfo.phone_calls_available) {
                         if (showAudioCallAsIcon) {
                             if (audioCallIconItem != null) {

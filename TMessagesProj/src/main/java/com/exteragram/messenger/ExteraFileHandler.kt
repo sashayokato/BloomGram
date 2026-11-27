@@ -1,25 +1,25 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger
+package com.BloomGram.messenger
 
-import com.exteragram.messenger.backup.BackupBottomSheet
-import com.exteragram.messenger.backup.PreferencesUtils
-import com.exteragram.messenger.icons.IconManager
-import com.exteragram.messenger.pillstack.custom.CustomPillIO
-import com.exteragram.messenger.plugins.PluginsController
-import com.exteragram.messenger.utils.chats.ChatUtils
+import com.BloomGram.messenger.backup.BackupBottomSheet
+import com.BloomGram.messenger.backup.PreferencesUtils
+import com.BloomGram.messenger.icons.IconManager
+import com.BloomGram.messenger.pillstack.custom.CustomPillIO
+import com.BloomGram.messenger.plugins.PluginsController
+import com.BloomGram.messenger.utils.chats.ChatUtils
 import org.telegram.messenger.MessageObject
 import org.telegram.ui.Components.MediaActionDrawable
 import org.telegram.ui.ActionBar.BaseFragment

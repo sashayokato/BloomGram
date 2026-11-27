@@ -1,11 +1,11 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
@@ -14,14 +14,14 @@
 
 @file:JvmName("MainMenuLayout")
 
-package com.exteragram.messenger.drawer
+package com.BloomGram.messenger.drawer
 
-import com.exteragram.messenger.GSON
-import com.exteragram.messenger.config.hidden
-import com.exteragram.messenger.editor
-import com.exteragram.messenger.plugins.PluginsController
-import com.exteragram.messenger.preferences
-import com.exteragram.messenger.utils.addIf
+import com.BloomGram.messenger.GSON
+import com.BloomGram.messenger.config.hidden
+import com.BloomGram.messenger.editor
+import com.BloomGram.messenger.plugins.PluginsController
+import com.BloomGram.messenger.preferences
+import com.BloomGram.messenger.utils.addIf
 import com.google.gson.reflect.TypeToken
 
 enum class MainMenuItem(val id: Int) {

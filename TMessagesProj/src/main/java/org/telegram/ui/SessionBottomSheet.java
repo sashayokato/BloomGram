@@ -40,7 +40,7 @@ import org.telegram.ui.Components.RLottieImageView;
 import org.telegram.ui.Components.Switch;
 import org.telegram.ui.Stories.recorder.ButtonWithCounterView;
 
-import com.exteragram.messenger.utils.ui.UIUtil;
+import com.BloomGram.messenger.utils.ui.UIUtil;
 
 public class SessionBottomSheet extends BottomSheet {
 
@@ -379,7 +379,7 @@ public class SessionBottomSheet extends BottomSheet {
                 colorKey2 = Theme.key_avatar_background2Pink;
             }
         }
-        boolean isExtera = session.app_name.toLowerCase().contains("exteragram");
+        boolean isExtera = session.app_name.toLowerCase().contains("BloomGram");
         if (isExtera) {
             imageView.setBackground(Theme.createCircleDrawable(dp(42), ContextCompat.getColor(ApplicationLoader.applicationContext, R.color.ic_background)));
         } else {

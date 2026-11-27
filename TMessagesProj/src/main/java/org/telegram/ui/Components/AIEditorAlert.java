@@ -95,9 +95,9 @@ import org.telegram.ui.Stars.StarsController;
 import org.telegram.ui.Stories.recorder.ButtonWithCounterView;
 import org.telegram.ui.Stories.recorder.HintView2;
 
-import com.exteragram.messenger.ai.AiController;
-import com.exteragram.messenger.ai.TelegramAiReplacement;
-import com.exteragram.messenger.translator.TranslatorUtils;
+import com.BloomGram.messenger.ai.AiController;
+import com.BloomGram.messenger.ai.TelegramAiReplacement;
+import com.BloomGram.messenger.translator.TranslatorUtils;
 
 import java.util.ArrayList;
 import java.util.HashSet;

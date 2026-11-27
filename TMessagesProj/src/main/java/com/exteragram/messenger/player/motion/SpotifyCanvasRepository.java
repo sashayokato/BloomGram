@@ -1,25 +1,25 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.player.motion;
+package com.BloomGram.messenger.player.motion;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
 
-import com.exteragram.messenger.player.TrackQuery;
-import com.exteragram.messenger.utils.text.SealedString;
+import com.BloomGram.messenger.player.TrackQuery;
+import com.BloomGram.messenger.utils.text.SealedString;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

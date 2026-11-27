@@ -1,11 +1,11 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
@@ -13,19 +13,19 @@
 */
 
 @file:JvmName("AiConfig")
-package com.exteragram.messenger.ai
+package com.BloomGram.messenger.ai
 
 import android.content.SharedPreferences
 import android.util.Base64
-import com.exteragram.messenger.GSON
-import com.exteragram.messenger.editor as exteraEditor
-import com.exteragram.messenger.ai.data.Message
-import com.exteragram.messenger.ai.data.Role
-import com.exteragram.messenger.ai.data.Service
-import com.exteragram.messenger.ai.data.Suggestions
-import com.exteragram.messenger.backup.PreferencesUtils
-import com.exteragram.messenger.config.*
-import com.exteragram.messenger.preferences as exteraPreferences
+import com.BloomGram.messenger.GSON
+import com.BloomGram.messenger.editor as exteraEditor
+import com.BloomGram.messenger.ai.data.Message
+import com.BloomGram.messenger.ai.data.Role
+import com.BloomGram.messenger.ai.data.Service
+import com.BloomGram.messenger.ai.data.Suggestions
+import com.BloomGram.messenger.backup.PreferencesUtils
+import com.BloomGram.messenger.config.*
+import com.BloomGram.messenger.preferences as exteraPreferences
 import com.google.gson.reflect.TypeToken
 import org.telegram.messenger.FileLog
 import org.telegram.messenger.UserConfig

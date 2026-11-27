@@ -1,31 +1,31 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.translator;
+package com.BloomGram.messenger.translator;
 
 import android.text.TextUtils;
 import android.text.style.URLSpan;
 
 import androidx.annotation.Nullable;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.translator.core.BaseTranslator;
-import com.exteragram.messenger.translator.core.TranslationError;
-import com.exteragram.messenger.translator.core.HttpTranslator;
-import com.exteragram.messenger.translator.providers.GoogleTranslator;
-import com.exteragram.messenger.translator.providers.TelegramTranslator;
-import com.exteragram.messenger.utils.chats.ChatUtils;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.translator.core.BaseTranslator;
+import com.BloomGram.messenger.translator.core.TranslationError;
+import com.BloomGram.messenger.translator.core.HttpTranslator;
+import com.BloomGram.messenger.translator.providers.GoogleTranslator;
+import com.BloomGram.messenger.translator.providers.TelegramTranslator;
+import com.BloomGram.messenger.utils.chats.ChatUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LanguageDetector;

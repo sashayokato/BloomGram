@@ -47,10 +47,10 @@ import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Adapters.FiltersView;
 import org.telegram.ui.Components.blur3.drawable.BlurredBackgroundDrawable;
 
-import com.exteragram.messenger.pillstack.core.PillRegistry;
-import com.exteragram.messenger.pillstack.ui.PillStackView;
-import com.exteragram.messenger.pillstack.ui.pills.BasePill;
-import com.exteragram.messenger.pillstack.core.PillStackConfig;
+import com.BloomGram.messenger.pillstack.core.PillRegistry;
+import com.BloomGram.messenger.pillstack.ui.PillStackView;
+import com.BloomGram.messenger.pillstack.ui.pills.BasePill;
+import com.BloomGram.messenger.pillstack.core.PillStackConfig;
 
 import java.util.ArrayList;
 

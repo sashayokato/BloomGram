@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.preferences.appearance.components;
+package com.BloomGram.messenger.preferences.appearance.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -30,11 +30,11 @@ import android.widget.FrameLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.preferences.components.AltSeekbar;
-import com.exteragram.messenger.preferences.components.CustomPreferenceCell;
-import com.exteragram.messenger.preferences.components.PreviewBackgroundDrawable;
-import com.exteragram.messenger.preferences.components.PreviewColors;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.preferences.components.AltSeekbar;
+import com.BloomGram.messenger.preferences.components.CustomPreferenceCell;
+import com.BloomGram.messenger.preferences.components.PreviewBackgroundDrawable;
+import com.BloomGram.messenger.preferences.components.PreviewColors;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;
@@ -79,8 +79,8 @@ public class AvatarCornersPreviewCell extends FrameLayout implements CustomPrefe
     private Paint mockPaint;
     private Paint brightMockPaint;
 
-    private static final long EXTERAGRAM_ID = 1571726392;
-    private static final String EXTERAGRAM_USERNAME = "exteraGram";
+    private static final long BloomGram_ID = 1571726392;
+    private static final String BloomGram_USERNAME = "BloomGram";
 
     public AvatarCornersPreviewCell(Context context, BaseFragment fragment, Theme.ResourcesProvider resourcesProvider, int mode) {
         super(context);
@@ -104,7 +104,7 @@ public class AvatarCornersPreviewCell extends FrameLayout implements CustomPrefe
         };
         if (currentMode == Mode.REAL) {
             ScaleStateListAnimator.apply(preview, 0.03f, 1.5f);
-            preview.setOnClickListener(v -> messagesController.openByUserName(EXTERAGRAM_USERNAME, fragment, 1));
+            preview.setOnClickListener(v -> messagesController.openByUserName(BloomGram_USERNAME, fragment, 1));
         }
         preview.setWillNotDraw(false);
         preview.setBackground(new PreviewBackgroundDrawable());
@@ -162,12 +162,12 @@ public class AvatarCornersPreviewCell extends FrameLayout implements CustomPrefe
         dialogCell.avatarStart = 15;
         dialogCell.messagePaddingStart = 83;
 
-        if (messagesController.getChat(EXTERAGRAM_ID) != null) {
-            setDialogId(EXTERAGRAM_ID);
+        if (messagesController.getChat(BloomGram_ID) != null) {
+            setDialogId(BloomGram_ID);
         } else {
             loadingChannel = true;
             loadingMessages = true;
-            messagesController.getUserNameResolver().resolve(EXTERAGRAM_USERNAME, id -> {
+            messagesController.getUserNameResolver().resolve(BloomGram_USERNAME, id -> {
                 loadingChannel = false;
                 if (id != null) setDialogId(-id);
                 invalidate();

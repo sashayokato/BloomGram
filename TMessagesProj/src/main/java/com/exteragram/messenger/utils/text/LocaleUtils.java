@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.utils.text;
+package com.BloomGram.messenger.utils.text;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -35,9 +35,9 @@ import android.view.View;
 import androidx.annotation.DrawableRes;
 import androidx.core.content.ContextCompat;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.network.RemoteUtils;
-import com.exteragram.messenger.utils.ui.ColorRectSpan;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.utils.network.RemoteUtils;
+import com.BloomGram.messenger.utils.ui.ColorRectSpan;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;
@@ -109,7 +109,7 @@ public class LocaleUtils {
         String title;
         int actionBarTitle = ExteraConfig.getTitleText();
         switch (actionBarTitle) {
-            case 0 -> title = LocaleController.getString(R.string.exteraAppName);
+            case 0 -> title = LocaleController.getString(R.string.bloomAppName);
             case 3 -> title = LocaleController.getString(R.string.FilterChats);
             default -> {
                 TLRPC.User user = UserConfig.getInstance(account).getCurrentUser();
@@ -268,9 +268,9 @@ public class LocaleUtils {
 
     public static String getAppName() {
         try {
-            return ApplicationLoader.applicationContext.getString(R.string.exteraAppName);
+            return ApplicationLoader.applicationContext.getString(R.string.bloomAppName);
         } catch (Exception e) {
-            return "exteraGram";
+            return "BloomGram";
         }
     }
 

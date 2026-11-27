@@ -1,35 +1,35 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.utils
+package com.BloomGram.messenger.utils
 
 import android.content.ContentResolver
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.provider.OpenableColumns
-import com.exteragram.messenger.ExteraFileHandler
-import com.exteragram.messenger.backup.PreferencesUtils
-import com.exteragram.messenger.components.SupporterBottomSheet
-import com.exteragram.messenger.feed.ui.FeedActivity
-import com.exteragram.messenger.plugins.PluginsController
-import com.exteragram.messenger.pluginsEngine
-import com.exteragram.messenger.pluginsSafeMode
-import com.exteragram.messenger.preferences.MainPreferencesActivity
-import com.exteragram.messenger.preferences.OtherPreferencesActivity
-import com.exteragram.messenger.preferences.utils.SettingsRegistry
-import com.exteragram.messenger.utils.chats.ChatUtils
+import com.BloomGram.messenger.ExteraFileHandler
+import com.BloomGram.messenger.backup.PreferencesUtils
+import com.BloomGram.messenger.components.SupporterBottomSheet
+import com.BloomGram.messenger.feed.ui.FeedActivity
+import com.BloomGram.messenger.plugins.PluginsController
+import com.BloomGram.messenger.pluginsEngine
+import com.BloomGram.messenger.pluginsSafeMode
+import com.BloomGram.messenger.preferences.MainPreferencesActivity
+import com.BloomGram.messenger.preferences.OtherPreferencesActivity
+import com.BloomGram.messenger.preferences.utils.SettingsRegistry
+import com.BloomGram.messenger.utils.chats.ChatUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.ApplicationLoader
 import org.telegram.messenger.FileLog
@@ -50,7 +50,7 @@ import java.util.Collections
 import java.util.Locale
 
 object IntentsController {
-    const val SAFE_MODE_INTENT: String = "com.exteragram.plugins.safemode"
+    const val SAFE_MODE_INTENT: String = "com.BloomGram.plugins.safemode"
     const val PLUGIN_REPOSITORY_LINK: String = "exteraPluginRepo"
     const val PLUGIN_REPOSITORY_QUERY_KEY: String = "c"
     const val PLUGIN_REPOSITORY_GIT_QUERY_KEY: String = "git"

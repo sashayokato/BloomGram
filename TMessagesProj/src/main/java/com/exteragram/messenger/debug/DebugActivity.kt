@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.debug
+package com.BloomGram.messenger.debug
 
 import android.text.InputType
 import android.text.TextUtils
@@ -22,14 +22,14 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.core.util.size
-import com.exteragram.messenger.api.ApiController
-import com.exteragram.messenger.api.db.ExteraDatabase
-import com.exteragram.messenger.plugins.PythonSdkUpdateDebug
-import com.exteragram.messenger.plugins.analyzer.AnalyzerUpdateDebug
-import com.exteragram.messenger.components.SupporterBottomSheet
-import com.exteragram.messenger.components.SupporterWelcomeSheet
-import com.exteragram.messenger.preferences.BasePreferencesActivity
-import com.exteragram.messenger.utils.network.RemoteUtils
+import com.BloomGram.messenger.api.ApiController
+import com.BloomGram.messenger.api.db.ExteraDatabase
+import com.BloomGram.messenger.plugins.PythonSdkUpdateDebug
+import com.BloomGram.messenger.plugins.analyzer.AnalyzerUpdateDebug
+import com.BloomGram.messenger.components.SupporterBottomSheet
+import com.BloomGram.messenger.components.SupporterWelcomeSheet
+import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.BloomGram.messenger.utils.network.RemoteUtils
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.R
 import org.telegram.messenger.Utilities
@@ -83,7 +83,7 @@ class DebugActivity : BasePreferencesActivity() {
             .setChecked(debugCameraMetrics))
         items.add(UItem.asCheck(DebugItem.FORCE_COMPACT_SAVED_MUSIC.getId(), "Compact Saved Music view")
             .setChecked(forceCompactSavedMusic))
-        items.add(UItem.asCheck(DebugItem.DISABLE_API_REQUESTS.getId(), "Disable exteraGram API requests")
+        items.add(UItem.asCheck(DebugItem.DISABLE_API_REQUESTS.getId(), "Disable BloomGram API requests")
             .setChecked(disableApiRequests))
         items.add(UItem.asCheck(DebugItem.DISABLE_CHAT_FADE_WALLPAPER_BLEND.getId(), "Disable chat fade wallpaper blend")
             .setChecked(disableChatFadeWallpaperBlend))

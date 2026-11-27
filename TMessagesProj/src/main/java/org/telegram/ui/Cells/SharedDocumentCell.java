@@ -31,7 +31,7 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import com.exteragram.messenger.icons.SvgDocumentPreview;
+import com.BloomGram.messenger.icons.SvgDocumentPreview;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.DownloadController;

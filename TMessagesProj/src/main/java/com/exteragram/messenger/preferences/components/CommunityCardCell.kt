@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.preferences.components
+package com.BloomGram.messenger.preferences.components
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -25,8 +25,8 @@ import android.widget.FrameLayout
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
-import com.exteragram.messenger.AvatarCornerType
-import com.exteragram.messenger.getAvatarCorners
+import com.BloomGram.messenger.AvatarCornerType
+import com.BloomGram.messenger.getAvatarCorners
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.AndroidUtilities.dp
 import org.telegram.messenger.LocaleController

@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.drawer;
+package com.BloomGram.messenger.drawer;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -41,10 +41,10 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.utils.ui.AccountsUiHelper;
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.api.dto.BadgeDTO;
-import com.exteragram.messenger.badges.BadgesController;
+import com.BloomGram.messenger.utils.ui.AccountsUiHelper;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.api.dto.BadgeDTO;
+import com.BloomGram.messenger.badges.BadgesController;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ContactsController;

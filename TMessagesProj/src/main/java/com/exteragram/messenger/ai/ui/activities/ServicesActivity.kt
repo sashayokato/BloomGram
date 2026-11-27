@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.ai.ui.activities
+package com.BloomGram.messenger.ai.ui.activities
 
 import android.content.DialogInterface
 import android.content.Intent
@@ -21,19 +21,19 @@ import android.view.Gravity
 import android.view.View
 import android.widget.TextView
 import androidx.core.net.toUri
-import com.exteragram.messenger.PLACEHOLDERS
-import com.exteragram.messenger.ai.AiController
-import com.exteragram.messenger.ai.clearSelectedService
-import com.exteragram.messenger.ai.data.Service
-import com.exteragram.messenger.ai.network.backend.OnDeviceAvailability
-import com.exteragram.messenger.ai.onDeviceFastModel
-import com.exteragram.messenger.ai.onDevicePreviewModel
-import com.exteragram.messenger.ai.onDeviceReasoning
-import com.exteragram.messenger.ai.setSelectedServices
-import com.exteragram.messenger.ai.ui.OnDeviceModelDialogs
-import com.exteragram.messenger.preferences.BasePreferencesActivity
-import com.exteragram.messenger.utils.text.LocaleUtils
-import com.exteragram.messenger.utils.ui.AddButtonDrawable
+import com.BloomGram.messenger.PLACEHOLDERS
+import com.BloomGram.messenger.ai.AiController
+import com.BloomGram.messenger.ai.clearSelectedService
+import com.BloomGram.messenger.ai.data.Service
+import com.BloomGram.messenger.ai.network.backend.OnDeviceAvailability
+import com.BloomGram.messenger.ai.onDeviceFastModel
+import com.BloomGram.messenger.ai.onDevicePreviewModel
+import com.BloomGram.messenger.ai.onDeviceReasoning
+import com.BloomGram.messenger.ai.setSelectedServices
+import com.BloomGram.messenger.ai.ui.OnDeviceModelDialogs
+import com.BloomGram.messenger.preferences.BasePreferencesActivity
+import com.BloomGram.messenger.utils.text.LocaleUtils
+import com.BloomGram.messenger.utils.ui.AddButtonDrawable
 import org.telegram.messenger.AndroidUtilities
 import org.telegram.messenger.AndroidUtilities.dp
 import org.telegram.messenger.LocaleController

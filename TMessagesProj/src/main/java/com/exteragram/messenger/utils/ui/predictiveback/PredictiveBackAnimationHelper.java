@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.utils.ui.predictiveback;
+package com.BloomGram.messenger.utils.ui.predictiveback;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 import static org.telegram.messenger.AndroidUtilities.lerp;
@@ -34,7 +34,7 @@ import android.view.animation.PathInterpolator;
 import androidx.annotation.ChecksSdkIntAtLeast;
 import androidx.annotation.Nullable;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.BloomGram.messenger.ExteraConfig;
 
 import org.telegram.messenger.Utilities;
 import org.telegram.ui.ActionBar.BaseFragment;

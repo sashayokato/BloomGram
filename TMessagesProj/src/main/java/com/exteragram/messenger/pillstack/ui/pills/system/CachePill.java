@@ -1,18 +1,18 @@
 /*
 
- This is the source code of exteraGram for Android.
+ This is the source code of BloomGram for Android.
 
  We do not and cannot prevent the use of our code,
  but be respectful and credit the original author.
 
- Copyright @exteraGram, 2022-2026
+ Copyright @BloomGram, 2022-2026
 
  Licensed under the GNU GPL v. 3 or later, with the additional terms
  in ADDITIONAL_TERMS.md at the root of the repository.
 
 */
 
-package com.exteragram.messenger.pillstack.ui.pills.system;
+package com.BloomGram.messenger.pillstack.ui.pills.system;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -33,10 +33,10 @@ import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.exteragram.messenger.pillstack.core.PillStackConfig;
-import com.exteragram.messenger.pillstack.core.PillType;
-import com.exteragram.messenger.pillstack.ui.PillStackPreferencesActivity;
-import com.exteragram.messenger.pillstack.ui.pills.BasePill;
+import com.BloomGram.messenger.pillstack.core.PillStackConfig;
+import com.BloomGram.messenger.pillstack.core.PillType;
+import com.BloomGram.messenger.pillstack.ui.PillStackPreferencesActivity;
+import com.BloomGram.messenger.pillstack.ui.pills.BasePill;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ImageLoader;

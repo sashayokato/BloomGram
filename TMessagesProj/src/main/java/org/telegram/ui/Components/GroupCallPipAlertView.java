@@ -22,8 +22,8 @@ import android.widget.TextView;
 
 import androidx.core.graphics.ColorUtils;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.system.VibratorUtils;
+import com.BloomGram.messenger.ExteraConfig;
+import com.BloomGram.messenger.utils.system.VibratorUtils;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ChatObject;
 import org.telegram.messenger.DialogObject;
