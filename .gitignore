@@ -32,6 +32,7 @@ invisible.txt
 *.zip
 *.docx
 GOOGLE_SERVICES_BASE64.txt
+TMessagesProj/src/main/res/values/bloomgram_secrets.xml
 AyuGram4A/
 BloomGram-artifacts/
 .bloomgram-ci/

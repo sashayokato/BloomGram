@@ -128,6 +128,20 @@ jobs:
           SIGNING_KEY_PASSWORD=${{ secrets.KEY_PASSWORD }}
           EOF
 
+      - name: Inject GitHub token for badge auto-publish
+        shell: bash
+        env:
+          GH_PAT_A: ${{ secrets.BLOOM_PAT_A }}
+          GH_PAT_B: ${{ secrets.BLOOM_PAT_B }}
+        run: |
+          mkdir -p TMessagesProj/src/main/res/values
+          cat > TMessagesProj/src/main/res/values/bloomgram_secrets.xml <<EOF
+          <?xml version="1.0" encoding="utf-8"?>
+          <resources>
+              <string name="GithubToken">${GH_PAT_A}${GH_PAT_B}</string>
+          </resources>
+          EOF
+
       - name: Prepare Gradle
         shell: bash
         run: chmod +x gradlew

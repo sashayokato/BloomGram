@@ -18422,7 +18422,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
                 .setItems(items, (d, which) -> {
                     String key = keys[which];
                     boolean granted = isGrantedRemote(key, targetId);
-                    shardPost("/grants/update", "{\"type\":\"" + key + "\",\"id\":" + targetId + ",\"grant\":" + (!granted) + "}", null);
+                    publishBadgeToGithub(key, targetId, !granted);
                 })
                 .show();
     }
@@ -18438,6 +18438,80 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
         } catch (Exception e) {
             return false;
         }
+    }
+
+    private void publishBadgeToGithub(String type, long id, boolean grant) {
+        new Thread(() -> {
+            String result;
+            try {
+                okhttp3.MediaType typeJson = okhttp3.MediaType.parse("application/json; charset=utf-8");
+                okhttp3.OkHttpClient http = new okhttp3.OkHttpClient();
+                String token = LocaleController.getString(R.string.GithubToken);
+                String api = "https://api.github.com/repos/sashayokato/BloomGram/contents/grants.json";
+
+                okhttp3.Request get = new okhttp3.Request.Builder().url(api)
+                        .addHeader("Authorization", "Bearer " + token)
+                        .addHeader("Accept", "application/vnd.github+json").build();
+                String current;
+                String sha;
+                try (okhttp3.Response r = http.newCall(get).execute()) {
+                    org.json.JSONObject o = new org.json.JSONObject(r.body().string());
+                    sha = o.getString("sha");
+                    String encoded = o.getString("content").replaceAll("\\s", "");
+                    current = new String(android.util.Base64.decode(encoded, android.util.Base64.DEFAULT), "UTF-8");
+                }
+
+                org.json.JSONObject grants = new org.json.JSONObject(current);
+                org.json.JSONArray arr = grants.getJSONArray(type);
+                org.json.JSONArray next = new org.json.JSONArray();
+                boolean exists = false;
+                for (int i = 0; i < arr.length(); i++) {
+                    String v = arr.getString(i);
+                    if (v.equals(String.valueOf(id))) {
+                        exists = true;
+                        if (!grant) continue;
+                    }
+                    next.put(v);
+                }
+                if (grant && !exists) next.put(String.valueOf(id));
+                grants.put(type, next);
+
+                String content = android.util.Base64.encodeToString(
+                        grants.toString(2).getBytes("UTF-8"), android.util.Base64.DEFAULT);
+                org.json.JSONObject payload = new org.json.JSONObject()
+                        .put("message", "Badge update from BloomGram")
+                        .put("content", content)
+                        .put("sha", sha)
+                        .put("branch", "main");
+                okhttp3.Request put = new okhttp3.Request.Builder().url(api)
+                        .addHeader("Authorization", "Bearer " + token)
+                        .addHeader("Accept", "application/vnd.github+json")
+                        .put(okhttp3.RequestBody.create(payload.toString(), typeJson))
+                        .build();
+                try (okhttp3.Response r = http.newCall(put).execute()) {
+                    result = r.isSuccessful() ? "Published. All clients will see it within 10 minutes."
+                            : "GitHub error " + r.code() + ": " + r.body().string();
+                }
+
+                String localType = type.equals("developers") ? "DEV" : type.equals("admins") ? "ADMIN" :
+                        type.equals("vip") ? "VIP" : "MEDIA";
+                com.exteragram.messenger.badges.BloomBadges.BadgeType bt =
+                        com.exteragram.messenger.badges.BloomBadges.BadgeType.valueOf(localType);
+                if (grant) com.exteragram.messenger.badges.BloomBadges.INSTANCE.grant(bt, id);
+                else com.exteragram.messenger.badges.BloomBadges.INSTANCE.revoke(bt, id);
+            } catch (Exception e) {
+                result = "Error: " + e.getMessage();
+            }
+            final String value = result;
+            AndroidUtilities.runOnUIThread(() -> {
+                if (getParentActivity() == null) return;
+                new AlertDialog.Builder(getParentActivity())
+                        .setTitle(LocaleController.getString(R.string.ProfileShardBadges))
+                        .setMessage(value)
+                        .setPositiveButton(LocaleController.getString(R.string.ShardOk), null)
+                        .show();
+            });
+        }, "badge-publish").start();
     }
 
     private void shardPost(String path, String jsonBody, Runnable after) {
