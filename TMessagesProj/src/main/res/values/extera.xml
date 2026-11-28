@@ -59,6 +59,10 @@
     <string name="ProfileShardAmount">Amount of SHD</string>
     <string name="ProfileShardAddress">TON address (optional)</string>
     <string name="ShardOnlyCreator">Only the creator can do this</string>
+    <string name="CrashTitle">BloomGram error</string>
+    <string name="CrashHint">Send this text to the developer:</string>
+    <string name="CrashCopy">Copy error</string>
+    <string name="CrashCopied">Copied</string>
     <string name="SourceCode">Source Code</string>
     <string name="Categories">Categories</string>
     <string name="Developer">**%1$s** is a member of the **BloomGram** development team.</string>

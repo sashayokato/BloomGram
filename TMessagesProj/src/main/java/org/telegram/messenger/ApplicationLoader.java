@@ -309,6 +309,16 @@ public class ApplicationLoader extends Application implements Provider {
 
         }
         super.onCreate();
+        Thread.setDefaultUncaughtExceptionHandler((thread, error) -> {
+            org.telegram.ui.CrashReportActivity.setError(error);
+            android.content.Intent intent = new android.content.Intent(applicationContext, org.telegram.ui.CrashReportActivity.class);
+            intent.addFlags(android.content.Intent.FLAG_ACTIVITY_NEW_TASK);
+            try {
+                startActivity(intent);
+            } catch (Throwable ignore) {
+            }
+            android.os.Process.killProcess(android.os.Process.myPid());
+        });
         if (AppProcess.isPluginAnalyzer()) {
             return;
         }
